@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relocation Rides Browser</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #1c2733; --muted: #61707f;
+    --line: #e3e7ec; --accent: #0f7d6c; --accent-ink: #ffffff;
+    --badge-roadsurfer: #7bb241; --badge-movacar: #29b592; --badge-imoova: #e8a13c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181d; --card: #1e242b; --ink: #e8edf2; --muted: #9aa7b4;
+      --line: #303841; --accent: #2fbfa4; --accent-ink: #10201c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 system-ui, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+  header { padding: 18px 22px 6px; }
+  header h1 { margin: 0 0 2px; font-size: 22px; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  .layout { display: grid; grid-template-columns: 290px 1fr; gap: 18px; padding: 16px 22px 40px; align-items: start; }
+  @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
+
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; position: sticky; top: 12px; }
+  @media (max-width: 860px) { .panel { position: static; } }
+  .panel h2 { margin: 0 0 10px; font-size: 15px; }
+  .field { margin-bottom: 12px; }
+  .field label { display: block; font-size: 12px; font-weight: 600; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: .04em; }
+  .field input[type=text], .field input[type=number], .field input[type=date], .field select {
+    width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--bg); color: var(--ink); font: inherit;
+  }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .checks label { display: flex; align-items: center; gap: 7px; font-size: 14px; margin: 3px 0; color: var(--ink); font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .btn { width: 100%; padding: 9px; border: none; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 600; cursor: pointer; }
+  .btn.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); margin-top: 8px; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+  .toolbar .count { font-weight: 600; }
+  .toolbar .spacer { flex: 1; }
+  .toolbar select { padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); font: inherit; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+  .card .top { display: flex; align-items: center; gap: 8px; }
+  .badge { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 20px; color: #fff; text-transform: uppercase; letter-spacing: .05em; }
+  .badge.roadsurfer { background: var(--badge-roadsurfer); }
+  .badge.movacar { background: var(--badge-movacar); }
+  .badge.imoova { background: var(--badge-imoova); }
+  .badge.type { background: transparent; color: var(--muted); border: 1px solid var(--line); }
+  .route { font-size: 17px; font-weight: 700; margin: 0; }
+  .price { font-size: 16px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .price small { font-weight: 400; color: var(--muted); }
+  .meta { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; }
+  .meta dt { color: var(--muted); }
+  .meta dd { margin: 0; }
+  .card a.book { align-self: flex-start; margin-top: auto; padding: 7px 14px; border-radius: 8px; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+  .windows { font-size: 12.5px; color: var(--muted); }
+  .empty, .loading { padding: 60px 20px; text-align: center; color: var(--muted); }
+  .filepick { margin-top: 10px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Relocation Rides Browser</h1>
+  <p>roadsurfer rally &middot; Movacar &middot; Imoova &mdash; reads <code>unified_rides.json</code></p>
+</header>
+
+<div class="layout">
+  <aside class="panel">
+    <h2>Filters</h2>
+
+    <div class="field checks" id="sourceChecks">
+      <label>Source</label>
+      <label><input type="checkbox" value="roadsurfer" checked> roadsurfer</label>
+      <label><input type="checkbox" value="movacar" checked> Movacar</label>
+      <label><input type="checkbox" value="imoova" checked> Imoova</label>
+    </div>
+
+    <div class="field">
+      <label for="pickup">Pickup location</label>
+      <input type="text" id="pickup" list="pickupList" placeholder="e.g. Palermo">
+      <datalist id="pickupList"></datalist>
+    </div>
+
+    <div class="field">
+      <label for="dropoff">Drop-off location</label>
+      <input type="text" id="dropoff" list="dropoffList" placeholder="e.g. Amsterdam">
+      <datalist id="dropoffList"></datalist>
+    </div>
+
+    <div class="field">
+      <label>Departure between</label>
+      <div class="row2">
+        <input type="date" id="dateFrom">
+        <input type="date" id="dateTo">
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="priceMax">Max price</label>
+      <input type="number" id="priceMax" min="0" step="1" placeholder="any">
+    </div>
+
+    <div class="field">
+      <label for="currency">Currency</label>
+      <select id="currency"><option value="">any</option></select>
+    </div>
+
+    <div class="field">
+      <label for="tripType">Trip type</label>
+      <select id="tripType">
+        <option value="">any</option>
+        <option value="one-way">one-way</option>
+        <option value="round-trip">round-trip</option>
+      </select>
+    </div>
+
+    <div class="field checks">
+      <label><input type="checkbox" id="bookableOnly" checked> currently bookable only</label>
+      <label><input type="checkbox" id="pricedOnly"> only rides with a price</label>
+    </div>
+
+    <button class="btn secondary" id="reset">Reset filters</button>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <span class="count" id="count"></span>
+      <span class="spacer"></span>
+      <label for="sort" style="color:var(--muted);font-size:13px">Sort by</label>
+      <select id="sort">
+        <option value="departure-asc">Departure date &uarr;</option>
+        <option value="departure-desc">Departure date &darr;</option>
+        <option value="price-asc">Price &uarr;</option>
+        <option value="price-desc">Price &darr;</option>
+        <option value="pickup-asc">Pickup A&rarr;Z</option>
+        <option value="dropoff-asc">Drop-off A&rarr;Z</option>
+        <option value="duration-desc">Included days &darr;</option>
+        <option value="distance-desc">Route distance &darr;</option>
+        <option value="source-asc">Source</option>
+      </select>
+    </div>
+    <div id="results" class="cards"></div>
+    <div id="status" class="loading">Loading unified_rides.json&hellip;</div>
+    <div class="filepick" id="filepick" hidden>
+      <p>Couldn't fetch <code>unified_rides.json</code> (opened without a web server?).</p>
+      <input type="file" id="fileInput" accept=".json">
+    </div>
+  </main>
+</div>
+
+<script>
+"use strict";
+
+let RIDES = [];
+
+const $ = (sel) => document.querySelector(sel);
+const results = $("#results"), status = $("#status"), countEl = $("#count");
+
+/* ---------- data loading ---------- */
+
+fetch("unified_rides.json")
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(init)
+  .catch(() => { status.hidden = true; $("#filepick").hidden = false; });
+
+$("#fileInput").addEventListener("change", (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  f.text().then((t) => { $("#filepick").hidden = true; init(JSON.parse(t)); });
+});
+
+function init(data) {
+  RIDES = (data.rides || []).map(normalize);
+  status.hidden = true;
+  buildOptions();
+  render();
+}
+
+/* ---------- normalization helpers ---------- */
+
+function dateOnly(s) {
+  if (!s) return null;
+  return s.slice(0, 10); // ISO date or datetime -> YYYY-MM-DD
+}
+
+function normalize(r) {
+  const windows = ((r.availability || {}).windows || [])
+    .map((w) => ({ start: dateOnly(w.start), end: dateOnly(w.end) }))
+    .filter((w) => w.start || w.end);
+  const earliest = windows.length
+    ? windows.map((w) => w.start || w.end).sort()[0]
+    : dateOnly((r.availability || {}).earliest_pickup);
+  return {
+    ...r,
+    _windows: windows,
+    _earliest: earliest,                       // first possible departure
+    _pickup: (r.pickup && (r.pickup.name || r.pickup.city)) || "",
+    _dropoff: (r.dropoff && (r.dropoff.name || r.dropoff.city)) || "",
+    _price: r.price && r.price.amount != null ? r.price.amount : null,
+    _currency: r.price ? r.price.currency : null,
+    _duration: (r.duration && r.duration.included) || null,
+    _distance: (r.mileage && r.mileage.distance_km) || null,
+  };
+}
+
+/* ---------- filter option lists ---------- */
+
+function buildOptions() {
+  const pickups = new Set(), dropoffs = new Set(), currencies = new Set();
+  for (const r of RIDES) {
+    if (r._pickup) pickups.add(r._pickup);
+    if (r._dropoff) dropoffs.add(r._dropoff);
+    if (r._currency) currencies.add(r._currency);
+  }
+  const fill = (id, values) => {
+    const el = $(id);
+    el.innerHTML = "";
+    [...values].sort((a, b) => a.localeCompare(b)).forEach((v) => {
+      const o = document.createElement("option");
+      o.value = v;
+      el.appendChild(o);
+    });
+  };
+  fill("#pickupList", pickups);
+  fill("#dropoffList", dropoffs);
+  const cur = $("#currency");
+  [...currencies].sort().forEach((c) => {
+    const o = document.createElement("option");
+    o.value = o.textContent = c;
+    cur.appendChild(o);
+  });
+}
+
+/* ---------- filtering ---------- */
+
+function overlaps(win, from, to) {
+  // window [start,end] intersects requested [from,to]; open ends pass
+  const s = win.start || "0000-01-01", e = win.end || "9999-12-31";
+  if (from && e < from) return false;
+  if (to && s > to) return false;
+  return true;
+}
+
+function currentFilters() {
+  return {
+    sources: [...document.querySelectorAll("#sourceChecks input:checked")].map((c) => c.value),
+    pickup: $("#pickup").value.trim().toLowerCase(),
+    dropoff: $("#dropoff").value.trim().toLowerCase(),
+    from: $("#dateFrom").value || null,
+    to: $("#dateTo").value || null,
+    priceMax: $("#priceMax").value === "" ? null : Number($("#priceMax").value),
+    currency: $("#currency").value || null,
+    tripType: $("#tripType").value || null,
+    bookableOnly: $("#bookableOnly").checked,
+    pricedOnly: $("#pricedOnly").checked,
+  };
+}
+
+function matches(r, f) {
+  if (!f.sources.includes(r.source)) return false;
+  if (f.pickup && !r._pickup.toLowerCase().includes(f.pickup)) return false;
+  if (f.dropoff && !r._dropoff.toLowerCase().includes(f.dropoff)) return false;
+  if (f.tripType && r.trip_type !== f.tripType) return false;
+  if (f.bookableOnly && !(r.availability || {}).currently_bookable) return false;
+  if (f.pricedOnly && r._price == null) return false;
+  if (f.currency && r._currency !== f.currency) return false;
+  if (f.priceMax != null && r._price != null && r._price > f.priceMax) return false;
+  if (f.priceMax != null && f.pricedOnly && r._price == null) return false;
+  if (f.from || f.to) {
+    if (!r._windows.length) return false;
+    if (!r._windows.some((w) => overlaps(w, f.from, f.to))) return false;
+  }
+  return true;
+}
+
+/* ---------- sorting ---------- */
+
+const SORTS = {
+  "departure-asc":  (a, b) => cmp(a._earliest, b._earliest, true),
+  "departure-desc": (a, b) => cmp(b._earliest, a._earliest, true),
+  "price-asc":      (a, b) => cmp(a._price, b._price, true),
+  "price-desc":     (a, b) => cmp(b._price, a._price, true),
+  "pickup-asc":     (a, b) => a._pickup.localeCompare(b._pickup),
+  "dropoff-asc":    (a, b) => a._dropoff.localeCompare(b._dropoff),
+  "duration-desc":  (a, b) => cmp(b._duration, a._duration, true),
+  "distance-desc":  (a, b) => cmp(b._distance, a._distance, true),
+  "source-asc":     (a, b) => a.source.localeCompare(b.source),
+};
+
+function cmp(a, b, nullsLast) {
+  if (a == null && b == null) return 0;
+  if (a == null) return nullsLast ? 1 : -1;
+  if (b == null) return nullsLast ? -1 : 1;
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+
+/* ---------- rendering ---------- */
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
+function fmtPrice(r) {
+  if (r._price == null) return '<span class="price"><small>no price data</small></span>';
+  const unit = r.price.unit === "total" ? "total" : r.price.unit.replace("per_", "/ ");
+  return `<span class="price">${r._price.toLocaleString()} ${esc(r._currency)} <small>${esc(unit)}</small></span>`;
+}
+
+function fmtVehicle(v) {
+  if (!v) return "";
+  const bits = [v.brand, v.model || v.name, v.category, v.type].filter(Boolean);
+  const specs = [
+    v.seats ? v.seats + " seats" : null,
+    v.sleeps ? "sleeps " + v.sleeps : null,
+    v.fuel, v.transmission,
+  ].filter(Boolean);
+  return esc([...new Set(bits)].join(" · ")) +
+    (specs.length ? `<br><span style="color:var(--muted)">${esc(specs.join(" · "))}</span>` : "");
+}
+
+function fmtWindows(r) {
+  const w = r._windows;
+  if (!w.length) return "no departure dates listed";
+  const shown = w.slice(0, 3)
+    .map((x) => `${x.start || "?"} &rarr; ${x.end || "?"}`).join(" &middot; ");
+  return shown + (w.length > 3 ? ` &middot; +${w.length - 3} more` : "");
+}
+
+function render() {
+  const f = currentFilters();
+  const list = RIDES.filter((r) => matches(r, f)).sort(SORTS[$("#sort").value]);
+  countEl.textContent = `${list.length} of ${RIDES.length} rides`;
+  results.innerHTML = list.length ? "" : "";
+  if (!list.length) {
+    results.innerHTML = '<div class="empty">No rides match the current filters.</div>';
+    return;
+  }
+  const frag = document.createDocumentFragment();
+  for (const r of list.slice(0, 400)) {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="top">
+        <span class="badge ${esc(r.source)}">${esc(r.source)}</span>
+        <span class="badge type">${esc(r.deal_type)} · ${esc(r.trip_type || "")}</span>
+        <span class="spacer" style="flex:1"></span>
+        ${fmtPrice(r)}
+      </div>
+      <p class="route">${esc(r._pickup)} &rarr; ${esc(r._dropoff)}</p>
+      <div class="windows">${fmtWindows(r)}</div>
+      <dl class="meta">
+        <dt>Vehicle</dt><dd>${fmtVehicle(r.vehicle) || "&mdash;"}</dd>
+        <dt>Supplier</dt><dd>${esc(r.supplier || "—")}</dd>
+        <dt>Duration</dt><dd>${r._duration != null ? esc(r._duration + " " + (r.duration.included_unit || "")) : "—"}${r.duration && r.duration.minimum ? " (min " + esc(r.duration.minimum) + ")" : ""}</dd>
+        <dt>Mileage</dt><dd>${r.mileage && r.mileage.included_km != null ? esc(r.mileage.included_km) + " km incl." : "—"}${r._distance ? " · route " + esc(r._distance) + " km" : ""}</dd>
+      </dl>
+      <a class="book" href="${esc(r.links.booking || r.links.listing || "#")}" target="_blank" rel="noopener">Open deal ↗</a>`;
+    frag.appendChild(card);
+  }
+  results.appendChild(frag);
+  if (list.length > 400) {
+    const note = document.createElement("div");
+    note.className = "empty";
+    note.textContent = `Showing first 400 of ${list.length} — narrow the filters to see the rest.`;
+    results.appendChild(note);
+  }
+}
+
+/* ---------- events ---------- */
+
+document.querySelectorAll(".panel input, .panel select, #sort").forEach((el) => {
+  el.addEventListener("input", render);
+  el.addEventListener("change", render);
+});
+
+$("#reset").addEventListener("click", () => {
+  document.querySelectorAll("#sourceChecks input").forEach((c) => (c.checked = true));
+  ["#pickup", "#dropoff", "#dateFrom", "#dateTo", "#priceMax"].forEach((id) => ($(id).value = ""));
+  $("#currency").value = "";
+  $("#tripType").value = "";
+  $("#bookableOnly").checked = true;
+  $("#pricedOnly").checked = false;
+  render();
+});
+</script>
+</body>
+</html>

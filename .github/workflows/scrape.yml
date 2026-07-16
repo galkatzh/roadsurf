@@ -1,0 +1,71 @@
+name: Daily ride scrape
+
+on:
+  schedule:
+    - cron: "23 4 * * *"   # every day at 04:23 UTC
+  workflow_dispatch: {}     # allow manual runs from the Actions tab
+
+# Never let two runs write to the branch at the same time
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      # The three scrapers hit unrelated APIs, so they run concurrently.
+      # Movacar/Imoova finish in seconds; roadsurfer (~230 polite requests)
+      # dominates the runtime, so process-level parallelism inside one job
+      # is all the parallelization that pays off here.
+      - name: Run scrapers (parallel)
+        run: |
+          set -u
+          uv run --with requests roadsurfer_rally_scraper.py > roadsurfer.log 2>&1 & P_RS=$!
+          uv run --with requests movacar_scraper.py          > movacar.log    2>&1 & P_MC=$!
+          uv run --with requests imoova_scraper.py           > imoova.log     2>&1 & P_IM=$!
+
+          FAIL=0
+          wait $P_RS || { echo "::error::roadsurfer scraper failed"; FAIL=1; }
+          wait $P_MC || { echo "::error::movacar scraper failed";    FAIL=1; }
+          wait $P_IM || { echo "::error::imoova scraper failed";     FAIL=1; }
+
+          for f in roadsurfer movacar imoova; do
+            echo "::group::$f log"; cat "$f.log"; echo "::endgroup::"
+          done
+          exit $FAIL
+
+      - name: Unify
+        run: uv run unify_rides.py
+
+      - name: Upload results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rides-${{ github.run_id }}
+          path: |
+            roadsurfer_rally.json
+            movacar_offers.json
+            imoova_relocations.json
+            unified_rides.json
+          retention-days: 14
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add roadsurfer_rally.json movacar_offers.json imoova_relocations.json unified_rides.json
+          if git diff --cached --quiet; then
+            echo "No changes today."
+          else
+            git commit -m "Daily scrape: $(date -u +%F)"
+            git push
+          fi
