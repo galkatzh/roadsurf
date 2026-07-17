@@ -52,6 +52,46 @@ for _stream in (sys.stdout, sys.stderr):
         _stream.reconfigure(encoding="utf-8", errors="replace")
 
 
+REGION_NAMES = {
+    "europe": "Europe", "middle-east": "Middle East", "usa": "USA",
+    "canada": "Canada", "australia": "Australia", "new-zealand": "New Zealand",
+    "south-america": "South America", "japan": "Japan", "taiwan": "Taiwan",
+    "south-korea": "South Korea", "mexico": "Mexico",
+    "pacific-islands": "Pacific Islands", "south-africa": "South Africa",
+}
+
+EUROPE_CODES = {
+    "AL", "AD", "AT", "BA", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE",
+    "ES", "FI", "FR", "GB", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT",
+    "LU", "LV", "MC", "ME", "MK", "MT", "NL", "NO", "PL", "PT", "RO", "RS",
+    "SE", "SI", "SK", "SM", "TR", "UA", "UK", "XK",
+}
+
+
+def region_of(region_slug=None, country_code=None, lat=None, lng=None):
+    """Best-effort area name: explicit region > country code > coordinates."""
+    if region_slug:
+        return REGION_NAMES.get(region_slug, region_slug.replace("-", " ").title())
+    if country_code:
+        cc = country_code.upper()
+        if cc in EUROPE_CODES:
+            return "Europe"
+        if cc == "US":
+            return "USA"
+        if cc == "CA":
+            return "Canada"
+    if lat is not None and lng is not None:
+        if 34 <= lat <= 72 and -25 <= lng <= 45:
+            return "Europe"
+        if 15 <= lat <= 72 and -170 <= lng <= -50:
+            return "North America"
+        if -57 <= lat <= 14 and -95 <= lng <= -30:
+            return "South America"
+        if -50 <= lat <= -8 and 110 <= lng <= 180:
+            return "Australia" if lng < 162 else "New Zealand"
+    return "Other"
+
+
 def load(path):
     try:
         with open(path, encoding="utf-8") as fh:
@@ -111,6 +151,8 @@ def map_roadsurfer(data):
             "deal_type": "rally",
             "trip_type": r.get("trip_type"),
             "route": r.get("route"),
+            "region": region_of(country_code=p.get("country_code"),
+                                lat=p.get("latitude"), lng=p.get("longitude")),
             "pickup": place(
                 name=p.get("name"), address=p.get("address"),
                 city=p.get("city"), country=p.get("country"),
@@ -184,6 +226,7 @@ def map_movacar(data):
             "deal_type": "relocation",
             "trip_type": "one-way",
             "route": r.get("route"),
+            "region": region_of(lat=p.get("latitude"), lng=p.get("longitude")),
             "pickup": place(
                 name=p.get("city"), address=p.get("street"),
                 city=p.get("city"), postal_code=p.get("postal_code"),
@@ -264,6 +307,21 @@ def map_imoova(data):
                     "week": "week", "hour": "hour"}
         raw_unit = (r.get("hire_unit_type") or "day").lower()
         unit = unit_map.get(raw_unit, raw_unit)
+
+        # Price: relocations include N days at hire_unit_rate (often 0-1/day,
+        # legitimately). Gap rentals include 0 days — their real price is the
+        # extra-day rate, so use that instead of a misleading 0.
+        extra_rate = r.get("extra_unit_rate") or {}
+        included_units = r.get("included_units") or 0
+        if included_units == 0 and (extra_rate.get("amount") or 0) > 0:
+            price = {"amount": extra_rate["amount"],
+                     "currency": extra_rate.get("currency"),
+                     "unit": f"per_{unit}"}
+        elif rate.get("amount") is not None:
+            price = {"amount": rate["amount"], "currency": rate.get("currency"),
+                     "unit": f"per_{unit}"}
+        else:
+            price = None
         same_city = p.get("id") is not None and p.get("id") == d.get("id")
         distance_allowed = r.get("distance_allowed")
         rides.append({
@@ -272,6 +330,8 @@ def map_imoova(data):
             "deal_type": (r.get("type") or "").lower() or "relocation",
             "trip_type": "round-trip" if same_city else "one-way",
             "route": r.get("route"),
+            "region": region_of(region_slug=r.get("region_slug"),
+                                lat=p.get("latitude"), lng=p.get("longitude")),
             "pickup": place(
                 name=p.get("name"), city=p.get("name"), state=p.get("state"),
                 latitude=p.get("latitude"), longitude=p.get("longitude"),
@@ -293,11 +353,7 @@ def map_imoova(data):
                 self_contained=v.get("self_contained"),
                 has_kitchen=v.get("has_kitchen"),
             ),
-            "price": {
-                "amount": rate.get("amount"),
-                "currency": rate.get("currency"),
-                "unit": f"per_{unit}",
-            } if rate else None,
+            "price": price,
             "availability": {
                 "windows": [{
                     "start": r.get("available_from"),

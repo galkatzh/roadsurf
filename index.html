@@ -81,6 +81,11 @@
     </div>
 
     <div class="field">
+      <label for="region">Region</label>
+      <select id="region"><option value="">any</option></select>
+    </div>
+
+    <div class="field">
       <label for="pickup">Pickup location</label>
       <input type="text" id="pickup" list="pickupList" placeholder="e.g. Palermo">
       <datalist id="pickupList"></datalist>
@@ -211,12 +216,20 @@ function normalize(r) {
 /* ---------- filter option lists ---------- */
 
 function buildOptions() {
-  const pickups = new Set(), dropoffs = new Set(), currencies = new Set();
+  const pickups = new Set(), dropoffs = new Set(), currencies = new Set(),
+        regions = new Set();
   for (const r of RIDES) {
     if (r._pickup) pickups.add(r._pickup);
     if (r._dropoff) dropoffs.add(r._dropoff);
     if (r._currency) currencies.add(r._currency);
+    if (r.region) regions.add(r.region);
   }
+  const reg = $("#region");
+  [...regions].sort().forEach((v) => {
+    const o = document.createElement("option");
+    o.value = o.textContent = v;
+    reg.appendChild(o);
+  });
   const fill = (id, values) => {
     const el = $(id);
     el.innerHTML = "";
@@ -249,6 +262,7 @@ function overlaps(win, from, to) {
 function currentFilters() {
   return {
     sources: [...document.querySelectorAll("#sourceChecks input:checked")].map((c) => c.value),
+    region: $("#region").value || null,
     pickup: $("#pickup").value.trim().toLowerCase(),
     dropoff: $("#dropoff").value.trim().toLowerCase(),
     from: $("#dateFrom").value || null,
@@ -263,6 +277,7 @@ function currentFilters() {
 
 function matches(r, f) {
   if (!f.sources.includes(r.source)) return false;
+  if (f.region && r.region !== f.region) return false;
   if (f.pickup && !r._pickup.toLowerCase().includes(f.pickup)) return false;
   if (f.dropoff && !r._dropoff.toLowerCase().includes(f.dropoff)) return false;
   if (f.tripType && r.trip_type !== f.tripType) return false;
@@ -348,7 +363,7 @@ function render() {
     card.innerHTML = `
       <div class="top">
         <span class="badge ${esc(r.source)}">${esc(r.source)}</span>
-        <span class="badge type">${esc(r.deal_type)} · ${esc(r.trip_type || "")}</span>
+        <span class="badge type">${esc(r.deal_type)} · ${esc(r.trip_type || "")}${r.region ? " · " + esc(r.region) : ""}</span>
         <span class="spacer" style="flex:1"></span>
         ${fmtPrice(r)}
       </div>
@@ -382,6 +397,7 @@ document.querySelectorAll(".panel input, .panel select, #sort").forEach((el) => 
 $("#reset").addEventListener("click", () => {
   document.querySelectorAll("#sourceChecks input").forEach((c) => (c.checked = true));
   ["#pickup", "#dropoff", "#dateFrom", "#dateTo", "#priceMax"].forEach((id) => ($(id).value = ""));
+  $("#region").value = "";
   $("#currency").value = "";
   $("#tripType").value = "";
   $("#bookableOnly").checked = true;
