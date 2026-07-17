@@ -82,6 +82,10 @@
   td.num { text-align: right; font-variant-numeric: tabular-nums; }
   tr.clickable { cursor: pointer; }
   tr.clickable:hover { background: color-mix(in srgb, var(--series-1) 8%, transparent); }
+  tr.sel { background: color-mix(in srgb, var(--series-1) 16%, transparent); }
+  tr.sel td:nth-child(2) { font-weight: 700; }
+  .scrollwrap { max-height: 320px; overflow-y: auto; }
+  .scrollwrap th { position: sticky; top: 0; background: var(--surface-1); z-index: 1; }
 
   .tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--page);
     padding: 5px 9px; border-radius: 7px; font-size: 12px; z-index: 3000;
@@ -129,15 +133,17 @@
     <svg id="timelineSvg" viewBox="0 0 460 180" width="100%"></svg>
   </div>
   <div class="panel">
-    <h2>Top routes</h2>
+    <h2>Routes</h2>
     <p class="sub" id="routesSub"></p>
-    <table id="routesTable"><thead>
-      <tr><th>#</th><th>Route</th><th style="text-align:right">Moves</th></tr>
-    </thead><tbody></tbody></table>
+    <div class="scrollwrap">
+      <table id="routesTable"><thead>
+        <tr><th>#</th><th>Route</th><th style="text-align:right">Moves</th></tr>
+      </thead><tbody></tbody></table>
+    </div>
   </div>
   <div class="panel">
     <h2>Vehicle types</h2>
-    <p class="sub">All locations, filtered by date range</p>
+    <p class="sub" id="vehSub">All locations, filtered by date range</p>
     <svg id="vehicleSvg" viewBox="0 0 460 200" width="100%"></svg>
   </div>
 </div>
@@ -157,7 +163,7 @@ const tip = $("#tip");
 let DATA = null;
 let ROUTES = [];          // [{f, t, months:{m:n}, total-in-range cache}]
 let CITIES = {};
-let state = { dir: "pickup", from: null, to: null, city: null, region: null };
+let state = { dir: "pickup", from: null, to: null, city: null, region: null, route: null };
 let DEFAULT_RANGE = [null, null];
 
 const REGION_NAMES = {
@@ -168,7 +174,7 @@ const REGION_NAMES = {
 let map, markerLayer, lineLayer, lastFocus = "|";
 
 /* ---------------- loading ---------------- */
-fetch("imoova_history.json")
+fetch("imoova_history.json", { cache: "no-cache" })
   .then((r) => { if (!r.ok) throw 0; return r.json(); })
   .then(init)
   .catch(() => { $("#loading").hidden = true; $("#filepick").hidden = false; });
@@ -181,9 +187,11 @@ $("#fileInput").addEventListener("change", (e) => {
 function init(data) {
   DATA = data;
   CITIES = data.cities;
-  ROUTES = Object.entries(data.routes).map(([k, months]) => {
+  ROUTES = Object.entries(data.routes).map(([k, obj]) => {
     const [f, t] = k.split(">");
-    return { f, t, months };
+    // new format: {m:{month:n}, v:{vehicleType:n}}; old format: {month:n}
+    const months = obj.m || obj;
+    return { key: k, f, t, months, vehicles: obj.v || null };
   });
   // default view: the dense part of the data (months with >=20 moves),
   // full range still reachable via the month inputs
@@ -245,7 +253,8 @@ function routeTotal(r) {
 // Routes relevant to the current city selection + direction.
 // dir=pickup & city set  -> routes departing that city (map shows destinations)
 // dir=dropoff & city set -> routes arriving at that city (map shows origins)
-function relevantRoutes() {
+function relevantRoutes(ignoreRoute) {
+  if (state.route && !ignoreRoute) return ROUTES.filter((r) => r.key === state.route);
   let list = ROUTES;
   if (state.region) {
     list = list.filter((r) => {
@@ -290,17 +299,29 @@ function render() {
   renderMap(agg);
   renderSeason(agg);
   renderTimeline(agg);
-  renderRoutes(agg);
+  renderRoutes();
   renderVehicles();
-  const cityName = state.city ? (CITIES[state.city] || {}).name : null;
-  $("#clearCity").style.display = cityName ? "inline-block" : "none";
-  if (cityName) $("#clearCity").textContent = `✕ ${cityName} (${state.dir === "pickup" ? "as pickup" : "as drop-off"})`;
+  const chip = $("#clearCity");
+  if (state.route) {
+    const r = ROUTES.find((x) => x.key === state.route);
+    chip.style.display = "inline-block";
+    chip.textContent = `✕ ${(CITIES[r.f] || {}).name || "?"} → ${(CITIES[r.t] || {}).name || "?"} (route)`;
+  } else if (state.city) {
+    chip.style.display = "inline-block";
+    chip.textContent = `✕ ${(CITIES[state.city] || {}).name} (${state.dir === "pickup" ? "as pickup" : "as drop-off"})`;
+  } else {
+    chip.style.display = "none";
+  }
   $("#seasonSub").textContent = subLabel();
   $("#timelineSub").textContent = subLabel();
-  $("#routesSub").textContent = subLabel();
 }
 
-function subLabel() {
+function subLabel(ignoreRoute) {
+  if (state.route && !ignoreRoute) {
+    const r = ROUTES.find((x) => x.key === state.route);
+    const f = (CITIES[r.f] || {}).name || "?", t = (CITIES[r.t] || {}).name || "?";
+    return `route ${f} → ${t} · ${state.from} to ${state.to}`;
+  }
   const c = state.city ? (CITIES[state.city] || {}).name : null;
   const role = state.dir === "pickup" ? "pickups" : "drop-offs";
   const where = c ? `for ${c}`
@@ -314,6 +335,31 @@ function renderMap(agg) {
   const cs = getComputedStyle(document.body);
   const blue = cs.getPropertyValue("--series-1").trim();
   const accent = cs.getPropertyValue("--accent").trim();
+
+  // a single selected route: draw its two endpoints and the connection
+  if (state.route) {
+    const r = ROUTES.find((x) => x.key === state.route);
+    const f = CITIES[r.f], t = CITIES[r.t], n = routeTotal(r);
+    if (f && t && f.lat != null && t.lat != null) {
+      const sameCity = r.f === r.t;
+      if (!sameCity) {
+        L.polyline([[f.lat, f.lng], [t.lat, t.lng]], { color: blue, weight: 3, opacity: 0.6 }).addTo(lineLayer);
+      }
+      L.circleMarker([f.lat, f.lng], { radius: 10, color: accent, weight: 2.5, fillColor: accent, fillOpacity: 0.85 })
+        .bindTooltip(`<b>${f.name}</b> — pickup<br>${n.toLocaleString()} moves in range`).addTo(markerLayer);
+      if (!sameCity) {
+        L.circleMarker([t.lat, t.lng], { radius: 10, color: blue, weight: 2.5, fillColor: blue, fillOpacity: 0.7 })
+          .bindTooltip(`<b>${t.name}</b> — drop-off<br>${n.toLocaleString()} moves in range`).addTo(markerLayer);
+      }
+      const focus = "route:" + state.route;
+      if (focus !== lastFocus) {
+        lastFocus = focus;
+        if (sameCity) map.setView([f.lat, f.lng], 6);
+        else map.fitBounds([[f.lat, f.lng], [t.lat, t.lng]], { padding: [60, 60], maxZoom: 7 });
+      }
+    }
+    return;
+  }
 
   // partner flow lines when a city is selected (top 12)
   if (state.city && CITIES[state.city]) {
@@ -344,7 +390,7 @@ function renderMap(agg) {
       radius: r, color: blue, weight: 1.5, fillColor: blue, fillOpacity: 0.45,
     })
       .bindTooltip(`<b>${c.name}</b>${c.state ? " · " + c.state : ""}<br>${n.toLocaleString()} ${partnerRole}${selName}`)
-      .on("click", () => { state.city = id; syncCityInput(); render(); })
+      .on("click", () => { state.city = id; state.route = null; syncCityInput(); render(); })
       .addTo(markerLayer);
   }
 
@@ -467,21 +513,25 @@ function monthSpan(a, b) {
   return out;
 }
 
-function renderRoutes(agg) {
+function renderRoutes() {
   const tbody = $("#routesTable tbody"); tbody.innerHTML = "";
-  const rows = agg.rel
+  // the table always lists the full (region/city/date-filtered) set so a
+  // selected route can be switched or deselected from within the list
+  const rows = relevantRoutes(true)
     .map((r) => ({ r, n: routeTotal(r) }))
     .filter((x) => x.n > 0)
-    .sort((a, b) => b.n - a.n)
-    .slice(0, 12);
+    .sort((a, b) => b.n - a.n);
+  $("#routesSub").textContent = subLabel(true) + ` · ${rows.length} routes — click one to inspect it`;
   rows.forEach((x, i) => {
     const f = CITIES[x.r.f] || {}, t = CITIES[x.r.t] || {};
     const tr = document.createElement("tr");
-    tr.className = "clickable";
+    const selected = state.route === x.r.key;
+    tr.className = "clickable" + (selected ? " sel" : "");
     tr.innerHTML = `<td>${i + 1}</td><td>${f.name || "?"} → ${t.name || "?"}</td>
       <td class="num">${x.n.toLocaleString()}</td>`;
     tr.addEventListener("click", () => {
-      state.city = state.dir === "pickup" ? x.r.f : x.r.t;
+      state.route = selected ? null : x.r.key;   // click again to deselect
+      state.city = null;
       syncCityInput(); render();
     });
     tbody.appendChild(tr);
@@ -491,11 +541,21 @@ function renderRoutes(agg) {
 function renderVehicles() {
   const svg = $("#vehicleSvg"); svg.innerHTML = "";
   const W = 460, rowH = 24, padL = 4;
-  const totals = Object.entries(DATA.vehicles).map(([type, months]) => {
-    let n = 0;
-    for (const m in months) if (inRange(m)) n += months[m];
-    return [type, n];
-  }).filter((x) => x[1] > 0).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  let totals;
+  const selRoute = state.route && ROUTES.find((x) => x.key === state.route);
+  if (selRoute && selRoute.vehicles) {
+    // per-route vehicle mix (all-time totals — no monthly breakdown per route)
+    totals = Object.entries(selRoute.vehicles);
+    $("#vehSub").textContent = subLabel() .replace(` · ${state.from} to ${state.to}`, "") + " · all dates";
+  } else {
+    totals = Object.entries(DATA.vehicles).map(([type, months]) => {
+      let n = 0;
+      for (const m in months) if (inRange(m)) n += months[m];
+      return [type, n];
+    });
+    $("#vehSub").textContent = "All locations, filtered by date range";
+  }
+  totals = totals.filter((x) => x[1] > 0).sort((a, b) => b[1] - a[1]).slice(0, 8);
   const max = Math.max(1, ...totals.map((x) => x[1]));
   svg.setAttribute("viewBox", `0 0 ${W} ${totals.length * rowH + 6}`);
   totals.forEach(([type, n], i) => {
@@ -523,15 +583,17 @@ $("#dirSeg").addEventListener("click", (e) => {
   const b = e.target.closest("button");
   if (!b) return;
   state.dir = b.dataset.dir;
+  state.route = null;
   document.querySelectorAll("#dirSeg button").forEach((x) => x.classList.toggle("on", x === b));
   render();
 });
-$("#regionSel").addEventListener("change", () => { state.region = $("#regionSel").value || null; render(); });
+$("#regionSel").addEventListener("change", () => { state.region = $("#regionSel").value || null; state.route = null; render(); });
 $("#mFrom").addEventListener("change", () => { state.from = $("#mFrom").value || DATA.meta.first_month; render(); });
 $("#mTo").addEventListener("change", () => { state.to = $("#mTo").value || DATA.meta.last_month; render(); });
 
 $("#citySearch").addEventListener("change", () => {
   const v = $("#citySearch").value.trim().toLowerCase();
+  state.route = null;
   if (!v) { state.city = null; render(); return; }
   const hit = Object.entries(CITIES).find(([id, c]) =>
     (c.name + (c.state ? ` (${c.state})` : "")).toLowerCase() === v)
@@ -543,9 +605,9 @@ function syncCityInput() {
   const c = CITIES[state.city];
   $("#citySearch").value = c ? c.name + (c.state ? ` (${c.state})` : "") : "";
 }
-$("#clearCity").addEventListener("click", () => { state.city = null; syncCityInput(); render(); });
+$("#clearCity").addEventListener("click", () => { state.city = null; state.route = null; syncCityInput(); render(); });
 $("#resetBtn").addEventListener("click", () => {
-  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null, region: null };
+  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null, region: null, route: null };
   $("#mFrom").value = state.from; $("#mTo").value = state.to;
   $("#regionSel").value = "";
   syncCityInput();

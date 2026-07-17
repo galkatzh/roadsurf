@@ -10,7 +10,8 @@ aggregate client-side into a compact JSON:
   {
     "meta":     { fetched_at, total_records, months: [...] },
     "cities":   { id: {name, state, region, lat, lng} },
-    "routes":   { "fromId>toId": { "YYYY-MM": count } },
+    "routes":   { "fromId>toId": { "m": {"YYYY-MM": count},
+                                   "v": {vehicleType: count} } },
     "vehicles": { vehicleType: { "YYYY-MM": count } },
     "deal_types": { RELOCATION|GAP_RENTAL: { "YYYY-MM": count } }
   }
@@ -120,7 +121,7 @@ def main():
     session.headers.update(HEADERS)
 
     cities = {}
-    routes = defaultdict(lambda: defaultdict(int))
+    routes = defaultdict(lambda: {"m": defaultdict(int), "v": defaultdict(int)})
     vehicles = defaultdict(lambda: defaultdict(int))
     deal_types = defaultdict(lambda: defaultdict(int))
     records = 0
@@ -149,8 +150,10 @@ def main():
                         "region": c.get("region"),
                         "lat": c.get("lat"), "lng": c.get("lng"),
                     }
-            routes[f"{dep['id']}>{dst['id']}"][month] += 1
             vtype = (rec.get("vehicle") or {}).get("type") or "UNKNOWN"
+            route = routes[f"{dep['id']}>{dst['id']}"]
+            route["m"][month] += 1
+            route["v"][vtype] += 1
             vehicles[vtype][month] += 1
             deal_types[rec.get("type") or "UNKNOWN"][month] += 1
             records += 1
@@ -158,7 +161,7 @@ def main():
         page += 1
         time.sleep(args.delay)
 
-    months = sorted({m for r in routes.values() for m in r})
+    months = sorted({m for r in routes.values() for m in r["m"]})
     result = {
         "meta": {
             "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -171,7 +174,8 @@ def main():
             "last_month": months[-1] if months else None,
         },
         "cities": cities,
-        "routes": {k: dict(v) for k, v in routes.items()},
+        "routes": {k: {"m": dict(v["m"]), "v": dict(v["v"])}
+                   for k, v in routes.items()},
         "vehicles": {k: dict(v) for k, v in vehicles.items()},
         "deal_types": {k: dict(v) for k, v in deal_types.items()},
     }

@@ -168,7 +168,7 @@ const results = $("#results"), status = $("#status"), countEl = $("#count");
 
 /* ---------- data loading ---------- */
 
-fetch("unified_rides.json")
+fetch("unified_rides.json", { cache: "no-cache" })
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(init)
   .catch(() => { status.hidden = true; $("#filepick").hidden = false; });
