@@ -1,6 +1,6 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-07-17T00:18:34+00:00",
+  "scraped_at": "2026-07-17T06:33:06+00:00",
   "station_count": 115,
   "ride_count": 272,
   "rides": [
@@ -662,6 +662,65 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
     },
     {
+      "route": "Amsterdam -> Cologne-Dusseldorf",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 32,
+        "name": "Amsterdam",
+        "address": "Spinnerij 17, 1185 ZN Amsterdam",
+        "zip": "1185 ZN",
+        "city": "Amstelveen",
+        "country_code": "NL",
+        "country": "Netherlands",
+        "latitude": 52.2838247,
+        "longitude": 4.8354896,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
+        "search_tags": [
+          "ams",
+          "schiphol",
+          "north holland",
+          "noord-holland",
+          "randstad",
+          "utrecht"
+        ]
+      },
+      "dropoff": {
+        "id": 4,
+        "name": "Cologne-Dusseldorf",
+        "address": "Norfer Straße 6, 41539 Dormagen",
+        "zip": "41539",
+        "city": "Dormagen",
+        "country_code": "DE",
+        "country": "Germany",
+        "latitude": 51.1085536,
+        "longitude": 6.824684,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/H6R8x54k9NXAN4Ag8",
+        "search_tags": [
+          "cgn",
+          "dus",
+          "north rhine-westphalia",
+          "nordrhein-westfalen",
+          "nrw",
+          "rhineland",
+          "rheinland"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-09-23T00:00:00+00:00",
+          "end_date": "2026-09-30T00:00:00+00:00"
+        },
+        {
+          "start_date": "2026-09-30T00:00:00+00:00",
+          "end_date": "2026-10-07T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
+    },
+    {
       "route": "Amsterdam -> Duisburg",
       "trip_type": "one-way",
       "pickup": {
@@ -722,65 +781,6 @@
         {
           "start_date": "2026-09-25T00:00:00+00:00",
           "end_date": "2026-10-02T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
-    },
-    {
-      "route": "Amsterdam -> Cologne-Dusseldorf",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 32,
-        "name": "Amsterdam",
-        "address": "Spinnerij 17, 1185 ZN Amsterdam",
-        "zip": "1185 ZN",
-        "city": "Amstelveen",
-        "country_code": "NL",
-        "country": "Netherlands",
-        "latitude": 52.2838247,
-        "longitude": 4.8354896,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
-        "search_tags": [
-          "ams",
-          "schiphol",
-          "north holland",
-          "noord-holland",
-          "randstad",
-          "utrecht"
-        ]
-      },
-      "dropoff": {
-        "id": 4,
-        "name": "Cologne-Dusseldorf",
-        "address": "Norfer Straße 6, 41539 Dormagen",
-        "zip": "41539",
-        "city": "Dormagen",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.1085536,
-        "longitude": 6.824684,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/H6R8x54k9NXAN4Ag8",
-        "search_tags": [
-          "cgn",
-          "dus",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw",
-          "rhineland",
-          "rheinland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-23T00:00:00+00:00",
-          "end_date": "2026-09-30T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-30T00:00:00+00:00",
-          "end_date": "2026-10-07T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
@@ -2658,69 +2658,6 @@
         {
           "start_date": "2026-09-04T00:00:00+00:00",
           "end_date": "2026-09-11T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=40"
-    },
-    {
-      "route": "Bilbao -> Cologne-Dusseldorf",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 40,
-        "name": "Bilbao",
-        "address": "Polígono Ugaldeguren 3, Parcela 18-1 Elemento 2",
-        "zip": "48170 Zamudio Bizkaia",
-        "city": "Bilbao",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 43.2876667,
-        "longitude": -2.878791,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/3YBYjg8cNp3D585P8",
-        "search_tags": [
-          "bio",
-          "basque country",
-          "país vasco",
-          "euskadi",
-          "bilbao airport",
-          "aeropuerto bilbao",
-          "bilbo aireportua",
-          "bilbo",
-          "bizkaia",
-          "vizcaya",
-          "san sebastian",
-          "donosti",
-          "donostia",
-          "cantabria"
-        ]
-      },
-      "dropoff": {
-        "id": 4,
-        "name": "Cologne-Dusseldorf",
-        "address": "Norfer Straße 6, 41539 Dormagen",
-        "zip": "41539",
-        "city": "Dormagen",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.1085536,
-        "longitude": 6.824684,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/H6R8x54k9NXAN4Ag8",
-        "search_tags": [
-          "cgn",
-          "dus",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw",
-          "rhineland",
-          "rheinland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-25T00:00:00+00:00",
-          "end_date": "2026-10-02T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=40"
@@ -4701,6 +4638,61 @@
         {
           "start_date": "2026-09-23T00:00:00+00:00",
           "end_date": "2026-09-30T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=80"
+    },
+    {
+      "route": "Florence -> Stuttgart",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 80,
+        "name": "Florence",
+        "address": "Via Alessandro Fleming 40",
+        "zip": "59100 Prato",
+        "city": "Florence",
+        "country_code": "IT",
+        "country": "Italy",
+        "latitude": 43.8571284,
+        "longitude": 11.099803,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/ncQgPV11WFCikZbR7",
+        "search_tags": [
+          "flr",
+          "tuscany",
+          "toscana",
+          "chianti",
+          "siena",
+          "pisa",
+          "cinque terre",
+          "italy countryside",
+          "italia campagna"
+        ]
+      },
+      "dropoff": {
+        "id": 5,
+        "name": "Stuttgart",
+        "address": "Ostheimer Weg 15, 70825 Korntal-Münchingen",
+        "zip": "70825",
+        "city": "Stuttgart",
+        "country_code": "DE",
+        "country": "Germany",
+        "latitude": 48.8292697,
+        "longitude": 9.1324477,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/sUAWdwzFcLxgrthq9",
+        "search_tags": [
+          "str",
+          "baden-württemberg",
+          "swabia",
+          "schwaben"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-09-04T00:00:00+00:00",
+          "end_date": "2026-09-11T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=80"

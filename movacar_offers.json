@@ -1,11 +1,11 @@
 {
   "source": "https://www.movacar.com/en-US/offers",
-  "scraped_at": "2026-07-17T00:16:08+00:00",
+  "scraped_at": "2026-07-17T06:30:58+00:00",
   "pickup_window": {
     "from": "2026-07-17",
     "to": "2027-07-17"
   },
-  "offer_count": 51,
+  "offer_count": 52,
   "offers": [
     {
       "id": "252558_6013_3579",
@@ -63,13 +63,13 @@
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
-      "id": "252550_2337_1692",
-      "offer_id": "252550",
-      "route": "Hameln -> Flensburg",
+      "id": "252588_655_2335",
+      "offer_id": "252588",
+      "route": "Bielefeld -> Hamburg",
       "offer_type": 9,
       "vehicle": {
-        "make": "NISSA",
-        "model": "PRIMASTAR MPV 9S DI AUT",
+        "make": "AUDI",
+        "model": "Q2 OFF BE AUT",
         "description": null,
         "category": "Mystery Auto",
         "type": "Car",
@@ -82,39 +82,94 @@
       },
       "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
       "pickup": {
-        "station_id": "5605",
-        "city": "Hameln",
-        "street": "Kluetstr. 78A",
-        "postal_code": "31787",
-        "latitude": 52.10354,
-        "longitude": 9.335837,
-        "code": "Sixt48405"
+        "station_id": "2554",
+        "city": "Bielefeld",
+        "street": "Elsa-Brändström-Str. 6-8",
+        "postal_code": "33602",
+        "latitude": 52.02402,
+        "longitude": 8.529082,
+        "code": "Sixt348"
       },
       "dropoff": {
-        "station_id": "2740",
-        "city": "Flensburg",
-        "street": "Zur Bleiche 45",
-        "postal_code": "24941",
-        "latitude": 54.771291,
-        "longitude": 9.426981,
-        "code": "Sixt42926"
+        "station_id": "2700",
+        "city": "Hamburg",
+        "street": "Stresemannstr. 364",
+        "postal_code": "22761",
+        "latitude": 53.5636,
+        "longitude": 9.92241,
+        "code": "Sixt5163"
       },
-      "earliest_pickup": "2026-07-16T17:33:11Z",
-      "latest_delivery": "2026-07-18T16:00:00Z",
-      "latest_pickup": "2026-07-18T12:00:00+00:00",
-      "valid_until": "2026-07-18T09:38:06Z",
+      "earliest_pickup": "2026-07-16T22:00:00Z",
+      "latest_delivery": "2026-07-18T12:00:00Z",
+      "latest_pickup": "2026-07-18T09:00:00+00:00",
+      "valid_until": "2026-07-18T06:25:19Z",
       "included_period_hours": 24,
       "extra_period_hours": 24,
       "price": {
         "amount": 1.0,
         "currency": "EUR"
       },
-      "free_km": 450,
+      "free_km": 350,
       "cents_per_extra_km": 50,
-      "route_distance_km": 359.3,
+      "route_distance_km": 253.2,
       "min_drivers_age": 25,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/252550?origin=5605&destination=2740",
+      "booking_link": "https://www.movacar.com/en-US/checkout/252588?origin=2554&destination=2700",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
+    },
+    {
+      "id": "252589_655_2335",
+      "offer_id": "252589",
+      "route": "Bielefeld -> Hamburg",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "BMW",
+        "model": "430 CAB BE AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2554",
+        "city": "Bielefeld",
+        "street": "Elsa-Brändström-Str. 6-8",
+        "postal_code": "33602",
+        "latitude": 52.02402,
+        "longitude": 8.529082,
+        "code": "Sixt348"
+      },
+      "dropoff": {
+        "station_id": "2700",
+        "city": "Hamburg",
+        "street": "Stresemannstr. 364",
+        "postal_code": "22761",
+        "latitude": 53.5636,
+        "longitude": 9.92241,
+        "code": "Sixt5163"
+      },
+      "earliest_pickup": "2026-07-16T22:00:00Z",
+      "latest_delivery": "2026-07-18T12:00:00Z",
+      "latest_pickup": "2026-07-18T09:00:00+00:00",
+      "valid_until": "2026-07-18T06:25:19Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 350,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 253.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/252589?origin=2554&destination=2700",
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
@@ -943,6 +998,61 @@
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
+      "id": "252585_2337_1692",
+      "offer_id": "252585",
+      "route": "Hameln -> Flensburg",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "NISSA",
+        "model": "PRIMASTAR MPV 9S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "5605",
+        "city": "Hameln",
+        "street": "Kluetstr. 78A",
+        "postal_code": "31787",
+        "latitude": 52.10354,
+        "longitude": 9.335837,
+        "code": "Sixt48405"
+      },
+      "dropoff": {
+        "station_id": "2740",
+        "city": "Flensburg",
+        "street": "Zur Bleiche 45",
+        "postal_code": "24941",
+        "latitude": 54.771291,
+        "longitude": 9.426981,
+        "code": "Sixt42926"
+      },
+      "earliest_pickup": "2026-07-17T06:19:27Z",
+      "latest_delivery": "2026-07-18T16:00:00Z",
+      "latest_pickup": "2026-07-18T12:00:00+00:00",
+      "valid_until": "2026-07-18T09:38:06Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 450,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 359.3,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/252585?origin=5605&destination=2740",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
+    },
+    {
       "id": "252554_2742_240",
       "offer_id": "252554",
       "route": "Homburg -> Aschaffenburg",
@@ -1136,13 +1246,13 @@
         "code": "ZQWN01"
       },
       "dropoff": {
-        "station_id": "1279",
+        "station_id": "1284",
         "city": "Frankfurt am Main",
-        "street": "IM HAUPTBAHNHOF 1",
-        "postal_code": "60329",
-        "latitude": 50.1073,
-        "longitude": 8.6646,
-        "code": "FRAL01"
+        "street": "LUDWIG LANDMANN STR 399",
+        "postal_code": "60486",
+        "latitude": 50.121,
+        "longitude": 8.6211,
+        "code": "FRAW01"
       },
       "earliest_pickup": "2026-07-20T04:00:00Z",
       "latest_delivery": "2026-07-24T21:00:00Z",
@@ -1156,10 +1266,10 @@
       },
       "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 170.8,
+      "route_distance_km": 168.9,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/252554?origin=1739&destination=1279",
+      "booking_link": "https://www.movacar.com/en-US/checkout/252554?origin=1739&destination=1284",
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
@@ -2700,61 +2810,6 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/252464?origin=6098&destination=6101",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
-    },
-    {
-      "id": "252575_10656_7923",
-      "offer_id": "252575",
-      "route": "Wiener Neudorf -> Bologna",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "S 75SL / T 7400 SB or similar",
-        "description": null,
-        "category": "Comfort Long Select",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/aaca0lxvIZEnjSPD_FAMILY@5x.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6089",
-        "city": "Wiener Neudorf",
-        "street": "Sofie-Lazarsfeld-Strasse 22",
-        "postal_code": "1110",
-        "latitude": 48.14047,
-        "longitude": 16.44293,
-        "code": "IC65"
-      },
-      "dropoff": {
-        "station_id": "6112",
-        "city": "Bologna",
-        "street": "Via Corticella 50/A",
-        "postal_code": "40013",
-        "latitude": 44.554605,
-        "longitude": 11.3202569,
-        "code": "IC93"
-      },
-      "earliest_pickup": "2026-08-04T04:00:00Z",
-      "latest_delivery": "2026-08-11T19:00:00Z",
-      "latest_pickup": "2026-08-11T11:00:00+00:00",
-      "valid_until": "2026-08-07T19:00:00Z",
-      "included_period_hours": 96,
-      "extra_period_hours": 168,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 952,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 766.8,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/252575?origin=6089&destination=6112",
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
