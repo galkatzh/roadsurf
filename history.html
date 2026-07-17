@@ -103,6 +103,9 @@
   </div>
   <label>From <input type="month" id="mFrom"></label>
   <label>To <input type="month" id="mTo"></label>
+  <label>Region
+    <select id="regionSel"><option value="">all</option></select>
+  </label>
   <label>City
     <input type="text" id="citySearch" list="cityList" placeholder="click map or type…" style="width:160px">
     <datalist id="cityList"></datalist>
@@ -154,9 +157,15 @@ const tip = $("#tip");
 let DATA = null;
 let ROUTES = [];          // [{f, t, months:{m:n}, total-in-range cache}]
 let CITIES = {};
-let state = { dir: "pickup", from: null, to: null, city: null };
+let state = { dir: "pickup", from: null, to: null, city: null, region: null };
 let DEFAULT_RANGE = [null, null];
-let map, markerLayer, lineLayer;
+
+const REGION_NAMES = {
+  AU: "Australia", NZ: "New Zealand", US: "USA", CA: "Canada", EU: "Europe",
+  JP: "Japan", TW: "Taiwan", PI: "Pacific Islands", SACU: "South Africa",
+  SA: "South America", ME: "Middle East", MX: "Mexico", KR: "South Korea",
+};
+let map, markerLayer, lineLayer, lastFocus = "|";
 
 /* ---------------- loading ---------------- */
 fetch("imoova_history.json")
@@ -191,6 +200,15 @@ function init(data) {
   $("#metaLine").textContent =
     `${data.meta.total_records.toLocaleString()} historical vehicle moves · ` +
     `${data.meta.city_count} cities · ${data.meta.first_month} to ${data.meta.last_month} · fetched ${data.meta.fetched_at.slice(0,10)}`;
+
+  const regions = [...new Set(Object.values(CITIES).map((c) => c.region).filter(Boolean))];
+  regions.sort((a, b) => (REGION_NAMES[a] || a).localeCompare(REGION_NAMES[b] || b))
+    .forEach((code) => {
+      const o = document.createElement("option");
+      o.value = code;
+      o.textContent = REGION_NAMES[code] || code;
+      $("#regionSel").appendChild(o);
+    });
 
   const dl = $("#cityList");
   Object.entries(CITIES)
@@ -228,8 +246,17 @@ function routeTotal(r) {
 // dir=pickup & city set  -> routes departing that city (map shows destinations)
 // dir=dropoff & city set -> routes arriving at that city (map shows origins)
 function relevantRoutes() {
-  if (!state.city) return ROUTES;
-  return ROUTES.filter((r) => state.dir === "pickup" ? r.f === state.city : r.t === state.city);
+  let list = ROUTES;
+  if (state.region) {
+    list = list.filter((r) => {
+      const role = state.dir === "pickup" ? r.f : r.t;
+      return (CITIES[role] || {}).region === state.region;
+    });
+  }
+  if (state.city) {
+    list = list.filter((r) => state.dir === "pickup" ? r.f === state.city : r.t === state.city);
+  }
+  return list;
 }
 
 function aggregate() {
@@ -276,7 +303,9 @@ function render() {
 function subLabel() {
   const c = state.city ? (CITIES[state.city] || {}).name : null;
   const role = state.dir === "pickup" ? "pickups" : "drop-offs";
-  return (c ? `${role} for ${c}` : `all ${role}`) + ` · ${state.from} to ${state.to}`;
+  const where = c ? `for ${c}`
+    : state.region ? `in ${REGION_NAMES[state.region] || state.region}` : "";
+  return `${where ? role + " " + where : "all " + role} · ${state.from} to ${state.to}`;
 }
 
 function renderMap(agg) {
@@ -319,15 +348,22 @@ function renderMap(agg) {
       .addTo(markerLayer);
   }
 
-  // zoom to the selection's flow network; world view otherwise
-  if (state.city && CITIES[state.city]) {
-    const pts = [[CITIES[state.city].lat, CITIES[state.city].lng]];
-    for (const id in agg.cityCounts) {
-      const c = CITIES[id];
-      if (c && c.lat != null) pts.push([c.lat, c.lng]);
+  // zoom to the selection (city network or region); only when focus changes
+  const focus = (state.city || "") + "|" + (state.region || "");
+  if (focus !== lastFocus) {
+    lastFocus = focus;
+    if (state.city || state.region) {
+      const pts = [];
+      if (state.city && CITIES[state.city]) pts.push([CITIES[state.city].lat, CITIES[state.city].lng]);
+      for (const id in agg.cityCounts) {
+        const c = CITIES[id];
+        if (c && c.lat != null) pts.push([c.lat, c.lng]);
+      }
+      if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
+      else if (pts.length === 1) map.setView(pts[0], 5);
+    } else {
+      map.setView([25, 10], 2);
     }
-    if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
-    else map.setView(pts[0], 5);
   }
 }
 
@@ -490,6 +526,7 @@ $("#dirSeg").addEventListener("click", (e) => {
   document.querySelectorAll("#dirSeg button").forEach((x) => x.classList.toggle("on", x === b));
   render();
 });
+$("#regionSel").addEventListener("change", () => { state.region = $("#regionSel").value || null; render(); });
 $("#mFrom").addEventListener("change", () => { state.from = $("#mFrom").value || DATA.meta.first_month; render(); });
 $("#mTo").addEventListener("change", () => { state.to = $("#mTo").value || DATA.meta.last_month; render(); });
 
@@ -508,8 +545,9 @@ function syncCityInput() {
 }
 $("#clearCity").addEventListener("click", () => { state.city = null; syncCityInput(); render(); });
 $("#resetBtn").addEventListener("click", () => {
-  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null };
+  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null, region: null };
   $("#mFrom").value = state.from; $("#mTo").value = state.to;
+  $("#regionSel").value = "";
   syncCityInput();
   document.querySelectorAll("#dirSeg button").forEach((x) => x.classList.toggle("on", x.dataset.dir === "pickup"));
   render();
