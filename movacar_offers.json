@@ -1,11 +1,11 @@
 {
   "source": "https://www.movacar.com/en-US/offers",
-  "scraped_at": "2026-07-16T21:59:31+00:00",
+  "scraped_at": "2026-07-17T00:16:08+00:00",
   "pickup_window": {
     "from": "2026-07-17",
     "to": "2027-07-17"
   },
-  "offer_count": 53,
+  "offer_count": 51,
   "offers": [
     {
       "id": "252558_6013_3579",
@@ -888,116 +888,6 @@
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
-      "id": "252582_202072_8288",
-      "offer_id": "252582",
-      "route": "A Coruña -> Amstelveen",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "Ducato",
-        "description": null,
-        "category": "Active Poptop Select",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/ZkJGSEFLKBtrW1B-_NOMADPOPTOP_HEROIMAGE.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6155",
-        "city": "A Coruña",
-        "street": "Calle de la Ermita 13, Polgono de la Grela",
-        "postal_code": "15008",
-        "latitude": 43.348185,
-        "longitude": -8.431217,
-        "code": "IC124"
-      },
-      "dropoff": {
-        "station_id": "6121",
-        "city": "Amstelveen",
-        "street": "Grevelingstraat 77",
-        "postal_code": "2161",
-        "latitude": 52.252707,
-        "longitude": 4.5663118,
-        "code": "IC103"
-      },
-      "earliest_pickup": "2026-07-17T04:00:00Z",
-      "latest_delivery": "2026-07-30T19:00:00Z",
-      "latest_pickup": "2026-07-29T23:00:00+00:00",
-      "valid_until": "2026-07-20T19:00:00Z",
-      "included_period_hours": 240,
-      "extra_period_hours": 312,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 2156,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 1948.2,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/252582?origin=6155&destination=6121",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
-    },
-    {
-      "id": "252583_202072_8288",
-      "offer_id": "252583",
-      "route": "A Coruña -> Amstelveen",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "Ducato",
-        "description": null,
-        "category": "Active Poptop Select",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/ZkJGSEFLKBtrW1B-_NOMADPOPTOP_HEROIMAGE.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6155",
-        "city": "A Coruña",
-        "street": "Calle de la Ermita 13, Polgono de la Grela",
-        "postal_code": "15008",
-        "latitude": 43.348185,
-        "longitude": -8.431217,
-        "code": "IC124"
-      },
-      "dropoff": {
-        "station_id": "6121",
-        "city": "Amstelveen",
-        "street": "Grevelingstraat 77",
-        "postal_code": "2161",
-        "latitude": 52.252707,
-        "longitude": 4.5663118,
-        "code": "IC103"
-      },
-      "earliest_pickup": "2026-07-17T04:00:00Z",
-      "latest_delivery": "2026-07-30T19:00:00Z",
-      "latest_pickup": "2026-07-29T23:00:00+00:00",
-      "valid_until": "2026-07-20T19:00:00Z",
-      "included_period_hours": 240,
-      "extra_period_hours": 312,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 2156,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 1948.2,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/252583?origin=6155&destination=6121",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
-    },
-    {
       "id": "252584_7532_7719",
       "offer_id": "252584",
       "route": "Nantes -> London",
@@ -1246,13 +1136,13 @@
         "code": "ZQWN01"
       },
       "dropoff": {
-        "station_id": "1277",
+        "station_id": "1279",
         "city": "Frankfurt am Main",
-        "street": "HANAUER LANDSTR. 334",
-        "postal_code": "60314",
-        "latitude": 50.1231,
-        "longitude": 8.7419,
-        "code": "FRAE02"
+        "street": "IM HAUPTBAHNHOF 1",
+        "postal_code": "60329",
+        "latitude": 50.1073,
+        "longitude": 8.6646,
+        "code": "FRAL01"
       },
       "earliest_pickup": "2026-07-20T04:00:00Z",
       "latest_delivery": "2026-07-24T21:00:00Z",
@@ -1266,10 +1156,10 @@
       },
       "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 175.1,
+      "route_distance_km": 170.8,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/252554?origin=1739&destination=1277",
+      "booking_link": "https://www.movacar.com/en-US/checkout/252554?origin=1739&destination=1279",
       "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-07-17&pickupDateTo=2027-07-17"
     },
     {
