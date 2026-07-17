@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imoova Relocation History</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb; --page: #f9f9f7;
+    --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6;          /* blue — magnitude everywhere */
+    --series-1-soft: #9ec5f4;     /* sequential step 200 */
+    --accent: #eb6834;            /* orange — selection only */
+    --map-tile-filter: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5; --series-1-soft: #1c5cab; --accent: #d95926;
+      --map-tile-filter: brightness(0.6) invert(1) hue-rotate(180deg) saturate(0.5) contrast(0.9);
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19; --page: #0d0d0d;
+    --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-1-soft: #1c5cab; --accent: #d95926;
+    --map-tile-filter: brightness(0.6) invert(1) hue-rotate(180deg) saturate(0.5) contrast(0.9);
+  }
+
+  * { box-sizing: border-box; }
+  body.viz-root { margin: 0; background: var(--page); color: var(--ink);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding: 16px 20px 4px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 2px 0 0; color: var(--ink-2); font-size: 12.5px; }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    padding: 12px 20px; }
+  .filters label { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .filters input, .filters select {
+    padding: 6px 8px; border: 1px solid var(--grid); border-radius: 8px;
+    background: var(--surface-1); color: var(--ink); font: inherit; }
+  .seg { display: inline-flex; border: 1px solid var(--grid); border-radius: 8px; overflow: hidden; }
+  .seg button { border: none; background: var(--surface-1); color: var(--ink-2);
+    padding: 6px 12px; font: inherit; cursor: pointer; }
+  .seg button.on { background: var(--series-1); color: #fff; font-weight: 600; }
+  .filters .pill { background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 20px; padding: 4px 12px; font-size: 12.5px; color: var(--ink-2); }
+  .filters .pill b { color: var(--ink); }
+  #clearCity { display: none; border: none; background: var(--accent); color: #fff;
+    border-radius: 20px; padding: 5px 12px; font: inherit; font-size: 12.5px; cursor: pointer; }
+  #resetBtn { border: 1px solid var(--grid); background: var(--surface-1); color: var(--ink-2);
+    border-radius: 8px; padding: 6px 12px; font: inherit; cursor: pointer; }
+
+  #map { height: 52vh; min-height: 330px; margin: 0 20px; border-radius: 12px;
+    border: 1px solid var(--border); background: var(--surface-1); }
+  .leaflet-tile-pane { filter: var(--map-tile-filter); }
+  .leaflet-container { font: inherit; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 14px; padding: 14px 20px 40px; }
+  .panel { background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 12px; padding: 14px 16px; }
+  .panel h2 { margin: 0 0 2px; font-size: 14.5px; }
+  .panel .sub { margin: 0 0 10px; font-size: 12px; color: var(--muted); }
+  svg text { font: 11px system-ui, sans-serif; fill: var(--muted); }
+  svg .val { fill: var(--ink-2); font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; color: var(--muted); font-size: 11.5px; text-transform: uppercase;
+    letter-spacing: .04em; padding: 4px 6px; border-bottom: 1px solid var(--grid); }
+  td { padding: 5px 6px; border-bottom: 1px solid var(--grid); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr.clickable { cursor: pointer; }
+  tr.clickable:hover { background: color-mix(in srgb, var(--series-1) 8%, transparent); }
+
+  .tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--page);
+    padding: 5px 9px; border-radius: 7px; font-size: 12px; z-index: 3000;
+    opacity: 0; transition: opacity .08s; white-space: nowrap; }
+  .loading { padding: 60px; text-align: center; color: var(--muted); }
+  .filepick { text-align: center; padding: 30px; }
+</style>
+</head>
+<body class="viz-root">
+<header>
+  <h1>Imoova Relocation History</h1>
+  <p id="metaLine">Loading imoova_history.json&hellip;</p>
+</header>
+
+<div class="filters" id="filters" hidden>
+  <div class="seg" id="dirSeg">
+    <button data-dir="pickup" class="on">Pickups</button>
+    <button data-dir="dropoff">Drop-offs</button>
+  </div>
+  <label>From <input type="month" id="mFrom"></label>
+  <label>To <input type="month" id="mTo"></label>
+  <label>City
+    <input type="text" id="citySearch" list="cityList" placeholder="click map or type…" style="width:160px">
+    <datalist id="cityList"></datalist>
+  </label>
+  <button id="clearCity"></button>
+  <button id="resetBtn">Reset</button>
+  <span class="pill"><b id="totalShown">0</b> vehicle moves shown</span>
+</div>
+
+<div id="map" hidden></div>
+
+<div class="grid" id="charts" hidden>
+  <div class="panel">
+    <h2>Hot times of the year</h2>
+    <p class="sub" id="seasonSub"></p>
+    <svg id="seasonSvg" viewBox="0 0 460 180" width="100%"></svg>
+  </div>
+  <div class="panel">
+    <h2>Volume over time</h2>
+    <p class="sub" id="timelineSub"></p>
+    <svg id="timelineSvg" viewBox="0 0 460 180" width="100%"></svg>
+  </div>
+  <div class="panel">
+    <h2>Top routes</h2>
+    <p class="sub" id="routesSub"></p>
+    <table id="routesTable"><thead>
+      <tr><th>#</th><th>Route</th><th style="text-align:right">Moves</th></tr>
+    </thead><tbody></tbody></table>
+  </div>
+  <div class="panel">
+    <h2>Vehicle types</h2>
+    <p class="sub">All locations, filtered by date range</p>
+    <svg id="vehicleSvg" viewBox="0 0 460 200" width="100%"></svg>
+  </div>
+</div>
+
+<div class="loading" id="loading">Loading imoova_history.json&hellip;</div>
+<div class="filepick" id="filepick" hidden>
+  <p>Couldn't fetch <code>imoova_history.json</code> — pick it manually:</p>
+  <input type="file" id="fileInput" accept=".json">
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+"use strict";
+const $ = (s) => document.querySelector(s);
+const tip = $("#tip");
+
+let DATA = null;
+let ROUTES = [];          // [{f, t, months:{m:n}, total-in-range cache}]
+let CITIES = {};
+let state = { dir: "pickup", from: null, to: null, city: null };
+let DEFAULT_RANGE = [null, null];
+let map, markerLayer, lineLayer;
+
+/* ---------------- loading ---------------- */
+fetch("imoova_history.json")
+  .then((r) => { if (!r.ok) throw 0; return r.json(); })
+  .then(init)
+  .catch(() => { $("#loading").hidden = true; $("#filepick").hidden = false; });
+
+$("#fileInput").addEventListener("change", (e) => {
+  const f = e.target.files[0];
+  if (f) f.text().then((t) => { $("#filepick").hidden = true; init(JSON.parse(t)); });
+});
+
+function init(data) {
+  DATA = data;
+  CITIES = data.cities;
+  ROUTES = Object.entries(data.routes).map(([k, months]) => {
+    const [f, t] = k.split(">");
+    return { f, t, months };
+  });
+  // default view: the dense part of the data (months with >=20 moves),
+  // full range still reachable via the month inputs
+  const monthTotals = {};
+  ROUTES.forEach((r) => { for (const m in r.months) monthTotals[m] = (monthTotals[m] || 0) + r.months[m]; });
+  const dense = Object.keys(monthTotals).filter((m) => monthTotals[m] >= 20).sort();
+  DEFAULT_RANGE = [dense[0] || data.meta.first_month,
+                   dense[dense.length - 1] || data.meta.last_month];
+  state.from = DEFAULT_RANGE[0];
+  state.to = DEFAULT_RANGE[1];
+  $("#mFrom").value = state.from; $("#mTo").value = state.to;
+  $("#mFrom").min = $("#mTo").min = data.meta.first_month;
+  $("#mFrom").max = $("#mTo").max = data.meta.last_month;
+  $("#metaLine").textContent =
+    `${data.meta.total_records.toLocaleString()} historical vehicle moves · ` +
+    `${data.meta.city_count} cities · ${data.meta.first_month} to ${data.meta.last_month} · fetched ${data.meta.fetched_at.slice(0,10)}`;
+
+  const dl = $("#cityList");
+  Object.entries(CITIES)
+    .sort((a, b) => (a[1].name || "").localeCompare(b[1].name || ""))
+    .forEach(([id, c]) => {
+      const o = document.createElement("option");
+      o.value = c.name + (c.state ? ` (${c.state})` : "");
+      o.dataset.id = id;
+      dl.appendChild(o);
+    });
+
+  $("#loading").hidden = true;
+  $("#filters").hidden = false; $("#map").hidden = false; $("#charts").hidden = false;
+
+  map = L.map("map", { worldCopyJump: true }).setView([25, 10], 2);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+  lineLayer = L.layerGroup().addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
+
+  render();
+}
+
+/* ---------------- aggregation ---------------- */
+function inRange(m) { return (!state.from || m >= state.from) && (!state.to || m <= state.to); }
+
+function routeTotal(r) {
+  let n = 0;
+  for (const m in r.months) if (inRange(m)) n += r.months[m];
+  return n;
+}
+
+// Routes relevant to the current city selection + direction.
+// dir=pickup & city set  -> routes departing that city (map shows destinations)
+// dir=dropoff & city set -> routes arriving at that city (map shows origins)
+function relevantRoutes() {
+  if (!state.city) return ROUTES;
+  return ROUTES.filter((r) => state.dir === "pickup" ? r.f === state.city : r.t === state.city);
+}
+
+function aggregate() {
+  const rel = relevantRoutes();
+  const cityCounts = {}, byMonth = {}, bySeason = new Array(12).fill(0);
+  let total = 0;
+  for (const r of rel) {
+    let routeN = 0;
+    for (const m in r.months) {
+      if (!inRange(m)) continue;
+      const n = r.months[m];
+      routeN += n;
+      byMonth[m] = (byMonth[m] || 0) + n;
+      bySeason[Number(m.slice(5, 7)) - 1] += n;
+    }
+    if (!routeN) continue;
+    total += routeN;
+    // which city does a bubble represent?
+    const key = state.city
+      ? (state.dir === "pickup" ? r.t : r.f)      // partner city
+      : (state.dir === "pickup" ? r.f : r.t);     // own role
+    cityCounts[key] = (cityCounts[key] || 0) + routeN;
+  }
+  return { rel, cityCounts, byMonth, bySeason, total };
+}
+
+/* ---------------- rendering ---------------- */
+function render() {
+  const agg = aggregate();
+  $("#totalShown").textContent = agg.total.toLocaleString();
+  renderMap(agg);
+  renderSeason(agg);
+  renderTimeline(agg);
+  renderRoutes(agg);
+  renderVehicles();
+  const cityName = state.city ? (CITIES[state.city] || {}).name : null;
+  $("#clearCity").style.display = cityName ? "inline-block" : "none";
+  if (cityName) $("#clearCity").textContent = `✕ ${cityName} (${state.dir === "pickup" ? "as pickup" : "as drop-off"})`;
+  $("#seasonSub").textContent = subLabel();
+  $("#timelineSub").textContent = subLabel();
+  $("#routesSub").textContent = subLabel();
+}
+
+function subLabel() {
+  const c = state.city ? (CITIES[state.city] || {}).name : null;
+  const role = state.dir === "pickup" ? "pickups" : "drop-offs";
+  return (c ? `${role} for ${c}` : `all ${role}`) + ` · ${state.from} to ${state.to}`;
+}
+
+function renderMap(agg) {
+  markerLayer.clearLayers(); lineLayer.clearLayers();
+  const max = Math.max(1, ...Object.values(agg.cityCounts));
+  const cs = getComputedStyle(document.body);
+  const blue = cs.getPropertyValue("--series-1").trim();
+  const accent = cs.getPropertyValue("--accent").trim();
+
+  // partner flow lines when a city is selected (top 12)
+  if (state.city && CITIES[state.city]) {
+    const sel = CITIES[state.city];
+    Object.entries(agg.cityCounts)
+      .sort((a, b) => b[1] - a[1]).slice(0, 12)
+      .forEach(([id, n]) => {
+        const c = CITIES[id];
+        if (!c || c.lat == null) return;
+        L.polyline([[sel.lat, sel.lng], [c.lat, c.lng]], {
+          color: blue, weight: Math.max(1, 4 * n / max), opacity: 0.45,
+        }).addTo(lineLayer);
+      });
+    L.circleMarker([sel.lat, sel.lng], {
+      radius: 11, color: accent, weight: 2.5, fillColor: accent, fillOpacity: 0.85,
+    }).bindTooltip(`<b>${sel.name}</b> — selected`).addTo(markerLayer);
+  }
+
+  for (const [id, n] of Object.entries(agg.cityCounts)) {
+    const c = CITIES[id];
+    if (!c || c.lat == null || id === state.city) continue;
+    const r = 4 + 18 * Math.sqrt(n / max);
+    const partnerRole = state.city
+      ? (state.dir === "pickup" ? "drop-offs from" : "pickups heading to")
+      : (state.dir === "pickup" ? "pickups" : "drop-offs");
+    const selName = state.city ? ` ${CITIES[state.city].name}` : "";
+    L.circleMarker([c.lat, c.lng], {
+      radius: r, color: blue, weight: 1.5, fillColor: blue, fillOpacity: 0.45,
+    })
+      .bindTooltip(`<b>${c.name}</b>${c.state ? " · " + c.state : ""}<br>${n.toLocaleString()} ${partnerRole}${selName}`)
+      .on("click", () => { state.city = id; syncCityInput(); render(); })
+      .addTo(markerLayer);
+  }
+
+  // zoom to the selection's flow network; world view otherwise
+  if (state.city && CITIES[state.city]) {
+    const pts = [[CITIES[state.city].lat, CITIES[state.city].lng]];
+    for (const id in agg.cityCounts) {
+      const c = CITIES[id];
+      if (c && c.lat != null) pts.push([c.lat, c.lng]);
+    }
+    if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
+    else map.setView(pts[0], 5);
+  }
+}
+
+/* ---- SVG helpers ---- */
+function svgEl(tag, attrs) {
+  const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const k in attrs) el.setAttribute(k, attrs[k]);
+  return el;
+}
+function showTip(e, html) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  tip.style.left = (e.clientX + 12) + "px"; tip.style.top = (e.clientY - 10) + "px";
+}
+function hideTip() { tip.style.opacity = 0; }
+
+const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function renderSeason(agg) {
+  const svg = $("#seasonSvg"); svg.innerHTML = "";
+  const W = 460, H = 180, padL = 34, padB = 22, padT = 14;
+  const max = Math.max(1, ...agg.bySeason);
+  const bw = (W - padL - 8) / 12;
+  // hairline grid: 3 lines
+  for (let i = 1; i <= 3; i++) {
+    const y = padT + (H - padT - padB) * (1 - i / 3);
+    svg.appendChild(svgEl("line", { x1: padL, x2: W - 4, y1: y, y2: y, stroke: "var(--grid)", "stroke-width": 1 }));
+    const t = svgEl("text", { x: padL - 5, y: y + 3, "text-anchor": "end" });
+    t.textContent = Math.round(max * i / 3).toLocaleString();
+    svg.appendChild(t);
+  }
+  svg.appendChild(svgEl("line", { x1: padL, x2: W - 4, y1: H - padB, y2: H - padB, stroke: "var(--axis)", "stroke-width": 1 }));
+  const peak = agg.bySeason.indexOf(Math.max(...agg.bySeason));
+  agg.bySeason.forEach((n, i) => {
+    const h = (H - padT - padB) * n / max;
+    const x = padL + i * bw + 2, y = H - padB - h;
+    const bar = svgEl("path", {
+      d: roundedTopBar(x, y, bw - 4, h, 4),
+      fill: "var(--series-1)",
+    });
+    bar.addEventListener("mousemove", (e) => showTip(e, `<b>${MONTH_NAMES[i]}</b>: ${n.toLocaleString()} moves`));
+    bar.addEventListener("mouseleave", hideTip);
+    svg.appendChild(bar);
+    const lbl = svgEl("text", { x: x + (bw - 4) / 2, y: H - padB + 13, "text-anchor": "middle" });
+    lbl.textContent = MONTH_NAMES[i];
+    svg.appendChild(lbl);
+    if (i === peak && n > 0) {                       // selective direct label
+      const v = svgEl("text", { x: x + (bw - 4) / 2, y: y - 4, "text-anchor": "middle", class: "val" });
+      v.textContent = n.toLocaleString();
+      svg.appendChild(v);
+    }
+  });
+}
+
+function roundedTopBar(x, y, w, h, r) {
+  if (h <= 0) return "M0 0";
+  r = Math.min(r, w / 2, h);
+  return `M${x} ${y + h} V${y + r} Q${x} ${y} ${x + r} ${y} H${x + w - r} Q${x + w} ${y} ${x + w} ${y + r} V${y + h} Z`;
+}
+
+function renderTimeline(agg) {
+  const svg = $("#timelineSvg"); svg.innerHTML = "";
+  const W = 460, H = 180, padL = 34, padB = 22, padT = 14;
+  const months = monthSpan(state.from, state.to);
+  const vals = months.map((m) => agg.byMonth[m] || 0);
+  const max = Math.max(1, ...vals);
+  for (let i = 1; i <= 3; i++) {
+    const y = padT + (H - padT - padB) * (1 - i / 3);
+    svg.appendChild(svgEl("line", { x1: padL, x2: W - 4, y1: y, y2: y, stroke: "var(--grid)", "stroke-width": 1 }));
+    const t = svgEl("text", { x: padL - 5, y: y + 3, "text-anchor": "end" });
+    t.textContent = Math.round(max * i / 3).toLocaleString();
+    svg.appendChild(t);
+  }
+  svg.appendChild(svgEl("line", { x1: padL, x2: W - 4, y1: H - padB, y2: H - padB, stroke: "var(--axis)", "stroke-width": 1 }));
+  const bw = (W - padL - 8) / months.length;
+  months.forEach((m, i) => {
+    const h = (H - padT - padB) * vals[i] / max;
+    const x = padL + i * bw, y = H - padB - h;
+    const bar = svgEl("path", {
+      d: roundedTopBar(x + Math.min(1, bw * 0.1), y, Math.max(1, bw - Math.min(2, bw * 0.2)), h, Math.min(3, bw / 3)),
+      fill: "var(--series-1)",
+    });
+    bar.addEventListener("mousemove", (e) => showTip(e, `<b>${m}</b>: ${vals[i].toLocaleString()} moves`));
+    bar.addEventListener("mouseleave", hideTip);
+    svg.appendChild(bar);
+    if (m.endsWith("-01") || months.length <= 14) {   // year ticks
+      const lbl = svgEl("text", { x: x + bw / 2, y: H - padB + 13, "text-anchor": "middle" });
+      lbl.textContent = months.length <= 14 ? m.slice(2) : m.slice(0, 4);
+      svg.appendChild(lbl);
+    }
+  });
+}
+
+function monthSpan(a, b) {
+  const out = [];
+  let [y, m] = a.split("-").map(Number);
+  const [y2, m2] = b.split("-").map(Number);
+  while (y < y2 || (y === y2 && m <= m2)) {
+    out.push(`${y}-${String(m).padStart(2, "0")}`);
+    if (++m > 12) { m = 1; y++; }
+  }
+  return out;
+}
+
+function renderRoutes(agg) {
+  const tbody = $("#routesTable tbody"); tbody.innerHTML = "";
+  const rows = agg.rel
+    .map((r) => ({ r, n: routeTotal(r) }))
+    .filter((x) => x.n > 0)
+    .sort((a, b) => b.n - a.n)
+    .slice(0, 12);
+  rows.forEach((x, i) => {
+    const f = CITIES[x.r.f] || {}, t = CITIES[x.r.t] || {};
+    const tr = document.createElement("tr");
+    tr.className = "clickable";
+    tr.innerHTML = `<td>${i + 1}</td><td>${f.name || "?"} → ${t.name || "?"}</td>
+      <td class="num">${x.n.toLocaleString()}</td>`;
+    tr.addEventListener("click", () => {
+      state.city = state.dir === "pickup" ? x.r.f : x.r.t;
+      syncCityInput(); render();
+    });
+    tbody.appendChild(tr);
+  });
+}
+
+function renderVehicles() {
+  const svg = $("#vehicleSvg"); svg.innerHTML = "";
+  const W = 460, rowH = 24, padL = 4;
+  const totals = Object.entries(DATA.vehicles).map(([type, months]) => {
+    let n = 0;
+    for (const m in months) if (inRange(m)) n += months[m];
+    return [type, n];
+  }).filter((x) => x[1] > 0).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const max = Math.max(1, ...totals.map((x) => x[1]));
+  svg.setAttribute("viewBox", `0 0 ${W} ${totals.length * rowH + 6}`);
+  totals.forEach(([type, n], i) => {
+    const y = i * rowH + 4;
+    const label = type.replace(/_/g, " ").toLowerCase();
+    const w = Math.max(2, (W - 190) * n / max);
+    const t = svgEl("text", { x: padL, y: y + 13 });
+    t.textContent = label;
+    svg.appendChild(t);
+    const bar = svgEl("path", {
+      d: `M130 ${y} H${125 + w} Q${130 + w} ${y} ${130 + w} ${y + 4} V${y + 12} Q${130 + w} ${y + 16} ${125 + w} ${y + 16} H130 Z`,
+      fill: "var(--series-1)",
+    });
+    bar.addEventListener("mousemove", (e) => showTip(e, `<b>${label}</b>: ${n.toLocaleString()} moves`));
+    bar.addEventListener("mouseleave", hideTip);
+    svg.appendChild(bar);
+    const v = svgEl("text", { x: 136 + w, y: y + 13, class: "val" });
+    v.textContent = n.toLocaleString();
+    svg.appendChild(v);
+  });
+}
+
+/* ---------------- events ---------------- */
+$("#dirSeg").addEventListener("click", (e) => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  state.dir = b.dataset.dir;
+  document.querySelectorAll("#dirSeg button").forEach((x) => x.classList.toggle("on", x === b));
+  render();
+});
+$("#mFrom").addEventListener("change", () => { state.from = $("#mFrom").value || DATA.meta.first_month; render(); });
+$("#mTo").addEventListener("change", () => { state.to = $("#mTo").value || DATA.meta.last_month; render(); });
+
+$("#citySearch").addEventListener("change", () => {
+  const v = $("#citySearch").value.trim().toLowerCase();
+  if (!v) { state.city = null; render(); return; }
+  const hit = Object.entries(CITIES).find(([id, c]) =>
+    (c.name + (c.state ? ` (${c.state})` : "")).toLowerCase() === v)
+    || Object.entries(CITIES).find(([id, c]) => (c.name || "").toLowerCase().includes(v));
+  state.city = hit ? hit[0] : null;
+  render();
+});
+function syncCityInput() {
+  const c = CITIES[state.city];
+  $("#citySearch").value = c ? c.name + (c.state ? ` (${c.state})` : "") : "";
+}
+$("#clearCity").addEventListener("click", () => { state.city = null; syncCityInput(); render(); });
+$("#resetBtn").addEventListener("click", () => {
+  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null };
+  $("#mFrom").value = state.from; $("#mTo").value = state.to;
+  syncCityInput();
+  document.querySelectorAll("#dirSeg button").forEach((x) => x.classList.toggle("on", x.dataset.dir === "pickup"));
+  render();
+});
+</script>
+</body>
+</html>
