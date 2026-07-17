@@ -56,7 +56,7 @@
   .filters .pill { background: var(--surface-1); border: 1px solid var(--border);
     border-radius: 20px; padding: 4px 12px; font-size: 12.5px; color: var(--ink-2); }
   .filters .pill b { color: var(--ink); }
-  #clearCity { display: none; border: none; background: var(--accent); color: #fff;
+  #clearCity, #clearMonth { display: none; border: none; background: var(--accent); color: #fff;
     border-radius: 20px; padding: 5px 12px; font: inherit; font-size: 12.5px; cursor: pointer; }
   #resetBtn { border: 1px solid var(--grid); background: var(--surface-1); color: var(--ink-2);
     border-radius: 8px; padding: 6px 12px; font: inherit; cursor: pointer; }
@@ -115,6 +115,7 @@
     <datalist id="cityList"></datalist>
   </label>
   <button id="clearCity"></button>
+  <button id="clearMonth"></button>
   <button id="resetBtn">Reset</button>
   <span class="pill"><b id="totalShown">0</b> vehicle moves shown</span>
 </div>
@@ -163,7 +164,7 @@ const tip = $("#tip");
 let DATA = null;
 let ROUTES = [];          // [{f, t, months:{m:n}, total-in-range cache}]
 let CITIES = {};
-let state = { dir: "pickup", from: null, to: null, city: null, region: null, route: null };
+let state = { dir: "pickup", from: null, to: null, city: null, region: null, route: null, moy: null };
 let DEFAULT_RANGE = [null, null];
 
 const REGION_NAMES = {
@@ -244,9 +245,14 @@ function init(data) {
 /* ---------------- aggregation ---------------- */
 function inRange(m) { return (!state.from || m >= state.from) && (!state.to || m <= state.to); }
 
+// full filter: date range AND (if a month-of-year is selected) that month only
+function monthOk(m) {
+  return inRange(m) && (state.moy == null || Number(m.slice(5, 7)) - 1 === state.moy);
+}
+
 function routeTotal(r) {
   let n = 0;
-  for (const m in r.months) if (inRange(m)) n += r.months[m];
+  for (const m in r.months) if (monthOk(m)) n += r.months[m];
   return n;
 }
 
@@ -277,9 +283,11 @@ function aggregate() {
     for (const m in r.months) {
       if (!inRange(m)) continue;
       const n = r.months[m];
+      // seasonality always shows all 12 bars (selection is a highlight there)
+      bySeason[Number(m.slice(5, 7)) - 1] += n;
+      if (!monthOk(m)) continue;
       routeN += n;
       byMonth[m] = (byMonth[m] || 0) + n;
-      bySeason[Number(m.slice(5, 7)) - 1] += n;
     }
     if (!routeN) continue;
     total += routeN;
@@ -312,6 +320,13 @@ function render() {
   } else {
     chip.style.display = "none";
   }
+  const mChip = $("#clearMonth");
+  if (state.moy != null) {
+    mChip.style.display = "inline-block";
+    mChip.textContent = `✕ every ${MONTH_NAMES[state.moy]}`;
+  } else {
+    mChip.style.display = "none";
+  }
   $("#seasonSub").textContent = subLabel();
   $("#timelineSub").textContent = subLabel();
 }
@@ -320,13 +335,15 @@ function subLabel(ignoreRoute) {
   if (state.route && !ignoreRoute) {
     const r = ROUTES.find((x) => x.key === state.route);
     const f = (CITIES[r.f] || {}).name || "?", t = (CITIES[r.t] || {}).name || "?";
-    return `route ${f} → ${t} · ${state.from} to ${state.to}`;
+    return `route ${f} → ${t} · ${state.from} to ${state.to}`
+      + (state.moy != null ? ` · every ${MONTH_NAMES[state.moy]}` : "");
   }
   const c = state.city ? (CITIES[state.city] || {}).name : null;
   const role = state.dir === "pickup" ? "pickups" : "drop-offs";
   const where = c ? `for ${c}`
     : state.region ? `in ${REGION_NAMES[state.region] || state.region}` : "";
-  return `${where ? role + " " + where : "all " + role} · ${state.from} to ${state.to}`;
+  return `${where ? role + " " + where : "all " + role} · ${state.from} to ${state.to}`
+    + (state.moy != null ? ` · every ${MONTH_NAMES[state.moy]}` : "");
 }
 
 function renderMap(agg) {
@@ -445,17 +462,27 @@ function renderSeason(agg) {
   agg.bySeason.forEach((n, i) => {
     const h = (H - padT - padB) * n / max;
     const x = padL + i * bw + 2, y = H - padB - h;
+    const selected = state.moy === i;
     const bar = svgEl("path", {
       d: roundedTopBar(x, y, bw - 4, h, 4),
-      fill: "var(--series-1)",
+      fill: selected ? "var(--accent)" : "var(--series-1)",
+      opacity: state.moy != null && !selected ? 0.35 : 1,
+      cursor: "pointer",
     });
-    bar.addEventListener("mousemove", (e) => showTip(e, `<b>${MONTH_NAMES[i]}</b>: ${n.toLocaleString()} moves`));
+    bar.addEventListener("mousemove", (e) => showTip(e,
+      `<b>${MONTH_NAMES[i]}</b>: ${n.toLocaleString()} moves<br>` +
+      (selected ? "click to clear" : "click to isolate this month")));
     bar.addEventListener("mouseleave", hideTip);
+    bar.addEventListener("click", () => {
+      state.moy = selected ? null : i;
+      hideTip(); render();
+    });
     svg.appendChild(bar);
-    const lbl = svgEl("text", { x: x + (bw - 4) / 2, y: H - padB + 13, "text-anchor": "middle" });
+    const lbl = svgEl("text", { x: x + (bw - 4) / 2, y: H - padB + 13, "text-anchor": "middle", cursor: "pointer" });
     lbl.textContent = MONTH_NAMES[i];
+    lbl.addEventListener("click", () => { state.moy = selected ? null : i; render(); });
     svg.appendChild(lbl);
-    if (i === peak && n > 0) {                       // selective direct label
+    if ((i === peak || selected) && n > 0) {         // selective direct label
       const v = svgEl("text", { x: x + (bw - 4) / 2, y: y - 4, "text-anchor": "middle", class: "val" });
       v.textContent = n.toLocaleString();
       svg.appendChild(v);
@@ -550,10 +577,11 @@ function renderVehicles() {
   } else {
     totals = Object.entries(DATA.vehicles).map(([type, months]) => {
       let n = 0;
-      for (const m in months) if (inRange(m)) n += months[m];
+      for (const m in months) if (monthOk(m)) n += months[m];
       return [type, n];
     });
-    $("#vehSub").textContent = "All locations, filtered by date range";
+    $("#vehSub").textContent = "All locations, filtered by date range" +
+      (state.moy != null ? ` · ${MONTH_NAMES[state.moy]} only` : "");
   }
   totals = totals.filter((x) => x[1] > 0).sort((a, b) => b[1] - a[1]).slice(0, 8);
   const max = Math.max(1, ...totals.map((x) => x[1]));
@@ -606,8 +634,9 @@ function syncCityInput() {
   $("#citySearch").value = c ? c.name + (c.state ? ` (${c.state})` : "") : "";
 }
 $("#clearCity").addEventListener("click", () => { state.city = null; state.route = null; syncCityInput(); render(); });
+$("#clearMonth").addEventListener("click", () => { state.moy = null; render(); });
 $("#resetBtn").addEventListener("click", () => {
-  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null, region: null, route: null };
+  state = { dir: "pickup", from: DEFAULT_RANGE[0], to: DEFAULT_RANGE[1], city: null, region: null, route: null, moy: null };
   $("#mFrom").value = state.from; $("#mTo").value = state.to;
   $("#regionSel").value = "";
   syncCityInput();
