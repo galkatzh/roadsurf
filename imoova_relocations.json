@@ -1,168 +1,11 @@
 {
   "source": "https://www.imoova.com/relocations",
-  "scraped_at": "2026-08-01T06:42:56+00:00",
+  "scraped_at": "2026-08-02T06:47:57+00:00",
   "status_filter": [
     "READY"
   ],
-  "deal_count": 286,
+  "deal_count": 274,
   "deals": [
-    {
-      "id": "116230",
-      "reference": "GAP116230",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Cairns to Cairns",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-04",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 4,
-      "extra_units_allowed": 7,
-      "extra_unit_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 149.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 4 DELUXE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-4-berth",
-        "seatbelts": 4,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304113/media-librarye4h8j3m9t24f5pGPbPp"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-cairns-GAP116230",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116252",
-      "reference": "RLC116252",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Perth to Darwin",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 3,
-      "pickup": {
-        "id": "68",
-        "name": "Perth",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -31.9513993,
-        "longitude": 115.8616783
-      },
-      "dropoff": {
-        "id": "84",
-        "name": "Darwin",
-        "state": "AU_NT",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -12.4637333,
-        "longitude": 130.8444446
-      },
-      "available_from": "2026-08-03",
-      "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-03",
-      "latest_departure": "2026-08-08",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 8,
-      "minimum_hire_units": 8,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 4450,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "2 Berth Toilet & Shower",
-        "brand": null,
-        "model": null,
-        "code": "2RE",
-        "seatbelts": 2,
-        "sleeps": 2,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304484/media-librarym4qg5128kfkneCgKeOk"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 25000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/perth-to-darwin-RLC116252",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
     {
       "id": "116101",
       "reference": "RLC116101",
@@ -262,7 +105,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-08",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-07",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -332,7 +175,7 @@
       },
       "available_from": "2026-07-06",
       "available_to": "2026-09-30",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-09-29",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -379,233 +222,6 @@
       ],
       "deal_link": "https://www.imoova.com/relocations/deal/christchurch-to-auckland-RLC113103",
       "region_link": "https://www.imoova.com/relocations/new-zealand"
-    },
-    {
-      "id": "116244",
-      "reference": "RLC116244",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Broome to Darwin",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 2,
-      "pickup": {
-        "id": "101",
-        "name": "Broome",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -17.96182,
-        "longitude": 122.236998
-      },
-      "dropoff": {
-        "id": "84",
-        "name": "Darwin",
-        "state": "AU_NT",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -12.4637333,
-        "longitude": 130.8444446
-      },
-      "available_from": "2026-08-03",
-      "available_to": "2026-08-17",
-      "earliest_departure": "2026-08-03",
-      "latest_departure": "2026-08-14",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 4,
-      "minimum_hire_units": 4,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 2300,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308046/media-libraryu1fpciishnvjaLmLpGn"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 15000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-darwin-RLC116244",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116258",
-      "reference": "RLC116258",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Melbourne to Cairns",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "dropoff": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "available_from": "2026-08-05",
-      "available_to": "2026-08-21",
-      "earliest_departure": "2026-08-05",
-      "latest_departure": "2026-08-15",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 7,
-      "minimum_hire_units": 7,
-      "extra_units_allowed": 3,
-      "extra_unit_rate": {
-        "amount": 95.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 3650,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "VAN",
-        "name": "9+ Seater Commuter",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "car-9-plus-seater",
-        "seatbelts": 9,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/307824/media-libraryajuqrjnbrnpg5HjeMga"
-      },
-      "supplier": "Camperman",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/melbourne-to-cairns-RLC116258",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116236",
-      "reference": "GAP116236",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Airlie Beach to Airlie Beach",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "72",
-        "name": "Airlie Beach",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -20.2677525,
-        "longitude": 148.7155626
-      },
-      "dropoff": {
-        "id": "72",
-        "name": "Airlie Beach",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -20.2677525,
-        "longitude": 148.7155626
-      },
-      "available_from": "2026-07-31",
-      "available_to": "2026-08-04",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 4,
-      "extra_units_allowed": 5,
-      "extra_unit_rate": {
-        "amount": 109.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 3 HIACE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-3-berth",
-        "seatbelts": 3,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": false,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304121/media-libraryfh84dunukpf92nNoMcc"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/airlie-beach-to-airlie-beach-GAP116236",
-      "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
       "id": "116260",
@@ -706,7 +322,7 @@
       },
       "available_from": "2026-06-03",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-06",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -1483,7 +1099,7 @@
       },
       "available_from": "2026-07-23",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -1553,7 +1169,7 @@
       },
       "available_from": "2026-06-30",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-13",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -1623,7 +1239,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -1693,7 +1309,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -1763,7 +1379,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -2064,7 +1680,7 @@
       },
       "available_from": "2026-07-06",
       "available_to": "2026-09-30",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-09-29",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -2110,6 +1726,89 @@
         }
       ],
       "deal_link": "https://www.imoova.com/relocations/deal/queenstown-to-auckland-RLC113104",
+      "region_link": "https://www.imoova.com/relocations/new-zealand"
+    },
+    {
+      "id": "115537",
+      "reference": "RLC115537",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Christchurch to Auckland",
+      "region": "NZ",
+      "region_slug": "new-zealand",
+      "vehicles_available": 23,
+      "pickup": {
+        "id": "21",
+        "name": "Christchurch",
+        "state": "NZ_CAN",
+        "region": "NZ",
+        "region_slug": "new-zealand",
+        "latitude": -43.5320301,
+        "longitude": 172.636648
+      },
+      "dropoff": {
+        "id": "22",
+        "name": "Auckland",
+        "state": "NZ_AUK",
+        "region": "NZ",
+        "region_slug": "new-zealand",
+        "latitude": -36.8508827,
+        "longitude": 174.7644881
+      },
+      "available_from": "2026-07-28",
+      "available_to": "2026-09-30",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-09-30",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "NZD"
+      },
+      "included_units": 7,
+      "minimum_hire_units": 1,
+      "extra_units_allowed": 30,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "NZD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 64.0,
+        "currency": "NZD"
+      },
+      "distance_allowed": 5000,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "Beta 2S Self Contained",
+        "brand": null,
+        "model": null,
+        "code": "SC",
+        "seatbelts": 2,
+        "sleeps": 2,
+        "fuel": "GASOLINE",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/306728/media-libraryu41oo5mbjv4f2bAjgDL"
+      },
+      "supplier": "Spaceships NZ",
+      "inclusions": [
+        {
+          "type": "FERRY",
+          "value": null,
+          "description": "Free Ferry One Way Ticket (Vehicle + Driver) Only",
+          "has_free_tank": false
+        },
+        {
+          "type": "FUEL",
+          "value": null,
+          "description": null,
+          "has_free_tank": true
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/christchurch-to-auckland-RLC115537",
       "region_link": "https://www.imoova.com/relocations/new-zealand"
     },
     {
@@ -2211,7 +1910,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -2281,7 +1980,7 @@
       },
       "available_from": "2026-07-26",
       "available_to": "2026-08-03",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-02",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -2421,7 +2120,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-02",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -2494,7 +2193,7 @@
       },
       "available_from": "2026-07-28",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -2567,7 +2266,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-09-01",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-12",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -2640,7 +2339,7 @@
       },
       "available_from": "2026-07-20",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-13",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -2682,6 +2381,76 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "115383",
+      "reference": "RLC115383",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Miami to Boston",
+      "region": "US",
+      "region_slug": "usa",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "38",
+        "name": "Miami",
+        "state": "US_FL",
+        "region": "US",
+        "region_slug": "usa",
+        "latitude": 25.7616798,
+        "longitude": -80.1917902
+      },
+      "dropoff": {
+        "id": "9",
+        "name": "Boston",
+        "state": "US_MA",
+        "region": "US",
+        "region_slug": "usa",
+        "latitude": 42.3600825,
+        "longitude": -71.0588801
+      },
+      "available_from": "2026-07-26",
+      "available_to": "2026-08-15",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-14",
+      "hire_unit_type": "NIGHT",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "USD"
+      },
+      "included_units": 5,
+      "minimum_hire_units": 1,
+      "extra_units_allowed": 4,
+      "extra_unit_rate": {
+        "amount": 170.0,
+        "currency": "USD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 99.0,
+        "currency": "USD"
+      },
+      "distance_allowed": 1700,
+      "measurement": "IMPERIAL",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "MOTOR_HOME",
+        "name": "Comfort Standard",
+        "brand": "Ford/Chevy",
+        "model": "Four Winds 22E/Conquest 6237LE",
+        "code": "Na Comfort Standard",
+        "seatbelts": 6,
+        "sleeps": 6,
+        "fuel": "GASOLINE",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/300254/media-libraryrqeg3ouutvdg1ceoPEM"
+      },
+      "supplier": "IC - USA",
+      "inclusions": [],
+      "deal_link": "https://www.imoova.com/relocations/deal/miami-to-boston-RLC115383",
+      "region_link": "https://www.imoova.com/relocations/usa"
+    },
+    {
       "id": "115385",
       "reference": "RLC115385",
       "type": "RELOCATION",
@@ -2710,7 +2479,7 @@
       },
       "available_from": "2026-07-26",
       "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-14",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -2926,7 +2695,7 @@
       },
       "available_from": "2026-06-04",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-13",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -2975,7 +2744,7 @@
       "route": "Miami to Chicago",
       "region": "US",
       "region_slug": "usa",
-      "vehicles_available": 5,
+      "vehicles_available": 4,
       "pickup": {
         "id": "38",
         "name": "Miami",
@@ -2996,7 +2765,7 @@
       },
       "available_from": "2026-07-26",
       "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-14",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -3066,7 +2835,7 @@
       },
       "available_from": "2026-07-28",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-22",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -3146,7 +2915,7 @@
       },
       "available_from": "2026-07-28",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-22",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -3226,7 +2995,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -3382,7 +3151,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-25",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -3462,7 +3231,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-27",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -3622,7 +3391,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -3692,7 +3461,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -3762,7 +3531,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-02",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -3922,7 +3691,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-30",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -3992,7 +3761,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-29",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -4062,7 +3831,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-29",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -4104,6 +3873,86 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
+      "id": "116289",
+      "reference": "GAP116289",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Airlie Beach to Airlie Beach",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "72",
+        "name": "Airlie Beach",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -20.2677525,
+        "longitude": 148.7155626
+      },
+      "dropoff": {
+        "id": "72",
+        "name": "Airlie Beach",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -20.2677525,
+        "longitude": 148.7155626
+      },
+      "available_from": "2026-07-31",
+      "available_to": "2026-08-04",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-02",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 3,
+      "extra_units_allowed": 5,
+      "extra_unit_rate": {
+        "amount": 109.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 3 HIACE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-3-berth",
+        "seatbelts": 3,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": false,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304121/media-libraryfh84dunukpf92nNoMcc"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/airlie-beach-to-airlie-beach-GAP116289",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "116139",
       "reference": "RLC116139",
       "type": "RELOCATION",
@@ -4132,7 +3981,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4174,6 +4023,86 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116290",
+      "reference": "GAP116290",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Brisbane to Brisbane",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "73",
+        "name": "Brisbane",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -27.4704528,
+        "longitude": 153.0260341
+      },
+      "dropoff": {
+        "id": "73",
+        "name": "Brisbane",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -27.4704528,
+        "longitude": 153.0260341
+      },
+      "available_from": "2026-07-29",
+      "available_to": "2026-08-03",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-02",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 2,
+      "extra_units_allowed": 6,
+      "extra_unit_rate": {
+        "amount": 109.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 3 HIACE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-3-berth",
+        "seatbelts": 3,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": false,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304120/media-libraryqflufl1qh02p9JkGHcK"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-brisbane-GAP116290",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "116141",
       "reference": "RLC116141",
       "type": "RELOCATION",
@@ -4202,7 +4131,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4244,6 +4173,86 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116286",
+      "reference": "GAP116286",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Brisbane to Brisbane",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "73",
+        "name": "Brisbane",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -27.4704528,
+        "longitude": 153.0260341
+      },
+      "dropoff": {
+        "id": "73",
+        "name": "Brisbane",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -27.4704528,
+        "longitude": 153.0260341
+      },
+      "available_from": "2026-07-29",
+      "available_to": "2026-08-03",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-02",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 2,
+      "extra_units_allowed": 6,
+      "extra_unit_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 149.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 4 DELUXE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-4-berth",
+        "seatbelts": 4,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304107/media-libraryep5dms1u1ndpemhmFcI"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-brisbane-GAP116286",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "115508",
       "reference": "RLC115508",
       "type": "RELOCATION",
@@ -4272,7 +4281,7 @@
       },
       "available_from": "2026-07-28",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-06",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -4349,7 +4358,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-20",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-14",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -4429,7 +4438,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4499,7 +4508,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4569,7 +4578,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4639,7 +4648,7 @@
       },
       "available_from": "2026-07-10",
       "available_to": "2026-08-09",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-07",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -4681,76 +4690,6 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
-      "id": "113682",
-      "reference": "RLC113682",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Brisbane to Cairns",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "dropoff": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-03",
-      "hire_unit_type": "TWENTY_FOUR_HOURS",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 4,
-      "minimum_hire_units": 2,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 120.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 1750,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "SUV",
-        "name": "Standard Luxury SUV",
-        "brand": null,
-        "model": null,
-        "code": "SUV",
-        "seatbelts": 5,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/307387/media-libraryqltfgajh3s6p4LpBOaa"
-      },
-      "supplier": "UR Drive",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-cairns-RLC113682",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "115559",
       "reference": "RLC115559",
       "type": "RELOCATION",
@@ -4779,7 +4718,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-14",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4849,7 +4788,7 @@
       },
       "available_from": "2026-07-27",
       "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-14",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4891,6 +4830,83 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116296",
+      "reference": "RLC116296",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Broome to Adelaide",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 3,
+      "pickup": {
+        "id": "101",
+        "name": "Broome",
+        "state": "AU_WA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -17.96182,
+        "longitude": 122.236998
+      },
+      "dropoff": {
+        "id": "65",
+        "name": "Adelaide",
+        "state": "AU_SA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -34.9284989,
+        "longitude": 138.6007456
+      },
+      "available_from": "2026-08-03",
+      "available_to": "2026-08-17",
+      "earliest_departure": "2026-08-03",
+      "latest_departure": "2026-08-13",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 9,
+      "minimum_hire_units": 5,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 4750,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
+        "brand": null,
+        "model": null,
+        "code": "6RE",
+        "seatbelts": 6,
+        "sleeps": null,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/308187/media-library28ejq19fcjnn4LCGhHj"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 20000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-adelaide-RLC116296",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "116147",
       "reference": "RLC116147",
       "type": "RELOCATION",
@@ -4919,7 +4935,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -4961,6 +4977,76 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116307",
+      "reference": "RLC116307",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Melbourne to Adelaide",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "66",
+        "name": "Melbourne",
+        "state": "AU_VIC",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -37.8136276,
+        "longitude": 144.9630576
+      },
+      "dropoff": {
+        "id": "65",
+        "name": "Adelaide",
+        "state": "AU_SA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -34.9284989,
+        "longitude": 138.6007456
+      },
+      "available_from": "2026-08-13",
+      "available_to": "2026-08-15",
+      "earliest_departure": "2026-08-13",
+      "latest_departure": "2026-08-13",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 3,
+      "minimum_hire_units": 3,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 1100,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "2 Berth Hi-Top",
+        "brand": null,
+        "model": null,
+        "code": "2REX",
+        "seatbelts": 2,
+        "sleeps": null,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": null,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/296546/media-librarysduar0r39i8pcjBkPBE"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [],
+      "deal_link": "https://www.imoova.com/relocations/deal/melbourne-to-adelaide-RLC116307",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "116148",
       "reference": "RLC116148",
       "type": "RELOCATION",
@@ -4989,7 +5075,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -5059,7 +5145,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -5101,6 +5187,83 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116297",
+      "reference": "RLC116297",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Broome to Darwin",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 3,
+      "pickup": {
+        "id": "101",
+        "name": "Broome",
+        "state": "AU_WA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -17.96182,
+        "longitude": 122.236998
+      },
+      "dropoff": {
+        "id": "84",
+        "name": "Darwin",
+        "state": "AU_NT",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -12.4637333,
+        "longitude": 130.8444446
+      },
+      "available_from": "2026-08-03",
+      "available_to": "2026-08-17",
+      "earliest_departure": "2026-08-03",
+      "latest_departure": "2026-08-14",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 4,
+      "minimum_hire_units": 4,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 2300,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
+        "brand": null,
+        "model": null,
+        "code": "6RE",
+        "seatbelts": 6,
+        "sleeps": null,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/308193/media-libraryc9gf58kp39no1dcDBND"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 20000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-darwin-RLC116297",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "115587",
       "reference": "RLC115587",
       "type": "RELOCATION",
@@ -5129,7 +5292,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-11",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-10",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -5171,6 +5334,83 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
+      "id": "116308",
+      "reference": "RLC116308",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Perth to Darwin",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 3,
+      "pickup": {
+        "id": "68",
+        "name": "Perth",
+        "state": "AU_WA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -31.9513993,
+        "longitude": 115.8616783
+      },
+      "dropoff": {
+        "id": "84",
+        "name": "Darwin",
+        "state": "AU_NT",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -12.4637333,
+        "longitude": 130.8444446
+      },
+      "available_from": "2026-08-03",
+      "available_to": "2026-08-15",
+      "earliest_departure": "2026-08-03",
+      "latest_departure": "2026-08-08",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 8,
+      "minimum_hire_units": 8,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 4450,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "2 Berth Toilet & Shower",
+        "brand": null,
+        "model": null,
+        "code": "2RE",
+        "seatbelts": 2,
+        "sleeps": 2,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304484/media-librarym4qg5128kfkneCgKeOk"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 25000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/perth-to-darwin-RLC116308",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "115589",
       "reference": "RLC115589",
       "type": "RELOCATION",
@@ -5199,7 +5439,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-04",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -5245,83 +5485,6 @@
         }
       ],
       "deal_link": "https://www.imoova.com/relocations/deal/gold-coast-to-sydney-RLC115589",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "115590",
-      "reference": "RLC115590",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 7,
-      "minimum_hire_units": 5,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "2 Berth-Hitop",
-        "brand": null,
-        "model": null,
-        "code": "2BHT",
-        "seatbelts": 2,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/306844/media-librarygrnatdpmg1uhapBmPlL"
-      },
-      "supplier": "Auto Sleepers",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 20000,
-          "description": "Refund against receipts",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC115590",
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
@@ -5430,7 +5593,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-06",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -5503,7 +5666,7 @@
       },
       "available_from": "2026-07-12",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-12",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -5971,74 +6134,81 @@
       "region_link": "https://www.imoova.com/relocations/europe"
     },
     {
-      "id": "116166",
-      "reference": "RLC116166",
+      "id": "116300",
+      "reference": "RLC116300",
       "type": "RELOCATION",
       "status": "READY",
-      "route": "Seville to Tenerife",
-      "region": "EU",
-      "region_slug": "europe",
+      "route": "Broome to Sydney",
+      "region": "AU",
+      "region_slug": "australia",
       "vehicles_available": 1,
       "pickup": {
-        "id": "308",
-        "name": "Seville",
-        "state": "ES",
-        "region": "EU",
-        "region_slug": "europe",
-        "latitude": 37.3890924,
-        "longitude": -5.9844589
+        "id": "101",
+        "name": "Broome",
+        "state": "AU_WA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -17.96182,
+        "longitude": 122.236998
       },
       "dropoff": {
-        "id": "758",
-        "name": "Tenerife",
-        "state": "ES",
-        "region": "EU",
-        "region_slug": "europe",
-        "latitude": 28.2915637,
-        "longitude": -16.6291304
+        "id": "69",
+        "name": "Sydney",
+        "state": "AU_NSW",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
       },
-      "available_from": "2026-08-17",
-      "available_to": "2026-08-28",
-      "earliest_departure": "2026-08-17",
-      "latest_departure": "2026-08-20",
-      "hire_unit_type": "NIGHT",
+      "available_from": "2026-08-03",
+      "available_to": "2026-08-15",
+      "earliest_departure": "2026-08-03",
+      "latest_departure": "2026-08-10",
+      "hire_unit_type": "DAY",
       "rate_per_unit": {
         "amount": 1.0,
-        "currency": "EUR"
+        "currency": "AUD"
       },
-      "included_units": 8,
-      "minimum_hire_units": 8,
-      "extra_units_allowed": 3,
+      "included_units": 11,
+      "minimum_hire_units": 6,
+      "extra_units_allowed": 1,
       "extra_unit_rate": {
-        "amount": 120.0,
-        "currency": "EUR"
+        "amount": 100.0,
+        "currency": "AUD"
       },
       "retail_rate": null,
       "booking_fee": {
-        "amount": 99.0,
-        "currency": "EUR"
+        "amount": 49.0,
+        "currency": "AUD"
       },
-      "distance_allowed": 1774,
+      "distance_allowed": 5650,
       "measurement": "METRIC",
       "is_ferry_required": false,
       "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "Eu Active Poptop 4 Auto Select",
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
         "brand": null,
         "model": null,
-        "code": "Eu Active Poptop 4 Auto Select",
-        "seatbelts": 4,
+        "code": "6RE",
+        "seatbelts": 6,
         "sleeps": null,
         "fuel": "DIESEL",
         "transmission": "AUTOMATIC",
-        "self_contained": null,
+        "self_contained": true,
         "has_kitchen": true,
-        "image": "https://assets.imoova.com/303725/media-librarykbr670aqf651fcKePFJ"
+        "image": "https://assets.imoova.com/308191/media-libraryqp63kja4n3k8eEHoeBl"
       },
-      "supplier": "IC - West Europe",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/seville-to-tenerife-RLC116166",
-      "region_link": "https://www.imoova.com/relocations/europe"
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 20000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-sydney-RLC116300",
+      "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
       "id": "116155",
@@ -6712,7 +6882,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-08",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -6782,7 +6952,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-23",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-22",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -6891,83 +7061,6 @@
       "supplier": "RedSands Campers",
       "inclusions": [],
       "deal_link": "https://www.imoova.com/relocations/deal/darwin-to-broome-RLC115790",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "115791",
-      "reference": "RLC115791",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Perth to Adelaide",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "68",
-        "name": "Perth",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -31.9513993,
-        "longitude": 115.8616783
-      },
-      "dropoff": {
-        "id": "65",
-        "name": "Adelaide",
-        "state": "AU_SA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -34.9284989,
-        "longitude": 138.6007456
-      },
-      "available_from": "2026-08-26",
-      "available_to": "2026-09-01",
-      "earliest_departure": "2026-08-26",
-      "latest_departure": "2026-08-28",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 5,
-      "minimum_hire_units": 5,
-      "extra_units_allowed": 2,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 3000,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "FOUR_WHEEL_DRIVE_CAMPER",
-        "name": "2 Berth Rooftop Camper",
-        "brand": "Toyota",
-        "model": "Hilux",
-        "code": "2BR",
-        "seatbelts": 2,
-        "sleeps": 2,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/307847/media-library66o5uvjhvieocDmicfJ"
-      },
-      "supplier": "RedSands Campers",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 10000,
-          "description": "Refund against receipts",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/perth-to-adelaide-RLC115791",
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
@@ -7601,74 +7694,158 @@
       "region_link": "https://www.imoova.com/relocations/europe"
     },
     {
-      "id": "116160",
-      "reference": "RLC116160",
+      "id": "116303",
+      "reference": "RLC116303",
       "type": "RELOCATION",
       "status": "READY",
-      "route": "Marseille to Paris",
-      "region": "EU",
-      "region_slug": "europe",
-      "vehicles_available": 1,
+      "route": "Cairns to Sydney",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 4,
       "pickup": {
-        "id": "295",
-        "name": "Marseille",
-        "state": "FR",
-        "region": "EU",
-        "region_slug": "europe",
-        "latitude": 43.3025742,
-        "longitude": 5.3690743
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
       },
       "dropoff": {
-        "id": "289",
-        "name": "Paris",
-        "state": "FR",
-        "region": "EU",
-        "region_slug": "europe",
-        "latitude": 48.8575475,
-        "longitude": 2.3513765
+        "id": "69",
+        "name": "Sydney",
+        "state": "AU_NSW",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
       },
-      "available_from": "2026-08-08",
-      "available_to": "2026-08-13",
-      "earliest_departure": "2026-08-08",
-      "latest_departure": "2026-08-10",
-      "hire_unit_type": "NIGHT",
+      "available_from": "2026-08-04",
+      "available_to": "2026-08-12",
+      "earliest_departure": "2026-08-04",
+      "latest_departure": "2026-08-07",
+      "hire_unit_type": "DAY",
       "rate_per_unit": {
         "amount": 1.0,
-        "currency": "EUR"
+        "currency": "AUD"
       },
-      "included_units": 4,
-      "minimum_hire_units": 3,
+      "included_units": 6,
+      "minimum_hire_units": 6,
       "extra_units_allowed": 1,
       "extra_unit_rate": {
-        "amount": 120.0,
-        "currency": "EUR"
+        "amount": 100.0,
+        "currency": "AUD"
       },
       "retail_rate": null,
       "booking_fee": {
-        "amount": 99.0,
-        "currency": "EUR"
+        "amount": 49.0,
+        "currency": "AUD"
       },
-      "distance_allowed": 975,
+      "distance_allowed": 3400,
       "measurement": "METRIC",
       "is_ferry_required": false,
       "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "Eu Active Long 2 Auto Select",
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
         "brand": null,
         "model": null,
-        "code": "Eu Active Long 2 Auto Select",
-        "seatbelts": 2,
+        "code": "6RE",
+        "seatbelts": 6,
         "sleeps": null,
         "fuel": "DIESEL",
         "transmission": "AUTOMATIC",
         "self_contained": true,
         "has_kitchen": true,
-        "image": "https://assets.imoova.com/307350/media-libraryje8otn3rven2aanHoCP"
+        "image": "https://assets.imoova.com/308197/media-librarylhd30pqm5g1gaFMFBlN"
       },
-      "supplier": "IC - West Europe",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/marseille-to-paris-RLC116160",
-      "region_link": "https://www.imoova.com/relocations/europe"
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 30000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC116303",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
+      "id": "116298",
+      "reference": "RLC116298",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Broome to Melbourne",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "101",
+        "name": "Broome",
+        "state": "AU_WA",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -17.96182,
+        "longitude": 122.236998
+      },
+      "dropoff": {
+        "id": "66",
+        "name": "Melbourne",
+        "state": "AU_VIC",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -37.8136276,
+        "longitude": 144.9630576
+      },
+      "available_from": "2026-08-03",
+      "available_to": "2026-08-15",
+      "earliest_departure": "2026-08-03",
+      "latest_departure": "2026-08-05",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 11,
+      "minimum_hire_units": 11,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 5450,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
+        "brand": null,
+        "model": null,
+        "code": "6RE",
+        "seatbelts": 6,
+        "sleeps": null,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/308189/media-libraryarumo55egtun0AamJdL"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 20000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-melbourne-RLC116298",
+      "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
       "id": "116165",
@@ -8238,7 +8415,7 @@
       "route": "Sydney to Brisbane",
       "region": "AU",
       "region_slug": "australia",
-      "vehicles_available": 5,
+      "vehicles_available": 4,
       "pickup": {
         "id": "69",
         "name": "Sydney",
@@ -8259,7 +8436,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-09",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-08",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -9281,6 +9458,76 @@
       "region_link": "https://www.imoova.com/relocations/europe"
     },
     {
+      "id": "116306",
+      "reference": "RLC116306",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Darwin to Sydney",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "84",
+        "name": "Darwin",
+        "state": "AU_NT",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -12.4637333,
+        "longitude": 130.8444446
+      },
+      "dropoff": {
+        "id": "69",
+        "name": "Sydney",
+        "state": "AU_NSW",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
+      },
+      "available_from": "2026-08-08",
+      "available_to": "2026-08-17",
+      "earliest_departure": "2026-08-08",
+      "latest_departure": "2026-08-10",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 8,
+      "minimum_hire_units": 8,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 4350,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
+        "brand": null,
+        "model": null,
+        "code": "6RE",
+        "seatbelts": 6,
+        "sleeps": null,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/308192/media-librarylkgsvclp37me5MMHNJi"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [],
+      "deal_link": "https://www.imoova.com/relocations/deal/darwin-to-sydney-RLC116306",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "115948",
       "reference": "RLC115948",
       "type": "RELOCATION",
@@ -9456,7 +9703,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-02",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -9536,7 +9783,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-28",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-24",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -9616,7 +9863,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-28",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-24",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -9696,7 +9943,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -9776,7 +10023,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-19",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-15",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -9936,7 +10183,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-21",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -10016,7 +10263,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-02",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -10176,7 +10423,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-27",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -10262,7 +10509,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-10",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -10601,6 +10848,86 @@
       "region_link": "https://www.imoova.com/relocations/europe"
     },
     {
+      "id": "116287",
+      "reference": "GAP116287",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Sydney to Sydney",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "69",
+        "name": "Sydney",
+        "state": "AU_NSW",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
+      },
+      "dropoff": {
+        "id": "69",
+        "name": "Sydney",
+        "state": "AU_NSW",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
+      },
+      "available_from": "2026-07-29",
+      "available_to": "2026-08-03",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-02",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 2,
+      "extra_units_allowed": 6,
+      "extra_unit_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 149.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 4 DELUXE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-4-berth",
+        "seatbelts": 4,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304818/media-library8ljot9dgui3vcgoleFM"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/sydney-to-sydney-GAP116287",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "115976",
       "reference": "RLC115976",
       "type": "RELOCATION",
@@ -10629,7 +10956,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -10769,7 +11096,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-08",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -10909,7 +11236,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -10979,7 +11306,7 @@
       },
       "available_from": "2026-07-30",
       "available_to": "2026-08-09",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -12285,7 +12612,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-09",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -12665,7 +12992,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -12742,7 +13069,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -12819,7 +13146,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-09",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -12962,7 +13289,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -13109,7 +13436,7 @@
       },
       "available_from": "2026-07-13",
       "available_to": "2026-08-08",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-06",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -13151,6 +13478,86 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116288",
+      "reference": "GAP116288",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Cairns to Cairns",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
+      },
+      "dropoff": {
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
+      },
+      "available_from": "2026-07-29",
+      "available_to": "2026-08-03",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-02",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 2,
+      "extra_units_allowed": 6,
+      "extra_unit_rate": {
+        "amount": 109.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 3 HIACE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-3-berth",
+        "seatbelts": 3,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": false,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304146/media-library45fcm646k5hk3ppEPCh"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-cairns-GAP116288",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "108526",
       "reference": "RLC108526",
       "type": "RELOCATION",
@@ -13179,7 +13586,7 @@
       },
       "available_from": "2026-07-14",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -13319,7 +13726,7 @@
       },
       "available_from": "2026-06-19",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -13361,6 +13768,83 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
+      "id": "116304",
+      "reference": "RLC116304",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Cairns to Sydney",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
+      },
+      "dropoff": {
+        "id": "69",
+        "name": "Sydney",
+        "state": "AU_NSW",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -33.8688197,
+        "longitude": 151.2092955
+      },
+      "available_from": "2026-08-07",
+      "available_to": "2026-08-13",
+      "earliest_departure": "2026-08-07",
+      "latest_departure": "2026-08-08",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 6,
+      "minimum_hire_units": 6,
+      "extra_units_allowed": 1,
+      "extra_unit_rate": {
+        "amount": 100.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 3400,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "MOTOR_HOME",
+        "name": "6 Berth Motorhome",
+        "brand": null,
+        "model": null,
+        "code": "6RE",
+        "seatbelts": 6,
+        "sleeps": null,
+        "fuel": "DIESEL",
+        "transmission": "AUTOMATIC",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/308197/media-librarylhd30pqm5g1gaFMFBlN"
+      },
+      "supplier": "Britz AU",
+      "inclusions": [
+        {
+          "type": "FUEL",
+          "value": 30000,
+          "description": "",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC116304",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "111809",
       "reference": "RLC111809",
       "type": "RELOCATION",
@@ -13389,7 +13873,7 @@
       },
       "available_from": "2026-06-29",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -13459,7 +13943,7 @@
       },
       "available_from": "2026-06-29",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -13529,7 +14013,7 @@
       },
       "available_from": "2026-07-13",
       "available_to": "2026-09-30",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-09-28",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -13753,7 +14237,7 @@
       },
       "available_from": "2026-07-03",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-06",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -13823,7 +14307,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -13970,7 +14454,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14040,7 +14524,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-11",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14110,7 +14594,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-12",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14180,7 +14664,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14222,6 +14706,86 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
+      "id": "116283",
+      "reference": "GAP116283",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Cairns to Cairns",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
+      },
+      "dropoff": {
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
+      },
+      "available_from": "2026-07-29",
+      "available_to": "2026-08-04",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-02",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 3,
+      "extra_units_allowed": 7,
+      "extra_unit_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 149.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 4 DELUXE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-4-berth",
+        "seatbelts": 4,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304113/media-librarye4h8j3m9t24f5pGPbPp"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-cairns-GAP116283",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "114238",
       "reference": "RLC114238",
       "type": "RELOCATION",
@@ -14250,7 +14814,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-03",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14289,6 +14853,86 @@
       "supplier": "Redspot",
       "inclusions": [],
       "deal_link": "https://www.imoova.com/relocations/deal/sydney-to-darwin-RLC114238",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
+      "id": "116285",
+      "reference": "GAP116285",
+      "type": "GAP_RENTAL",
+      "status": "READY",
+      "route": "Brisbane to Brisbane",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "73",
+        "name": "Brisbane",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -27.4704528,
+        "longitude": 153.0260341
+      },
+      "dropoff": {
+        "id": "73",
+        "name": "Brisbane",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -27.4704528,
+        "longitude": 153.0260341
+      },
+      "available_from": "2026-07-29",
+      "available_to": "2026-08-02",
+      "earliest_departure": "2026-08-02",
+      "latest_departure": "2026-08-01",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 0.0,
+        "currency": "AUD"
+      },
+      "included_units": 0,
+      "minimum_hire_units": 2,
+      "extra_units_allowed": 5,
+      "extra_unit_rate": {
+        "amount": 129.0,
+        "currency": "AUD"
+      },
+      "retail_rate": {
+        "amount": 149.0,
+        "currency": "AUD"
+      },
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": null,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "CAMPER_VAN",
+        "name": "MAXIE 4 DELUXE",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "campervan-4-berth",
+        "seatbelts": 4,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": true,
+        "has_kitchen": true,
+        "image": "https://assets.imoova.com/304107/media-libraryep5dms1u1ndpemhmFcI"
+      },
+      "supplier": "Camperman",
+      "inclusions": [
+        {
+          "type": "CHARGE",
+          "value": 18000,
+          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
+          "has_free_tank": false
+        }
+      ],
+      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-brisbane-GAP116285",
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
@@ -14390,7 +15034,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -14432,6 +15076,76 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
+      "id": "116313",
+      "reference": "RLC116313",
+      "type": "RELOCATION",
+      "status": "READY",
+      "route": "Melbourne to Cairns",
+      "region": "AU",
+      "region_slug": "australia",
+      "vehicles_available": 1,
+      "pickup": {
+        "id": "66",
+        "name": "Melbourne",
+        "state": "AU_VIC",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -37.8136276,
+        "longitude": 144.9630576
+      },
+      "dropoff": {
+        "id": "74",
+        "name": "Cairns",
+        "state": "AU_QLD",
+        "region": "AU",
+        "region_slug": "australia",
+        "latitude": -16.9203476,
+        "longitude": 145.7709529
+      },
+      "available_from": "2026-08-05",
+      "available_to": "2026-08-21",
+      "earliest_departure": "2026-08-05",
+      "latest_departure": "2026-08-15",
+      "hire_unit_type": "DAY",
+      "rate_per_unit": {
+        "amount": 1.0,
+        "currency": "AUD"
+      },
+      "included_units": 7,
+      "minimum_hire_units": 7,
+      "extra_units_allowed": 3,
+      "extra_unit_rate": {
+        "amount": 95.0,
+        "currency": "AUD"
+      },
+      "retail_rate": null,
+      "booking_fee": {
+        "amount": 49.0,
+        "currency": "AUD"
+      },
+      "distance_allowed": 3650,
+      "measurement": "METRIC",
+      "is_ferry_required": false,
+      "vehicle": {
+        "type": "VAN",
+        "name": "9+ Seater Commuter",
+        "brand": "Toyota",
+        "model": "Hiace",
+        "code": "car-9-plus-seater",
+        "seatbelts": 9,
+        "sleeps": null,
+        "fuel": "GASOLINE",
+        "transmission": "UNSPECIFIED",
+        "self_contained": null,
+        "has_kitchen": null,
+        "image": "https://assets.imoova.com/307824/media-libraryajuqrjnbrnpg5HjeMga"
+      },
+      "supplier": "Camperman",
+      "inclusions": [],
+      "deal_link": "https://www.imoova.com/relocations/deal/melbourne-to-cairns-RLC116313",
+      "region_link": "https://www.imoova.com/relocations/australia"
+    },
+    {
       "id": "114237",
       "reference": "RLC114237",
       "type": "RELOCATION",
@@ -14460,7 +15174,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-04",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14530,7 +15244,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-31",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -14600,7 +15314,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -14670,7 +15384,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-12",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14789,7 +15503,7 @@
       "route": "Queenstown to Auckland",
       "region": "NZ",
       "region_slug": "new-zealand",
-      "vehicles_available": 2,
+      "vehicles_available": 1,
       "pickup": {
         "id": "23",
         "name": "Queenstown",
@@ -14887,7 +15601,7 @@
       },
       "available_from": "2026-07-16",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-30",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -14964,7 +15678,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-31",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -15034,7 +15748,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15104,7 +15818,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -15146,76 +15860,6 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
-      "id": "115509",
-      "reference": "RLC115509",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Adelaide to Melbourne",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "65",
-        "name": "Adelaide",
-        "state": "AU_SA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -34.9284989,
-        "longitude": 138.6007456
-      },
-      "dropoff": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "available_from": "2026-07-27",
-      "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-08",
-      "hire_unit_type": "TWENTY_FOUR_HOURS",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 2,
-      "minimum_hire_units": 2,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 120.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "VAN",
-        "name": "Van",
-        "brand": null,
-        "model": null,
-        "code": "CKAR",
-        "seatbelts": 2,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/306532/media-libraryfbv867pacb8n9jBeIik"
-      },
-      "supplier": "Redspot",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/adelaide-to-melbourne-RLC115509",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "116224",
       "reference": "RLC116224",
       "type": "RELOCATION",
@@ -15244,7 +15888,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15314,7 +15958,7 @@
       },
       "available_from": "2026-07-26",
       "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-14",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15384,7 +16028,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15454,7 +16098,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-04",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -15524,7 +16168,7 @@
       },
       "available_from": "2026-07-21",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -15594,7 +16238,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15664,7 +16308,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15734,7 +16378,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15804,7 +16448,7 @@
       },
       "available_from": "2026-07-15",
       "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -15874,7 +16518,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -15944,7 +16588,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-11",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-07",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -16021,7 +16665,7 @@
       },
       "available_from": "2026-07-21",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16091,7 +16735,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -16161,7 +16805,7 @@
       },
       "available_from": "2026-07-16",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-30",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16238,7 +16882,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -16308,7 +16952,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-04",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16595,7 +17239,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16735,7 +17379,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-08",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-07",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16805,7 +17449,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-04",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16875,7 +17519,7 @@
       },
       "available_from": "2026-07-23",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -16917,76 +17561,6 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
-      "id": "115155",
-      "reference": "RLC115155",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Melbourne",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "available_from": "2026-07-24",
-      "available_to": "2026-08-02",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "NIGHT",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 6,
-      "minimum_hire_units": 1,
-      "extra_units_allowed": 3,
-      "extra_unit_rate": {
-        "amount": 170.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 99.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 3100,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "FOUR_WHEEL_DRIVE_CAMPER",
-        "name": "Oc Adventure Tent 2 Auto Select",
-        "brand": null,
-        "model": null,
-        "code": "Oc Adventure Tent 2 Auto Select",
-        "seatbelts": 4,
-        "sleeps": 2,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": false,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/305303/media-libraryqq6ubt1uvbi5clMmhgc"
-      },
-      "supplier": "IC - AU",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-melbourne-RLC115155",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "114852",
       "reference": "RLC114852",
       "type": "RELOCATION",
@@ -17015,7 +17589,7 @@
       },
       "available_from": "2026-07-21",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-07",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -17085,7 +17659,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -17155,7 +17729,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-18",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -17197,83 +17771,6 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
-      "id": "115752",
-      "reference": "RLC115752",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-08-08",
-      "available_to": "2026-08-13",
-      "earliest_departure": "2026-08-08",
-      "latest_departure": "2026-08-09",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 5,
-      "minimum_hire_units": 5,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 120.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "2+1 Berth Motor-home",
-        "brand": "Kea",
-        "model": "Nomad",
-        "code": "NMD",
-        "seatbelts": 3,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/307073/media-librarykgb4bpq24n281ejCipB"
-      },
-      "supplier": "Auto Sleepers",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 30000,
-          "description": "Refund against receipts",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC115752",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "114850",
       "reference": "RLC114850",
       "type": "RELOCATION",
@@ -17302,7 +17799,7 @@
       },
       "available_from": "2026-07-21",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-08",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -17442,7 +17939,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -17512,7 +18009,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-21",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-17",
       "hire_unit_type": "DAY",
       "rate_per_unit": {
@@ -17644,153 +18141,6 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
-      "id": "115902",
-      "reference": "RLC115902",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Calgary to Edmonton",
-      "region": "CA",
-      "region_slug": "canada",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "4",
-        "name": "Calgary",
-        "state": "CA_AB",
-        "region": "CA",
-        "region_slug": "canada",
-        "latitude": 51.0447331,
-        "longitude": -114.0718831
-      },
-      "dropoff": {
-        "id": "3",
-        "name": "Edmonton",
-        "state": "CA_AB",
-        "region": "CA",
-        "region_slug": "canada",
-        "latitude": 53.5460983,
-        "longitude": -113.4937266
-      },
-      "available_from": "2026-08-05",
-      "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-05",
-      "latest_departure": "2026-08-07",
-      "hire_unit_type": "NIGHT",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "CAD"
-      },
-      "included_units": 2,
-      "minimum_hire_units": 0,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "CAD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 99.0,
-        "currency": "CAD"
-      },
-      "distance_allowed": 500,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "C Class Mid-Size",
-        "brand": null,
-        "model": null,
-        "code": "C Class Mid-Size",
-        "seatbelts": 6,
-        "sleeps": 5,
-        "fuel": "GASOLINE",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/299001/media-libraryabpq09ficrgt1mNPIKn"
-      },
-      "supplier": "Fraserway RV (CAN)",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 20000,
-          "description": "Refund against receipts",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/calgary-to-edmonton-RLC115902",
-      "region_link": "https://www.imoova.com/relocations/canada"
-    },
-    {
-      "id": "115783",
-      "reference": "RLC115783",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Adelaide to Melbourne",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "65",
-        "name": "Adelaide",
-        "state": "AU_SA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -34.9284989,
-        "longitude": 138.6007456
-      },
-      "dropoff": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-07",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-07",
-      "hire_unit_type": "TWENTY_FOUR_HOURS",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 2,
-      "minimum_hire_units": 1,
-      "extra_units_allowed": 14,
-      "extra_unit_rate": {
-        "amount": 139.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 54.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 1000,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MINI_VAN",
-        "name": "Carnival",
-        "brand": null,
-        "model": null,
-        "code": null,
-        "seatbelts": 8,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/307164/media-libraryjgikl0qaf3vdeFkiIHM"
-      },
-      "supplier": "Simba Car Hire",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/adelaide-to-melbourne-RLC115783",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "115139",
       "reference": "RLC115139",
       "type": "RELOCATION",
@@ -17819,7 +18169,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-30",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -17889,7 +18239,7 @@
       },
       "available_from": "2026-07-31",
       "available_to": "2026-08-22",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-21",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -18001,86 +18351,6 @@
       "region_link": "https://www.imoova.com/relocations/canada"
     },
     {
-      "id": "116233",
-      "reference": "GAP116233",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Brisbane to Brisbane",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "dropoff": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-03",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 3,
-      "extra_units_allowed": 6,
-      "extra_unit_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 149.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 4 DELUXE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-4-berth",
-        "seatbelts": 4,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304107/media-libraryep5dms1u1ndpemhmFcI"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-brisbane-GAP116233",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "115157",
       "reference": "RLC115157",
       "type": "RELOCATION",
@@ -18109,7 +18379,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-09",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -18179,7 +18449,7 @@
       },
       "available_from": "2026-07-24",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-30",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -18319,7 +18589,7 @@
       },
       "available_from": "2026-07-29",
       "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -18396,7 +18666,7 @@
       },
       "available_from": "2026-08-01",
       "available_to": "2026-08-31",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-30",
       "hire_unit_type": "NIGHT",
       "rate_per_unit": {
@@ -18445,7 +18715,7 @@
       "route": "Brisbane to Cairns",
       "region": "AU",
       "region_slug": "australia",
-      "vehicles_available": 2,
+      "vehicles_available": 1,
       "pickup": {
         "id": "73",
         "name": "Brisbane",
@@ -18578,326 +18848,6 @@
       "region_link": "https://www.imoova.com/relocations/usa"
     },
     {
-      "id": "116234",
-      "reference": "GAP116234",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Sydney to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-03",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 3,
-      "extra_units_allowed": 6,
-      "extra_unit_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 149.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 4 DELUXE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-4-berth",
-        "seatbelts": 4,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304818/media-library8ljot9dgui3vcgoleFM"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/sydney-to-sydney-GAP116234",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116235",
-      "reference": "GAP116235",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Cairns to Cairns",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-03",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 3,
-      "extra_units_allowed": 6,
-      "extra_unit_rate": {
-        "amount": 109.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 3 HIACE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-3-berth",
-        "seatbelts": 3,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": false,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304146/media-library45fcm646k5hk3ppEPCh"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-cairns-GAP116235",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "115537",
-      "reference": "RLC115537",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Christchurch to Auckland",
-      "region": "NZ",
-      "region_slug": "new-zealand",
-      "vehicles_available": 25,
-      "pickup": {
-        "id": "21",
-        "name": "Christchurch",
-        "state": "NZ_CAN",
-        "region": "NZ",
-        "region_slug": "new-zealand",
-        "latitude": -43.5320301,
-        "longitude": 172.636648
-      },
-      "dropoff": {
-        "id": "22",
-        "name": "Auckland",
-        "state": "NZ_AUK",
-        "region": "NZ",
-        "region_slug": "new-zealand",
-        "latitude": -36.8508827,
-        "longitude": 174.7644881
-      },
-      "available_from": "2026-07-28",
-      "available_to": "2026-09-30",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-09-30",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "NZD"
-      },
-      "included_units": 7,
-      "minimum_hire_units": 1,
-      "extra_units_allowed": 30,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "NZD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 64.0,
-        "currency": "NZD"
-      },
-      "distance_allowed": 5000,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "Beta 2S Self Contained",
-        "brand": null,
-        "model": null,
-        "code": "SC",
-        "seatbelts": 2,
-        "sleeps": 2,
-        "fuel": "GASOLINE",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/306728/media-libraryu41oo5mbjv4f2bAjgDL"
-      },
-      "supplier": "Spaceships NZ",
-      "inclusions": [
-        {
-          "type": "FERRY",
-          "value": null,
-          "description": "Free Ferry One Way Ticket (Vehicle + Driver) Only",
-          "has_free_tank": false
-        },
-        {
-          "type": "FUEL",
-          "value": null,
-          "description": null,
-          "has_free_tank": true
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/christchurch-to-auckland-RLC115537",
-      "region_link": "https://www.imoova.com/relocations/new-zealand"
-    },
-    {
-      "id": "115753",
-      "reference": "RLC115753",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Gold Coast",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "67",
-        "name": "Gold Coast",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -28.016667,
-        "longitude": 153.4
-      },
-      "available_from": "2026-08-07",
-      "available_to": "2026-08-10",
-      "earliest_departure": "2026-08-07",
-      "latest_departure": "2026-08-08",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 4,
-      "minimum_hire_units": 3,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 120.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "2+1 Berth Motor-home",
-        "brand": "Kea",
-        "model": "Nomad",
-        "code": "NMD",
-        "seatbelts": 3,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/307074/media-librarykqhkmmvrctds1GHppoE"
-      },
-      "supplier": "Auto Sleepers",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 25000,
-          "description": "Refund against receipts",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-gold-coast-RLC115753",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "115924",
       "reference": "RLC115924",
       "type": "RELOCATION",
@@ -18973,83 +18923,6 @@
       ],
       "deal_link": "https://www.imoova.com/relocations/deal/christchurch-to-blenheim-RLC115924",
       "region_link": "https://www.imoova.com/relocations/new-zealand"
-    },
-    {
-      "id": "115981",
-      "reference": "RLC115981",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Sydney to Melbourne",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "dropoff": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "available_from": "2026-08-10",
-      "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-10",
-      "latest_departure": "2026-08-14",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 3,
-      "minimum_hire_units": 0,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 320.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6-Berth Motorhome",
-        "brand": "Mercedes/Iveco",
-        "model": "Sprinter/Daily",
-        "code": "P6AU",
-        "seatbelts": 6,
-        "sleeps": 6,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/295390/media-libraryb2is4rngmvv5figNoag"
-      },
-      "supplier": "Star RV Motorhomes AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 25000,
-          "description": "Refund against receipts",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/sydney-to-melbourne-RLC115981",
-      "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
       "id": "115925",
@@ -19199,86 +19072,6 @@
       "region_link": "https://www.imoova.com/relocations/europe"
     },
     {
-      "id": "116232",
-      "reference": "GAP116232",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Brisbane to Brisbane",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "dropoff": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-02",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 2,
-      "extra_units_allowed": 5,
-      "extra_unit_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 149.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 4 DELUXE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-4-berth",
-        "seatbelts": 4,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304107/media-libraryep5dms1u1ndpemhmFcI"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-brisbane-GAP116232",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "115904",
       "reference": "RLC115904",
       "type": "RELOCATION",
@@ -19349,156 +19142,6 @@
       "region_link": "https://www.imoova.com/relocations/canada"
     },
     {
-      "id": "116237",
-      "reference": "GAP116237",
-      "type": "GAP_RENTAL",
-      "status": "READY",
-      "route": "Brisbane to Brisbane",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "dropoff": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "available_from": "2026-07-29",
-      "available_to": "2026-08-03",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 0.0,
-        "currency": "AUD"
-      },
-      "included_units": 0,
-      "minimum_hire_units": 3,
-      "extra_units_allowed": 6,
-      "extra_unit_rate": {
-        "amount": 109.0,
-        "currency": "AUD"
-      },
-      "retail_rate": {
-        "amount": 129.0,
-        "currency": "AUD"
-      },
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": null,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "MAXIE 3 HIACE",
-        "brand": "Toyota",
-        "model": "Hiace",
-        "code": "campervan-3-berth",
-        "seatbelts": 3,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "UNSPECIFIED",
-        "self_contained": false,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/304120/media-libraryqflufl1qh02p9JkGHcK"
-      },
-      "supplier": "Camperman",
-      "inclusions": [
-        {
-          "type": "CHARGE",
-          "value": 18000,
-          "description": "Equipment Fee Payable on Pickup covers: All toll fees incurred on your trip, Unlimited KMs, Free Additional Drivers, All linen and cooking equipment pre packed into your vehicle",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-brisbane-GAP116237",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "115931",
-      "reference": "RLC115931",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Brisbane to Melbourne",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "dropoff": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "available_from": "2026-07-30",
-      "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-01",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 5,
-      "minimum_hire_units": 5,
-      "extra_units_allowed": 0,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 2150,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "CAMPER_VAN",
-        "name": "Johnny Feelgood",
-        "brand": "Nissan",
-        "model": "Elgrand",
-        "code": "JFG",
-        "seatbelts": 2,
-        "sleeps": null,
-        "fuel": "GASOLINE",
-        "transmission": "AUTOMATIC",
-        "self_contained": false,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/307418/media-libraryb7aia7rus065cDcDLbf"
-      },
-      "supplier": "Wicked Campers AU",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-melbourne-RLC115931",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "114992",
       "reference": "RLC114992",
       "type": "RELOCATION",
@@ -19506,7 +19149,7 @@
       "route": "Sydney to Brisbane",
       "region": "AU",
       "region_slug": "australia",
-      "vehicles_available": 11,
+      "vehicles_available": 9,
       "pickup": {
         "id": "69",
         "name": "Sydney",
@@ -19527,7 +19170,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-09",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-08",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -19779,461 +19422,6 @@
       "region_link": "https://www.imoova.com/relocations/europe"
     },
     {
-      "id": "116246",
-      "reference": "RLC116246",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Broome to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "101",
-        "name": "Broome",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -17.96182,
-        "longitude": 122.236998
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-08-03",
-      "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-03",
-      "latest_departure": "2026-08-10",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 11,
-      "minimum_hire_units": 6,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 5650,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308047/media-libraryataepb40guac5djcgIp"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 15000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-sydney-RLC116246",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116245",
-      "reference": "RLC116245",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Broome to Melbourne",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "101",
-        "name": "Broome",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -17.96182,
-        "longitude": 122.236998
-      },
-      "dropoff": {
-        "id": "66",
-        "name": "Melbourne",
-        "state": "AU_VIC",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -37.8136276,
-        "longitude": 144.9630576
-      },
-      "available_from": "2026-08-03",
-      "available_to": "2026-08-15",
-      "earliest_departure": "2026-08-03",
-      "latest_departure": "2026-08-05",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 11,
-      "minimum_hire_units": 11,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 5450,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308045/media-libraryt4n6prfi1v3g3MFoogB"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 15000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-melbourne-RLC116245",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116249",
-      "reference": "RLC116249",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-08-03",
-      "available_to": "2026-08-12",
-      "earliest_departure": "2026-08-03",
-      "latest_departure": "2026-08-07",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 6,
-      "minimum_hire_units": 6,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 3400,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308048/media-libraryd53f2ktcqi9rcnlgnaC"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 25000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC116249",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116247",
-      "reference": "RLC116247",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Brisbane to Perth",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 1,
-      "pickup": {
-        "id": "73",
-        "name": "Brisbane",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -27.4704528,
-        "longitude": 153.0260341
-      },
-      "dropoff": {
-        "id": "68",
-        "name": "Perth",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -31.9513993,
-        "longitude": 115.8616783
-      },
-      "available_from": "2026-08-01",
-      "available_to": "2026-08-20",
-      "earliest_departure": "2026-08-01",
-      "latest_departure": "2026-08-13",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 10,
-      "minimum_hire_units": 8,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 5150,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "FOUR_WHEEL_DRIVE",
-        "name": "4 Berth 4WD",
-        "brand": null,
-        "model": null,
-        "code": "4WDR",
-        "seatbelts": 5,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": null,
-        "has_kitchen": null,
-        "image": "https://assets.imoova.com/294440/media-libraryviflcqrf329k6CnGpcK"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [],
-      "deal_link": "https://www.imoova.com/relocations/deal/brisbane-to-perth-RLC116247",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116251",
-      "reference": "RLC116251",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 2,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-08-07",
-      "available_to": "2026-08-13",
-      "earliest_departure": "2026-08-07",
-      "latest_departure": "2026-08-08",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 6,
-      "minimum_hire_units": 6,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 3400,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308048/media-libraryd53f2ktcqi9rcnlgnaC"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 25000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC116251",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
-      "id": "116243",
-      "reference": "RLC116243",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Broome to Adelaide",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 3,
-      "pickup": {
-        "id": "101",
-        "name": "Broome",
-        "state": "AU_WA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -17.96182,
-        "longitude": 122.236998
-      },
-      "dropoff": {
-        "id": "65",
-        "name": "Adelaide",
-        "state": "AU_SA",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -34.9284989,
-        "longitude": 138.6007456
-      },
-      "available_from": "2026-08-03",
-      "available_to": "2026-08-17",
-      "earliest_departure": "2026-08-03",
-      "latest_departure": "2026-08-13",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 9,
-      "minimum_hire_units": 5,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 4750,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308044/media-libraryhv109lpothb8fenkCPF"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 15000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/broome-to-adelaide-RLC116243",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "114982",
       "reference": "RLC114982",
       "type": "RELOCATION",
@@ -20262,7 +19450,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-04",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -20332,7 +19520,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-05",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-04",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -20374,83 +19562,6 @@
       "region_link": "https://www.imoova.com/relocations/australia"
     },
     {
-      "id": "116250",
-      "reference": "RLC116250",
-      "type": "RELOCATION",
-      "status": "READY",
-      "route": "Cairns to Sydney",
-      "region": "AU",
-      "region_slug": "australia",
-      "vehicles_available": 4,
-      "pickup": {
-        "id": "74",
-        "name": "Cairns",
-        "state": "AU_QLD",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -16.9203476,
-        "longitude": 145.7709529
-      },
-      "dropoff": {
-        "id": "69",
-        "name": "Sydney",
-        "state": "AU_NSW",
-        "region": "AU",
-        "region_slug": "australia",
-        "latitude": -33.8688197,
-        "longitude": 151.2092955
-      },
-      "available_from": "2026-08-04",
-      "available_to": "2026-08-12",
-      "earliest_departure": "2026-08-04",
-      "latest_departure": "2026-08-07",
-      "hire_unit_type": "DAY",
-      "rate_per_unit": {
-        "amount": 1.0,
-        "currency": "AUD"
-      },
-      "included_units": 6,
-      "minimum_hire_units": 6,
-      "extra_units_allowed": 1,
-      "extra_unit_rate": {
-        "amount": 100.0,
-        "currency": "AUD"
-      },
-      "retail_rate": null,
-      "booking_fee": {
-        "amount": 49.0,
-        "currency": "AUD"
-      },
-      "distance_allowed": 3400,
-      "measurement": "METRIC",
-      "is_ferry_required": false,
-      "vehicle": {
-        "type": "MOTOR_HOME",
-        "name": "6 Berth Motorhome",
-        "brand": null,
-        "model": null,
-        "code": "6RE",
-        "seatbelts": 6,
-        "sleeps": null,
-        "fuel": "DIESEL",
-        "transmission": "AUTOMATIC",
-        "self_contained": true,
-        "has_kitchen": true,
-        "image": "https://assets.imoova.com/308048/media-libraryd53f2ktcqi9rcnlgnaC"
-      },
-      "supplier": "Britz AU",
-      "inclusions": [
-        {
-          "type": "FUEL",
-          "value": 25000,
-          "description": "",
-          "has_free_tank": false
-        }
-      ],
-      "deal_link": "https://www.imoova.com/relocations/deal/cairns-to-sydney-RLC116250",
-      "region_link": "https://www.imoova.com/relocations/australia"
-    },
-    {
       "id": "114989",
       "reference": "RLC114989",
       "type": "RELOCATION",
@@ -20479,7 +19590,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -20549,7 +19660,7 @@
       },
       "available_from": "2026-07-22",
       "available_to": "2026-08-06",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-05",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -20619,7 +19730,7 @@
       },
       "available_from": "2026-06-29",
       "available_to": "2026-08-14",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-08",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
@@ -20689,7 +19800,7 @@
       },
       "available_from": "2026-07-17",
       "available_to": "2026-09-01",
-      "earliest_departure": "2026-08-01",
+      "earliest_departure": "2026-08-02",
       "latest_departure": "2026-08-31",
       "hire_unit_type": "TWENTY_FOUR_HOURS",
       "rate_per_unit": {
