@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-08-10T05:49:09+00:00",
+  "scraped_at": "2026-08-11T05:32:14+00:00",
   "station_count": 115,
-  "ride_count": 156,
+  "ride_count": 155,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -109,71 +109,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=16"
     },
     {
-      "route": "Amsterdam -> Bremen",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 32,
-        "name": "Amsterdam",
-        "address": "Spinnerij 17, 1185 ZN Amsterdam",
-        "zip": "1185 ZN",
-        "city": "Amstelveen",
-        "country_code": "NL",
-        "country": "Netherlands",
-        "latitude": 52.2838247,
-        "longitude": 4.8354896,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
-        "search_tags": [
-          "ams",
-          "schiphol",
-          "north holland",
-          "noord-holland",
-          "randstad",
-          "utrecht"
-        ]
-      },
-      "dropoff": {
-        "id": 55,
-        "name": "Bremen",
-        "address": "Westerfeld 19",
-        "zip": "28844",
-        "city": "Weyhe",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.068,
-        "longitude": 8.948,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/V6ZaU93LLArJhpbq6",
-        "search_tags": [
-          "bre",
-          "lower saxony",
-          "niedersachsen",
-          "northern germany",
-          "norddeutschland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-23T00:00:00+00:00",
-          "end_date": "2026-09-30T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-24T00:00:00+00:00",
-          "end_date": "2026-10-01T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-25T00:00:00+00:00",
-          "end_date": "2026-10-02T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-30T00:00:00+00:00",
-          "end_date": "2026-10-07T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
-    },
-    {
       "route": "Amsterdam -> Duisburg",
       "trip_type": "one-way",
       "pickup": {
@@ -230,6 +165,125 @@
         {
           "start_date": "2026-10-02T00:00:00+00:00",
           "end_date": "2026-10-09T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
+    },
+    {
+      "route": "Amsterdam -> Bremen",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 32,
+        "name": "Amsterdam",
+        "address": "Spinnerij 17, 1185 ZN Amsterdam",
+        "zip": "1185 ZN",
+        "city": "Amstelveen",
+        "country_code": "NL",
+        "country": "Netherlands",
+        "latitude": 52.2838247,
+        "longitude": 4.8354896,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
+        "search_tags": [
+          "ams",
+          "schiphol",
+          "north holland",
+          "noord-holland",
+          "randstad",
+          "utrecht"
+        ]
+      },
+      "dropoff": {
+        "id": 55,
+        "name": "Bremen",
+        "address": "Westerfeld 19",
+        "zip": "28844",
+        "city": "Weyhe",
+        "country_code": "DE",
+        "country": "Germany",
+        "latitude": 53.068,
+        "longitude": 8.948,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/V6ZaU93LLArJhpbq6",
+        "search_tags": [
+          "bre",
+          "lower saxony",
+          "niedersachsen",
+          "northern germany",
+          "norddeutschland"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-09-23T00:00:00+00:00",
+          "end_date": "2026-09-30T00:00:00+00:00"
+        },
+        {
+          "start_date": "2026-09-24T00:00:00+00:00",
+          "end_date": "2026-10-01T00:00:00+00:00"
+        },
+        {
+          "start_date": "2026-09-25T00:00:00+00:00",
+          "end_date": "2026-10-02T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
+    },
+    {
+      "route": "Amsterdam -> Nice",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 32,
+        "name": "Amsterdam",
+        "address": "Spinnerij 17, 1185 ZN Amsterdam",
+        "zip": "1185 ZN",
+        "city": "Amstelveen",
+        "country_code": "NL",
+        "country": "Netherlands",
+        "latitude": 52.2838247,
+        "longitude": 4.8354896,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
+        "search_tags": [
+          "ams",
+          "schiphol",
+          "north holland",
+          "noord-holland",
+          "randstad",
+          "utrecht"
+        ]
+      },
+      "dropoff": {
+        "id": 88,
+        "name": "Nice",
+        "address": "2300 Route de la Baronne",
+        "zip": "06510",
+        "city": "Gattières",
+        "country_code": "FR",
+        "country": "France",
+        "latitude": 43.750978,
+        "longitude": 7.178945,
+        "timezone": "Europe/Paris",
+        "google_maps": "https://maps.app.goo.gl/rNguWaTUAGWnGogm8",
+        "search_tags": [
+          "nce",
+          "côte d'azur",
+          "french riviera",
+          "provence-alpes-côte d'azur",
+          "paca",
+          "south of france",
+          "monaco",
+          "cannes",
+          "antibes",
+          "menton"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-08-13T00:00:00+00:00",
+          "end_date": "2026-08-20T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
@@ -1118,10 +1172,6 @@
         {
           "start_date": "2026-09-11T00:00:00+00:00",
           "end_date": "2026-09-18T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-14T00:00:00+00:00",
-          "end_date": "2026-09-21T00:00:00+00:00"
         },
         {
           "start_date": "2026-09-15T00:00:00+00:00",
@@ -2444,8 +2494,8 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-08-10T00:00:00+00:00",
-          "end_date": "2026-08-17T00:00:00+00:00"
+          "start_date": "2026-08-12T00:00:00+00:00",
+          "end_date": "2026-08-19T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=130"
@@ -3118,8 +3168,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=37"
     },
     {
-      "route": "Hamburg -> Hamburg",
-      "trip_type": "round-trip",
+      "route": "Hamburg -> Venice",
+      "trip_type": "one-way",
       "pickup": {
         "id": 3,
         "name": "Hamburg",
@@ -3140,26 +3190,38 @@
         ]
       },
       "dropoff": {
-        "id": 3,
-        "name": "Hamburg",
-        "address": "Billbrookdeich 11",
-        "zip": "22113",
-        "city": "Hamburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.5401405,
-        "longitude": 10.0781996,
+        "id": 78,
+        "name": "Venice",
+        "address": "Via Ghebba, 109, 30034 Mira VE, Italia",
+        "zip": "30034",
+        "city": "Venice",
+        "country_code": "IT",
+        "country": "Italy",
+        "latitude": 45.4666559,
+        "longitude": 12.1754866,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/FtPGbAT5Xbrz49hP8",
+        "google_maps": "https://goo.gl/maps/9F93TpHBkbqiXZQw9",
         "search_tags": [
-          "ham",
-          "schleswig-holstein",
-          "northern germany",
-          "norddeutschland"
+          "vce",
+          "veneto",
+          "dolomiti",
+          "alpi",
+          "dolomites",
+          "alps",
+          "lake como",
+          "lago di como",
+          "lake garda",
+          "lago di garda",
+          "bolzano"
         ]
       },
-      "available": false,
-      "available_timeframes": [],
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-08-14T00:00:00+00:00",
+          "end_date": "2026-08-21T00:00:00+00:00"
+        }
+      ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
     },
     {
@@ -3245,8 +3307,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=139"
     },
     {
-      "route": "Hanover -> Hanover",
-      "trip_type": "round-trip",
+      "route": "Hanover -> Munich",
+      "trip_type": "one-way",
       "pickup": {
         "id": 7,
         "name": "Hanover",
@@ -3266,25 +3328,32 @@
         ]
       },
       "dropoff": {
-        "id": 7,
-        "name": "Hanover",
-        "address": "Kieler Str. 5",
-        "zip": "30880",
-        "city": "Laatzen",
+        "id": 1,
+        "name": "Munich",
+        "address": "Ingolstädterstr. 172",
+        "zip": "80939",
+        "city": "Munich",
         "country_code": "DE",
         "country": "Germany",
-        "latitude": 52.361,
-        "longitude": 9.903,
+        "latitude": 48.204,
+        "longitude": 11.586,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/fxMtCP68gyVXAZU56",
+        "google_maps": "https://goo.gl/maps/L8kz8j4KnHcphZJZ6",
         "search_tags": [
-          "haj",
-          "lower saxony",
-          "niedersachsen"
+          "muc",
+          "bavaria",
+          "bayern",
+          "oberbayern",
+          "upper bavaria"
         ]
       },
-      "available": false,
-      "available_timeframes": [],
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-08-13T00:00:00+00:00",
+          "end_date": "2026-08-19T00:00:00+00:00"
+        }
+      ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=7"
     },
     {
@@ -4477,10 +4546,6 @@
           "end_date": "2026-10-02T00:00:00+00:00"
         },
         {
-          "start_date": "2026-09-28T00:00:00+00:00",
-          "end_date": "2026-10-05T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-10-02T00:00:00+00:00",
           "end_date": "2026-10-09T00:00:00+00:00"
         },
@@ -5596,10 +5661,6 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-09-01T00:00:00+00:00",
-          "end_date": "2026-09-08T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-09-11T00:00:00+00:00",
           "end_date": "2026-09-18T00:00:00+00:00"
         },
@@ -6396,59 +6457,6 @@
         {
           "start_date": "2026-09-26T00:00:00+00:00",
           "end_date": "2026-10-03T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=33"
-    },
-    {
-      "route": "Rotterdam -> Duisburg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 33,
-        "name": "Rotterdam",
-        "address": "Kruisdijk 10",
-        "zip": "3176 PK",
-        "city": "Poortugaal",
-        "country_code": "NL",
-        "country": "Netherlands",
-        "latitude": 51.902,
-        "longitude": 4.453,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/XXak5rqgqux8hsf3A",
-        "search_tags": [
-          "rtm",
-          "south holland",
-          "zuid-holland",
-          "randstad",
-          "den haag",
-          "the hague"
-        ]
-      },
-      "dropoff": {
-        "id": 113,
-        "name": "Duisburg",
-        "address": "Forststr. 36",
-        "zip": "47055",
-        "city": "Duisburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.4390563,
-        "longitude": 6.7575595,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/wjaEiB182y2Jmshz8",
-        "search_tags": [
-          "ruhr",
-          "ruhrgebiet",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-23T00:00:00+00:00",
-          "end_date": "2026-09-30T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=33"
@@ -7478,62 +7486,6 @@
       "available": false,
       "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=83"
-    },
-    {
-      "route": "Venice -> Berlin-Schönefeld",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 78,
-        "name": "Venice",
-        "address": "Via Ghebba, 109, 30034 Mira VE, Italia",
-        "zip": "30034",
-        "city": "Venice",
-        "country_code": "IT",
-        "country": "Italy",
-        "latitude": 45.4666559,
-        "longitude": 12.1754866,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/9F93TpHBkbqiXZQw9",
-        "search_tags": [
-          "vce",
-          "veneto",
-          "dolomiti",
-          "alpi",
-          "dolomites",
-          "alps",
-          "lake como",
-          "lago di como",
-          "lake garda",
-          "lago di garda",
-          "bolzano"
-        ]
-      },
-      "dropoff": {
-        "id": 51,
-        "name": "Berlin-Schönefeld",
-        "address": "Am Pechpfuhl 4",
-        "zip": "12529",
-        "city": "Berlin",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 52.3680875,
-        "longitude": 13.5614071,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/hqFQuRqvTDUu3ZfJ6",
-        "search_tags": [
-          "ber",
-          "schönefeld",
-          "brandenburg"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-12T00:00:00+00:00",
-          "end_date": "2026-09-19T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=78"
     },
     {
       "route": "Venice -> Marburg",
