@@ -1,12 +1,397 @@
 {
   "source": "https://www.movacar.com/en-US/offers",
-  "scraped_at": "2026-08-13T05:51:14+00:00",
+  "scraped_at": "2026-08-14T05:48:56+00:00",
   "pickup_window": {
-    "from": "2026-08-13",
-    "to": "2027-08-13"
+    "from": "2026-08-14",
+    "to": "2027-08-14"
   },
   "offer_count": 100,
   "offers": [
+    {
+      "id": "254401_873_846",
+      "offer_id": "254401",
+      "route": "Bremen -> Braunschweig",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "1381",
+        "city": "Braunschweig",
+        "street": "BERLINER PLATZ 1C",
+        "postal_code": "38102",
+        "latitude": 52.253,
+        "longitude": 10.5372,
+        "code": "BWEC01"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 250,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 173.0,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=1381",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
+    {
+      "id": "254401_873_2024",
+      "offer_id": "254401",
+      "route": "Bremen -> Göttingen",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "4290",
+        "city": "Göttingen",
+        "street": "GRONER LANDSTR. 27",
+        "postal_code": "37081",
+        "latitude": 51.5345,
+        "longitude": 9.9224,
+        "code": "ZEUC01"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 300,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 233.8,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=4290",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
+    {
+      "id": "254401_873_2356",
+      "offer_id": "254401",
+      "route": "Bremen -> Hannover",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "1709",
+        "city": "Hannover",
+        "street": "ERNST-AUGUST-PLATZ 1",
+        "postal_code": "30159",
+        "latitude": 52.3767,
+        "longitude": 9.7414,
+        "code": "HAJL01"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 150,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 121.1,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=1709",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
+    {
+      "id": "254401_873_2969",
+      "offer_id": "254401",
+      "route": "Bremen -> Kassel",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "1425",
+        "city": "Kassel",
+        "street": "LEIPZIGER STR. 65-71",
+        "postal_code": "34123",
+        "latitude": 51.3106,
+        "longitude": 9.5151,
+        "code": "KSFC01"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 350,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 276.9,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=1425",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
+    {
+      "id": "254401_873_3660",
+      "offer_id": "254401",
+      "route": "Bremen -> Magdeburg",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "1799",
+        "city": "Magdeburg",
+        "street": "LUEBECKER STRASSE 85",
+        "postal_code": "39124",
+        "latitude": 52.1635,
+        "longitude": 11.6347,
+        "code": "MQGC01"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 300,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 246.2,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=1799",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
+    {
+      "id": "254401_873_5186",
+      "offer_id": "254401",
+      "route": "Bremen -> Salzgitter",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "1879",
+        "city": "Salzgitter",
+        "street": "GUSTAV-HAGEMANN-STR. 11",
+        "postal_code": "38229",
+        "latitude": 52.1615,
+        "longitude": 10.3538,
+        "code": "ZPUC02"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 250,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 182.0,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=1879",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
+    {
+      "id": "254401_873_6668",
+      "offer_id": "254401",
+      "route": "Bremen -> Wolfsburg",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "Mystery",
+        "model": "Auto",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "1387",
+        "city": "Bremen",
+        "street": "BREITENWEG 32",
+        "postal_code": "28195",
+        "latitude": 53.0831,
+        "longitude": 8.8079,
+        "code": "BREC01"
+      },
+      "dropoff": {
+        "station_id": "1922",
+        "city": "Wolfsburg",
+        "street": "DIESELSTR. 19",
+        "postal_code": "38446",
+        "latitude": 52.427,
+        "longitude": 10.8015,
+        "code": "ZQUC01"
+      },
+      "earliest_pickup": "2026-08-11T04:00:00Z",
+      "latest_delivery": "2026-08-18T21:00:00Z",
+      "latest_pickup": "2026-08-17T21:00:00+00:00",
+      "valid_until": "2026-08-17T21:00:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 250,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 194.4,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254401?origin=1387&destination=1922",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
+    },
     {
       "id": "254402_16050_846",
       "offer_id": "254402",
@@ -36,13 +421,13 @@
         "code": "BREN03"
       },
       "dropoff": {
-        "station_id": "1381",
+        "station_id": "5484",
         "city": "Braunschweig",
-        "street": "BERLINER PLATZ 1C",
-        "postal_code": "38102",
-        "latitude": 52.253,
-        "longitude": 10.5372,
-        "code": "BWEC01"
+        "street": "SCHMALBACHSTR. 1",
+        "postal_code": "38112",
+        "latitude": 52.297,
+        "longitude": 10.5148,
+        "code": "BWEN02"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -56,11 +441,11 @@
       },
       "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 200.7,
+      "route_distance_km": 192.6,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=5484",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254402_16050_2024",
@@ -113,9 +498,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 261.5,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254402_16050_2356",
@@ -170,7 +555,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=1708",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254402_16050_2969",
@@ -225,7 +610,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254402_16050_3660",
@@ -258,7 +643,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -280,7 +665,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254402_16050_5186",
@@ -335,7 +720,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254402_16050_6668",
@@ -390,7 +775,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254402?origin=1392&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_846",
@@ -421,13 +806,13 @@
         "code": "LEYC01"
       },
       "dropoff": {
-        "station_id": "5484",
+        "station_id": "1381",
         "city": "Braunschweig",
-        "street": "SCHMALBACHSTR. 1",
-        "postal_code": "38112",
-        "latitude": 52.297,
-        "longitude": 10.5148,
-        "code": "BWEN02"
+        "street": "BERLINER PLATZ 1C",
+        "postal_code": "38102",
+        "latitude": 52.253,
+        "longitude": 10.5372,
+        "code": "BWEC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -441,11 +826,11 @@
       },
       "free_km": 350,
       "cents_per_extra_km": 50,
-      "route_distance_km": 263.6,
+      "route_distance_km": 272.9,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1381",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_2024",
@@ -498,9 +883,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 333.7,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_2356",
@@ -531,13 +916,13 @@
         "code": "LEYC01"
       },
       "dropoff": {
-        "station_id": "1708",
+        "station_id": "1711",
         "city": "Hannover",
-        "street": "HEUERSTR. 5",
-        "postal_code": "30519",
-        "latitude": 52.342,
-        "longitude": 9.7597,
-        "code": "HAJC01"
+        "street": "FLUGHAFENSTR. 4",
+        "postal_code": "30855",
+        "latitude": 52.4594,
+        "longitude": 9.7004,
+        "code": "HAJT01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -551,11 +936,11 @@
       },
       "free_km": 300,
       "cents_per_extra_km": 50,
-      "route_distance_km": 231.2,
+      "route_distance_km": 213.6,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1708",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1711",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_2969",
@@ -610,7 +995,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_3660",
@@ -643,7 +1028,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -665,7 +1050,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_5186",
@@ -720,7 +1105,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254403_3428_6668",
@@ -775,7 +1160,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254403?origin=1784&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_846",
@@ -806,13 +1191,13 @@
         "code": "ZPQN02"
       },
       "dropoff": {
-        "station_id": "5484",
+        "station_id": "1381",
         "city": "Braunschweig",
-        "street": "SCHMALBACHSTR. 1",
-        "postal_code": "38112",
-        "latitude": 52.297,
-        "longitude": 10.5148,
-        "code": "BWEN02"
+        "street": "BERLINER PLATZ 1C",
+        "postal_code": "38102",
+        "latitude": 52.253,
+        "longitude": 10.5372,
+        "code": "BWEC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -826,11 +1211,11 @@
       },
       "free_km": 350,
       "cents_per_extra_km": 50,
-      "route_distance_km": 281.6,
+      "route_distance_km": 291.0,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1381",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_2024",
@@ -883,9 +1268,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 311.2,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_2356",
@@ -916,13 +1301,13 @@
         "code": "ZPQN02"
       },
       "dropoff": {
-        "station_id": "1711",
+        "station_id": "1709",
         "city": "Hannover",
-        "street": "FLUGHAFENSTR. 4",
-        "postal_code": "30855",
-        "latitude": 52.4594,
-        "longitude": 9.7004,
-        "code": "HAJT01"
+        "street": "ERNST-AUGUST-PLATZ 1",
+        "postal_code": "30159",
+        "latitude": 52.3767,
+        "longitude": 9.7414,
+        "code": "HAJL01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -936,11 +1321,11 @@
       },
       "free_km": 300,
       "cents_per_extra_km": 50,
-      "route_distance_km": 228.3,
+      "route_distance_km": 226.4,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1711",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1709",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_2969",
@@ -995,7 +1380,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_3660",
@@ -1028,7 +1413,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -1050,7 +1435,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_5186",
@@ -1105,7 +1490,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254404_3552_6668",
@@ -1160,7 +1545,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254404?origin=1792&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_846",
@@ -1191,13 +1576,13 @@
         "code": "MSRC01"
       },
       "dropoff": {
-        "station_id": "5484",
+        "station_id": "1381",
         "city": "Braunschweig",
-        "street": "SCHMALBACHSTR. 1",
-        "postal_code": "38112",
-        "latitude": 52.297,
-        "longitude": 10.5148,
-        "code": "BWEN02"
+        "street": "BERLINER PLATZ 1C",
+        "postal_code": "38102",
+        "latitude": 52.253,
+        "longitude": 10.5372,
+        "code": "BWEC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -1211,11 +1596,11 @@
       },
       "free_km": 350,
       "cents_per_extra_km": 50,
-      "route_distance_km": 256.5,
+      "route_distance_km": 265.9,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1381",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_2024",
@@ -1268,9 +1653,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 247.1,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_2356",
@@ -1301,13 +1686,13 @@
         "code": "MSRC01"
       },
       "dropoff": {
-        "station_id": "1711",
+        "station_id": "1709",
         "city": "Hannover",
-        "street": "FLUGHAFENSTR. 4",
-        "postal_code": "30855",
-        "latitude": 52.4594,
-        "longitude": 9.7004,
-        "code": "HAJT01"
+        "street": "ERNST-AUGUST-PLATZ 1",
+        "postal_code": "30159",
+        "latitude": 52.3767,
+        "longitude": 9.7414,
+        "code": "HAJL01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -1321,11 +1706,11 @@
       },
       "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 203.2,
+      "route_distance_km": 201.3,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1711",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1709",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_2969",
@@ -1380,7 +1765,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_3660",
@@ -1413,7 +1798,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -1435,7 +1820,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_5186",
@@ -1490,7 +1875,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254405_4015_6668",
@@ -1545,7 +1930,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254405?origin=1809&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_846",
@@ -1576,13 +1961,13 @@
         "code": "OENC01"
       },
       "dropoff": {
-        "station_id": "5484",
+        "station_id": "1381",
         "city": "Braunschweig",
-        "street": "SCHMALBACHSTR. 1",
-        "postal_code": "38112",
-        "latitude": 52.297,
-        "longitude": 10.5148,
-        "code": "BWEN02"
+        "street": "BERLINER PLATZ 1C",
+        "postal_code": "38102",
+        "latitude": 52.253,
+        "longitude": 10.5372,
+        "code": "BWEC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -1596,11 +1981,11 @@
       },
       "free_km": 300,
       "cents_per_extra_km": 50,
-      "route_distance_km": 217.7,
+      "route_distance_km": 227.0,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1381",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_2024",
@@ -1653,9 +2038,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 287.8,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_2356",
@@ -1686,13 +2071,13 @@
         "code": "OENC01"
       },
       "dropoff": {
-        "station_id": "1711",
+        "station_id": "1708",
         "city": "Hannover",
-        "street": "FLUGHAFENSTR. 4",
-        "postal_code": "30855",
-        "latitude": 52.4594,
-        "longitude": 9.7004,
-        "code": "HAJT01"
+        "street": "HEUERSTR. 5",
+        "postal_code": "30519",
+        "latitude": 52.342,
+        "longitude": 9.7597,
+        "code": "HAJC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -1704,13 +2089,13 @@
         "amount": 1.0,
         "currency": "EUR"
       },
-      "free_km": 200,
+      "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 160.8,
+      "route_distance_km": 178.4,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1711",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1708",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_2969",
@@ -1765,7 +2150,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_3660",
@@ -1798,7 +2183,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -1820,7 +2205,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_5186",
@@ -1875,7 +2260,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254406_4500_6668",
@@ -1930,7 +2315,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254406?origin=1839&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_846",
@@ -1985,7 +2370,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_2024",
@@ -2038,9 +2423,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 221.8,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_2356",
@@ -2071,13 +2456,13 @@
         "code": "FMOE01"
       },
       "dropoff": {
-        "station_id": "1709",
+        "station_id": "1711",
         "city": "Hannover",
-        "street": "ERNST-AUGUST-PLATZ 1",
-        "postal_code": "30159",
-        "latitude": 52.3767,
-        "longitude": 9.7414,
-        "code": "HAJL01"
+        "street": "FLUGHAFENSTR. 4",
+        "postal_code": "30855",
+        "latitude": 52.4594,
+        "longitude": 9.7004,
+        "code": "HAJT01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -2091,11 +2476,11 @@
       },
       "free_km": 200,
       "cents_per_extra_km": 50,
-      "route_distance_km": 137.5,
+      "route_distance_km": 139.4,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1709",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1711",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_2969",
@@ -2150,7 +2535,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_3660",
@@ -2183,7 +2568,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -2205,7 +2590,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_5186",
@@ -2260,7 +2645,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254407_4529_6668",
@@ -2315,7 +2700,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254407?origin=1840&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_846",
@@ -2370,7 +2755,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_2024",
@@ -2423,9 +2808,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 335.4,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_2356",
@@ -2456,13 +2841,13 @@
         "code": "WVNC03"
       },
       "dropoff": {
-        "station_id": "1709",
+        "station_id": "1710",
         "city": "Hannover",
-        "street": "ERNST-AUGUST-PLATZ 1",
-        "postal_code": "30159",
-        "latitude": 52.3767,
-        "longitude": 9.7414,
-        "code": "HAJL01"
+        "street": "VAHRENWALDER STR. 197",
+        "postal_code": "30165",
+        "latitude": 52.4044,
+        "longitude": 9.7348,
+        "code": "HAJN01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -2476,11 +2861,11 @@
       },
       "free_km": 300,
       "cents_per_extra_km": 50,
-      "route_distance_km": 222.7,
+      "route_distance_km": 227.8,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=1709",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=1710",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_2969",
@@ -2535,7 +2920,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_3660",
@@ -2568,7 +2953,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -2590,7 +2975,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_5186",
@@ -2645,7 +3030,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254408_6562_6668",
@@ -2700,7 +3085,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254408?origin=1919&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_846",
@@ -2731,13 +3116,13 @@
         "code": "BREW03"
       },
       "dropoff": {
-        "station_id": "5484",
+        "station_id": "1381",
         "city": "Braunschweig",
-        "street": "SCHMALBACHSTR. 1",
-        "postal_code": "38112",
-        "latitude": 52.297,
-        "longitude": 10.5148,
-        "code": "BWEN02"
+        "street": "BERLINER PLATZ 1C",
+        "postal_code": "38102",
+        "latitude": 52.253,
+        "longitude": 10.5372,
+        "code": "BWEC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -2751,11 +3136,11 @@
       },
       "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 181.2,
+      "route_distance_km": 190.5,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1381",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_2024",
@@ -2808,9 +3193,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 251.3,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_2356",
@@ -2841,13 +3226,13 @@
         "code": "BREW03"
       },
       "dropoff": {
-        "station_id": "1710",
+        "station_id": "1711",
         "city": "Hannover",
-        "street": "VAHRENWALDER STR. 197",
-        "postal_code": "30165",
-        "latitude": 52.4044,
-        "longitude": 9.7348,
-        "code": "HAJN01"
+        "street": "FLUGHAFENSTR. 4",
+        "postal_code": "30855",
+        "latitude": 52.4594,
+        "longitude": 9.7004,
+        "code": "HAJT01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -2861,11 +3246,11 @@
       },
       "free_km": 200,
       "cents_per_extra_km": 50,
-      "route_distance_km": 135.2,
+      "route_distance_km": 131.2,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1710",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1711",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_2969",
@@ -2920,7 +3305,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_3660",
@@ -2953,7 +3338,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -2975,7 +3360,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_5186",
@@ -3030,7 +3415,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254409_1140_6668",
@@ -3085,7 +3470,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254409?origin=4635&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_846",
@@ -3140,7 +3525,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_2024",
@@ -3193,9 +3578,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 353.8,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_2356",
@@ -3226,13 +3611,13 @@
         "code": "EMEE03"
       },
       "dropoff": {
-        "station_id": "1711",
+        "station_id": "1708",
         "city": "Hannover",
-        "street": "FLUGHAFENSTR. 4",
-        "postal_code": "30855",
-        "latitude": 52.4594,
-        "longitude": 9.7004,
-        "code": "HAJT01"
+        "street": "HEUERSTR. 5",
+        "postal_code": "30519",
+        "latitude": 52.342,
+        "longitude": 9.7597,
+        "code": "HAJC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -3244,13 +3629,13 @@
         "amount": 1.0,
         "currency": "EUR"
       },
-      "free_km": 300,
+      "free_km": 350,
       "cents_per_extra_km": 50,
-      "route_distance_km": 233.7,
+      "route_distance_km": 258.2,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=1711",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=1708",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_2969",
@@ -3305,7 +3690,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_3660",
@@ -3338,7 +3723,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -3360,7 +3745,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_5186",
@@ -3415,7 +3800,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254410_284_6668",
@@ -3470,7 +3855,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254410?origin=5604&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_846",
@@ -3525,7 +3910,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_2024",
@@ -3578,9 +3963,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 184.0,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_2356",
@@ -3611,13 +3996,13 @@
         "code": "BFEC01"
       },
       "dropoff": {
-        "station_id": "1710",
+        "station_id": "1709",
         "city": "Hannover",
-        "street": "VAHRENWALDER STR. 197",
-        "postal_code": "30165",
-        "latitude": 52.4044,
-        "longitude": 9.7348,
-        "code": "HAJN01"
+        "street": "ERNST-AUGUST-PLATZ 1",
+        "postal_code": "30159",
+        "latitude": 52.3767,
+        "longitude": 9.7414,
+        "code": "HAJL01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -3631,11 +4016,11 @@
       },
       "free_km": 150,
       "cents_per_extra_km": 50,
-      "route_distance_km": 105.4,
+      "route_distance_km": 105.8,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1710",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1709",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_2969",
@@ -3690,7 +4075,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_3660",
@@ -3723,7 +4108,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -3745,7 +4130,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_5186",
@@ -3800,7 +4185,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254411_655_6668",
@@ -3855,7 +4240,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254411?origin=1363&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_846",
@@ -3886,13 +4271,13 @@
         "code": "PADC02"
       },
       "dropoff": {
-        "station_id": "1381",
+        "station_id": "5484",
         "city": "Braunschweig",
-        "street": "BERLINER PLATZ 1C",
-        "postal_code": "38102",
-        "latitude": 52.253,
-        "longitude": 10.5372,
-        "code": "BWEC01"
+        "street": "SCHMALBACHSTR. 1",
+        "postal_code": "38112",
+        "latitude": 52.297,
+        "longitude": 10.5148,
+        "code": "BWEN02"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -3906,11 +4291,11 @@
       },
       "free_km": 250,
       "cents_per_extra_km": 50,
-      "route_distance_km": 208.3,
+      "route_distance_km": 198.9,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=5484",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_2024",
@@ -3963,9 +4348,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 142.2,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_2356",
@@ -3996,13 +4381,13 @@
         "code": "PADC02"
       },
       "dropoff": {
-        "station_id": "1708",
+        "station_id": "1709",
         "city": "Hannover",
-        "street": "HEUERSTR. 5",
-        "postal_code": "30519",
-        "latitude": 52.342,
-        "longitude": 9.7597,
-        "code": "HAJC01"
+        "street": "ERNST-AUGUST-PLATZ 1",
+        "postal_code": "30159",
+        "latitude": 52.3767,
+        "longitude": 9.7414,
+        "code": "HAJL01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -4016,11 +4401,11 @@
       },
       "free_km": 200,
       "cents_per_extra_km": 50,
-      "route_distance_km": 147.4,
+      "route_distance_km": 143.7,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1708",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1709",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_2969",
@@ -4075,7 +4460,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_3660",
@@ -4108,7 +4493,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -4130,7 +4515,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_5186",
@@ -4185,7 +4570,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254412_4594_6668",
@@ -4240,7 +4625,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254412?origin=1417&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_846",
@@ -4295,7 +4680,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_2024",
@@ -4348,9 +4733,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 184.5,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_2356",
@@ -4381,13 +4766,13 @@
         "code": "GUTC01"
       },
       "dropoff": {
-        "station_id": "1711",
+        "station_id": "1708",
         "city": "Hannover",
-        "street": "FLUGHAFENSTR. 4",
-        "postal_code": "30855",
-        "latitude": 52.4594,
-        "longitude": 9.7004,
-        "code": "HAJT01"
+        "street": "HEUERSTR. 5",
+        "postal_code": "30519",
+        "latitude": 52.342,
+        "longitude": 9.7597,
+        "code": "HAJC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -4401,11 +4786,11 @@
       },
       "free_km": 200,
       "cents_per_extra_km": 50,
-      "route_distance_km": 131.2,
+      "route_distance_km": 133.0,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1711",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1708",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_2969",
@@ -4460,7 +4845,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_3660",
@@ -4493,7 +4878,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -4515,7 +4900,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_5186",
@@ -4570,7 +4955,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254413_2250_6668",
@@ -4625,7 +5010,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254413?origin=1685&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_846",
@@ -4680,7 +5065,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_2024",
@@ -4733,9 +5118,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 63.3,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_2356",
@@ -4766,13 +5151,13 @@
         "code": "HOZC01"
       },
       "dropoff": {
-        "station_id": "1710",
+        "station_id": "1708",
         "city": "Hannover",
-        "street": "VAHRENWALDER STR. 197",
-        "postal_code": "30165",
-        "latitude": 52.4044,
-        "longitude": 9.7348,
-        "code": "HAJN01"
+        "street": "HEUERSTR. 5",
+        "postal_code": "30519",
+        "latitude": 52.342,
+        "longitude": 9.7597,
+        "code": "HAJC01"
       },
       "earliest_pickup": "2026-08-11T04:00:00Z",
       "latest_delivery": "2026-08-18T21:00:00Z",
@@ -4784,13 +5169,13 @@
         "amount": 1.0,
         "currency": "EUR"
       },
-      "free_km": 150,
+      "free_km": 100,
       "cents_per_extra_km": 50,
-      "route_distance_km": 84.9,
+      "route_distance_km": 74.9,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1710",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1708",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_2969",
@@ -4845,7 +5230,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_3660",
@@ -4878,7 +5263,7 @@
       "dropoff": {
         "station_id": "1799",
         "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
+        "street": "LUEBECKER STRASSE 85",
         "postal_code": "39124",
         "latitude": 52.1635,
         "longitude": 11.6347,
@@ -4900,7 +5285,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_5186",
@@ -4955,7 +5340,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254414_21319_6668",
@@ -5010,7 +5395,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254414?origin=1738&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254415_3467_846",
@@ -5065,7 +5450,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=1381",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     },
     {
       "id": "254415_3467_2024",
@@ -5118,394 +5503,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 123.5,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254415_3467_2356",
-      "offer_id": "254415",
-      "route": "Lemgo -> Hannover",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1785",
-        "city": "Lemgo",
-        "street": "HERFORDER STR. 70",
-        "postal_code": "32657",
-        "latitude": 52.0286,
-        "longitude": 8.8834,
-        "code": "LLJC02"
-      },
-      "dropoff": {
-        "station_id": "1708",
-        "city": "Hannover",
-        "street": "HEUERSTR. 5",
-        "postal_code": "30519",
-        "latitude": 52.342,
-        "longitude": 9.7597,
-        "code": "HAJC01"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 150,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 117.4,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=1708",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254415_3467_2969",
-      "offer_id": "254415",
-      "route": "Lemgo -> Kassel",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1785",
-        "city": "Lemgo",
-        "street": "HERFORDER STR. 70",
-        "postal_code": "32657",
-        "latitude": 52.0286,
-        "longitude": 8.8834,
-        "code": "LLJC02"
-      },
-      "dropoff": {
-        "station_id": "1425",
-        "city": "Kassel",
-        "street": "LEIPZIGER STR. 65-71",
-        "postal_code": "34123",
-        "latitude": 51.3106,
-        "longitude": 9.5151,
-        "code": "KSFC01"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 200,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 156.3,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=1425",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254415_3467_3660",
-      "offer_id": "254415",
-      "route": "Lemgo -> Magdeburg",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1785",
-        "city": "Lemgo",
-        "street": "HERFORDER STR. 70",
-        "postal_code": "32657",
-        "latitude": 52.0286,
-        "longitude": 8.8834,
-        "code": "LLJC02"
-      },
-      "dropoff": {
-        "station_id": "1799",
-        "city": "Magdeburg",
-        "street": "LUEBECKER STR. 85",
-        "postal_code": "39124",
-        "latitude": 52.1635,
-        "longitude": 11.6347,
-        "code": "MQGC01"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 350,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 250.9,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=1799",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254415_3467_5186",
-      "offer_id": "254415",
-      "route": "Lemgo -> Salzgitter",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1785",
-        "city": "Lemgo",
-        "street": "HERFORDER STR. 70",
-        "postal_code": "32657",
-        "latitude": 52.0286,
-        "longitude": 8.8834,
-        "code": "LLJC02"
-      },
-      "dropoff": {
-        "station_id": "1879",
-        "city": "Salzgitter",
-        "street": "GUSTAV-HAGEMANN-STR. 11",
-        "postal_code": "38229",
-        "latitude": 52.1615,
-        "longitude": 10.3538,
-        "code": "ZPUC02"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 250,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 187.0,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=1879",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254415_3467_6668",
-      "offer_id": "254415",
-      "route": "Lemgo -> Wolfsburg",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1785",
-        "city": "Lemgo",
-        "street": "HERFORDER STR. 70",
-        "postal_code": "32657",
-        "latitude": 52.0286,
-        "longitude": 8.8834,
-        "code": "LLJC02"
-      },
-      "dropoff": {
-        "station_id": "1922",
-        "city": "Wolfsburg",
-        "street": "DIESELSTR. 19",
-        "postal_code": "38446",
-        "latitude": 52.427,
-        "longitude": 10.8015,
-        "code": "ZQUC01"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 250,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 199.1,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254415?origin=1785&destination=1922",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254417_3886_846",
-      "offer_id": "254417",
-      "route": "Minden -> Braunschweig",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1803",
-        "city": "Minden",
-        "street": "POTSDAMER STR 7",
-        "postal_code": "32423",
-        "latitude": 52.3101,
-        "longitude": 8.9704,
-        "code": "ZOMC03"
-      },
-      "dropoff": {
-        "station_id": "5484",
-        "city": "Braunschweig",
-        "street": "SCHMALBACHSTR. 1",
-        "postal_code": "38112",
-        "latitude": 52.297,
-        "longitude": 10.5148,
-        "code": "BWEN02"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 200,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 131.5,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254417?origin=1803&destination=5484",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
-    },
-    {
-      "id": "254417_3886_2024",
-      "offer_id": "254417",
-      "route": "Minden -> Göttingen",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Mystery",
-        "model": "Auto",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Petrol",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
-      "pickup": {
-        "station_id": "1803",
-        "city": "Minden",
-        "street": "POTSDAMER STR 7",
-        "postal_code": "32423",
-        "latitude": 52.3101,
-        "longitude": 8.9704,
-        "code": "ZOMC03"
-      },
-      "dropoff": {
-        "station_id": "4290",
-        "city": "Göttingen",
-        "street": "GRONER LANDSTR. 27",
-        "postal_code": "37081",
-        "latitude": 51.5345,
-        "longitude": 9.9224,
-        "code": "ZEUC01"
-      },
-      "earliest_pickup": "2026-08-11T04:00:00Z",
-      "latest_delivery": "2026-08-18T21:00:00Z",
-      "latest_pickup": "2026-08-17T21:00:00+00:00",
-      "valid_until": "2026-08-17T21:00:00Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 250,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 202.0,
-      "min_drivers_age": 18,
-      "has_connections": true,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254417?origin=1803&destination=4290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-13&pickupDateTo=2027-08-13"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-14&pickupDateTo=2027-08-14"
     }
   ]
 }

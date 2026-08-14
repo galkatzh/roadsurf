@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-08-13T05:52:28+00:00",
+  "scraped_at": "2026-08-14T05:50:12+00:00",
   "station_count": 116,
-  "ride_count": 148,
+  "ride_count": 143,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -155,10 +155,6 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-09-23T00:00:00+00:00",
-          "end_date": "2026-09-30T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-09-24T00:00:00+00:00",
           "end_date": "2026-10-01T00:00:00+00:00"
         },
@@ -218,63 +214,6 @@
         {
           "start_date": "2026-10-02T00:00:00+00:00",
           "end_date": "2026-10-09T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
-    },
-    {
-      "route": "Amsterdam -> Barcelona",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 32,
-        "name": "Amsterdam",
-        "address": "Spinnerij 17, 1185 ZN Amsterdam",
-        "zip": "1185 ZN",
-        "city": "Amstelveen",
-        "country_code": "NL",
-        "country": "Netherlands",
-        "latitude": 52.2838247,
-        "longitude": 4.8354896,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
-        "search_tags": [
-          "ams",
-          "schiphol",
-          "north holland",
-          "noord-holland",
-          "randstad",
-          "utrecht"
-        ]
-      },
-      "dropoff": {
-        "id": 17,
-        "name": "Barcelona",
-        "address": "Carrer d´Andorra 67, Local 2, 08840 Viladecans",
-        "zip": "08840",
-        "city": "Viladecans",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 41.3208053,
-        "longitude": 2.030007,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/L13cfYU8Hm327G4p6",
-        "search_tags": [
-          "bcn",
-          "el prat",
-          "catalonia",
-          "catalunya",
-          "cataluña",
-          "costa brava",
-          "costa dorada",
-          "costa daurada",
-          "tarragona"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-13T00:00:00+00:00",
-          "end_date": "2026-08-18T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
@@ -1589,61 +1528,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=42"
     },
     {
-      "route": "Brussels -> Berlin",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 42,
-        "name": "Brussels",
-        "address": "Bergensesteenweg 764a",
-        "zip": "1600",
-        "city": "Sint-Pieters-Leeuw",
-        "country_code": "BE",
-        "country": "Belgium",
-        "latitude": 50.856,
-        "longitude": 4.348,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/JWb2AEkSyzkm2NsV8",
-        "search_tags": [
-          "bru",
-          "flanders",
-          "wallonia",
-          "vlaanderen",
-          "wallonie",
-          "flandre",
-          "ghent",
-          "gent",
-          "gand",
-          "charleroi"
-        ]
-      },
-      "dropoff": {
-        "id": 6,
-        "name": "Berlin",
-        "address": "Nordlichtstr. 11, 13405 Berlin",
-        "zip": "13405",
-        "city": "Berlin",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 52.562908,
-        "longitude": 13.3255524,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/9WbPrBcELBEMmJ1e6",
-        "search_tags": [
-          "ber",
-          "txl",
-          "brandenburg"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-18T00:00:00+00:00",
-          "end_date": "2026-09-25T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=42"
-    },
-    {
       "route": "Brussels -> Würzburg",
       "trip_type": "one-way",
       "pickup": {
@@ -2671,59 +2555,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=9"
     },
     {
-      "route": "Geneva-Pays de Gex (France) -> Dresden",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 29,
-        "name": "Geneva-Pays de Gex (France)",
-        "address": "133 Chemin de Baritella, 01630\t Saint-Jean-de-Gonville",
-        "zip": "01630",
-        "city": "Saint-Jean-de-Gonville",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 46.204,
-        "longitude": 5.961,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/q5wSAH7MrWBLNGeZ9",
-        "search_tags": [
-          "gva",
-          "pays de gex",
-          "haute-savoie",
-          "french alps",
-          "suisse romande",
-          "chamonix",
-          "grenoble"
-        ]
-      },
-      "dropoff": {
-        "id": 56,
-        "name": "Dresden",
-        "address": "Magazinstraße 15A",
-        "zip": "01099",
-        "city": "Dresden",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.14,
-        "longitude": 13.795,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/tYSsCZ9HZDSk21S4A",
-        "search_tags": [
-          "drs",
-          "saxony",
-          "sachsen",
-          "elbe"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-22T00:00:00+00:00",
-          "end_date": "2026-09-29T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=29"
-    },
-    {
       "route": "Geneva-Pays de Gex (France) -> Marburg",
       "trip_type": "one-way",
       "pickup": {
@@ -2764,10 +2595,6 @@
       },
       "available": true,
       "available_timeframes": [
-        {
-          "start_date": "2026-09-14T00:00:00+00:00",
-          "end_date": "2026-09-21T00:00:00+00:00"
-        },
         {
           "start_date": "2026-09-26T00:00:00+00:00",
           "end_date": "2026-10-03T00:00:00+00:00"
@@ -2854,8 +2681,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=77"
     },
     {
-      "route": "Graz -> Marburg",
-      "trip_type": "one-way",
+      "route": "Graz -> Graz",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 37,
         "name": "Graz",
@@ -2875,26 +2702,25 @@
         ]
       },
       "dropoff": {
-        "id": 22,
-        "name": "Marburg",
-        "address": "Afföllerstraße 90B",
-        "zip": "35039",
-        "city": "Marburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.8299781,
-        "longitude": 8.7707884,
+        "id": 37,
+        "name": "Graz",
+        "address": "Maggstraße 19, 8042 Graz",
+        "zip": "8042",
+        "city": "Graz",
+        "country_code": "AT",
+        "country": "Austria",
+        "latitude": 47.071,
+        "longitude": 15.404,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/pJg1Lwgv1TSsDVYy5",
-        "search_tags": []
+        "google_maps": "https://goo.gl/maps/QHEWicmuBDJZp7EP7",
+        "search_tags": [
+          "grz",
+          "styria",
+          "steiermark"
+        ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-10T00:00:00+00:00",
-          "end_date": "2026-09-17T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=37"
     },
     {
@@ -3148,8 +2974,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=79"
     },
     {
-      "route": "Innsbruck-Wiesing -> Barcelona",
-      "trip_type": "one-way",
+      "route": "Innsbruck-Wiesing -> Innsbruck-Wiesing",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 46,
         "name": "Innsbruck-Wiesing",
@@ -3171,36 +2997,27 @@
         ]
       },
       "dropoff": {
-        "id": 17,
-        "name": "Barcelona",
-        "address": "Carrer d´Andorra 67, Local 2, 08840 Viladecans",
-        "zip": "08840",
-        "city": "Viladecans",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 41.3208053,
-        "longitude": 2.030007,
+        "id": 46,
+        "name": "Innsbruck-Wiesing",
+        "address": "Tiergarten 603",
+        "zip": "6210",
+        "city": "Wiesing",
+        "country_code": "AT",
+        "country": "Austria",
+        "latitude": 47.3916345,
+        "longitude": 11.7821444,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/L13cfYU8Hm327G4p6",
+        "google_maps": "https://maps.app.goo.gl/MLFLLVE4gbF8mxRbA",
         "search_tags": [
-          "bcn",
-          "el prat",
-          "catalonia",
-          "catalunya",
-          "cataluña",
-          "costa brava",
-          "costa dorada",
-          "costa daurada",
-          "tarragona"
+          "inn",
+          "tyrol",
+          "tirol",
+          "alps",
+          "alpen"
         ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-19T00:00:00+00:00",
-          "end_date": "2026-09-26T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=46"
     },
     {
@@ -4196,70 +4013,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=15"
     },
     {
-      "route": "Lyon -> Bilbao",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 15,
-        "name": "Lyon",
-        "address": "1201 Avenue des Pré Seigneurs, 01120 Dagneux",
-        "zip": "01120",
-        "city": "Dagneux",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 45.8437777,
-        "longitude": 5.0627608,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/ZWhCTQq4gmHaY58f6",
-        "search_tags": [
-          "lys",
-          "auvergne-rhône-alpes",
-          "rhône",
-          "french alps",
-          "alpes",
-          "saint etienne",
-          "annecy",
-          "valence"
-        ]
-      },
-      "dropoff": {
-        "id": 40,
-        "name": "Bilbao",
-        "address": "Polígono Ugaldeguren 3, Parcela 18-1 Elemento 2",
-        "zip": "48170 Zamudio Bizkaia",
-        "city": "Bilbao",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 43.2876667,
-        "longitude": -2.878791,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/3YBYjg8cNp3D585P8",
-        "search_tags": [
-          "bio",
-          "basque country",
-          "país vasco",
-          "euskadi",
-          "bilbao airport",
-          "aeropuerto bilbao",
-          "bilbo aireportua",
-          "bilbo",
-          "bizkaia",
-          "vizcaya",
-          "san sebastian",
-          "donosti",
-          "donostia",
-          "cantabria"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-24T00:00:00+00:00",
-          "end_date": "2026-08-31T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=15"
-    },
-    {
       "route": "Madrid -> Marburg",
       "trip_type": "one-way",
       "pickup": {
@@ -4415,6 +4168,10 @@
       },
       "available": true,
       "available_timeframes": [
+        {
+          "start_date": "2026-10-03T00:00:00+00:00",
+          "end_date": "2026-10-10T00:00:00+00:00"
+        },
         {
           "start_date": "2026-10-20T00:00:00+00:00",
           "end_date": "2026-10-27T00:00:00+00:00"
@@ -5204,64 +4961,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=31"
     },
     {
-      "route": "Nantes -> Strasbourg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 31,
-        "name": "Nantes",
-        "address": "24 Chemin des Bateliers, 44300 Nantes",
-        "zip": "44300",
-        "city": "Nantes",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 47.211,
-        "longitude": -1.565,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/CumFEsNpKg2FT1n7A",
-        "search_tags": [
-          "nte",
-          "pays de la loire",
-          "loire-atlantique",
-          "brittany",
-          "vannes"
-        ]
-      },
-      "dropoff": {
-        "id": 49,
-        "name": "Strasbourg",
-        "address": "10 rue de la Rochelle",
-        "zip": "67100",
-        "city": "Strasbourg",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 48.597,
-        "longitude": 7.718,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/ZVFtSx5Wnu3hqDCn6",
-        "search_tags": [
-          "sxb",
-          "alsace",
-          "grand est",
-          "bas-rhin",
-          "colmar",
-          "black forest",
-          "foret noire",
-          "metz",
-          "nancy",
-          "offenburg",
-          "baden-baden"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-20T00:00:00+00:00",
-          "end_date": "2026-08-27T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=31"
-    },
-    {
       "route": "New York -> New York",
       "trip_type": "round-trip",
       "pickup": {
@@ -5577,10 +5276,6 @@
         {
           "start_date": "2026-09-12T00:00:00+00:00",
           "end_date": "2026-09-19T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-14T00:00:00+00:00",
-          "end_date": "2026-09-21T00:00:00+00:00"
         },
         {
           "start_date": "2026-09-23T00:00:00+00:00",
@@ -6119,8 +5814,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=33"
     },
     {
-      "route": "Salt Lake City -> Las Vegas",
-      "trip_type": "one-way",
+      "route": "Salt Lake City -> Salt Lake City",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 106,
         "name": "Salt Lake City",
@@ -6140,30 +5835,25 @@
         ]
       },
       "dropoff": {
-        "id": 76,
-        "name": "Las Vegas",
-        "address": "3385 N Las Vegas Blvd",
-        "zip": "89115",
-        "city": "Las Vegas",
+        "id": 106,
+        "name": "Salt Lake City",
+        "address": "4768 Camp Kearns Rd, Kearns, UT 84118",
+        "zip": "84118",
+        "city": "Salt Lake City",
         "country_code": "US",
         "country": "United States of America",
-        "latitude": 36.22076,
-        "longitude": -115.089793,
-        "timezone": "America/Los_Angeles",
-        "google_maps": "https://www.google.de/maps/@36.0912019,-115.1467471,17.25z",
+        "latitude": 40.7267485,
+        "longitude": -111.9103578,
+        "timezone": "America/Denver",
+        "google_maps": "https://maps.app.goo.gl/KhEpSNLcidKjHjwi7",
         "search_tags": [
-          "las",
-          "nevada",
-          "clark county"
+          "slc",
+          "utah",
+          "wasatch"
         ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-20T00:00:00+00:00",
-          "end_date": "2026-08-26T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=106"
     },
     {
@@ -6212,8 +5902,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=85"
     },
     {
-      "route": "San Francisco -> San Francisco",
-      "trip_type": "round-trip",
+      "route": "San Francisco -> Dallas",
+      "trip_type": "one-way",
       "pickup": {
         "id": 75,
         "name": "San Francisco",
@@ -6235,27 +5925,29 @@
         ]
       },
       "dropoff": {
-        "id": 75,
-        "name": "San Francisco",
-        "address": "200 El Camino Real",
-        "zip": "94030",
-        "city": "Millbrae",
+        "id": 125,
+        "name": "Dallas",
+        "address": "12114 S Pipeline Rd, Suite 200",
+        "zip": "76040",
+        "city": "Fort Worth",
         "country_code": "US",
         "country": "United States of America",
-        "latitude": 37.6007802,
-        "longitude": -122.3892551,
-        "timezone": "America/Los_Angeles",
-        "google_maps": "https://www.google.de/maps/place/Free+Parking/@37.6040188,-122.3953968,17.25z/data=!4m12!1m6!3m5!1s0x808f778c55555555:0xa4f25c571acded3f!2sFlughafen+San+Francisco!8m2!3d37.6213129!4d-122.3789554!3m4!1s0x0:0xfe4a950d88a9c9bc!8m2!3d37.6042639!4d-122.3966375",
+        "latitude": 32.8214,
+        "longitude": -97.0974,
+        "timezone": "America/Chicago",
+        "google_maps": "https://maps.app.goo.gl/azD6Nu6Hv9PiDpvFA",
         "search_tags": [
-          "sfo",
-          "california",
-          "norcal",
-          "northern california",
-          "bay area"
+          "dfw",
+          "texas"
         ]
       },
-      "available": false,
-      "available_timeframes": [],
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-09-15T00:00:00+00:00",
+          "end_date": "2026-09-23T00:00:00+00:00"
+        }
+      ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=75"
     },
     {
@@ -7119,8 +6811,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=36"
     },
     {
-      "route": "Vienna South -> Barcelona",
-      "trip_type": "one-way",
+      "route": "Vienna South -> Vienna South",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 45,
         "name": "Vienna South",
@@ -7140,36 +6832,25 @@
         ]
       },
       "dropoff": {
-        "id": 17,
-        "name": "Barcelona",
-        "address": "Carrer d´Andorra 67, Local 2, 08840 Viladecans",
-        "zip": "08840",
-        "city": "Viladecans",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 41.3208053,
-        "longitude": 2.030007,
+        "id": 45,
+        "name": "Vienna South",
+        "address": "Siebenhirtenstraße 22-26",
+        "zip": "1230",
+        "city": "Vienna",
+        "country_code": "AT",
+        "country": "Austria",
+        "latitude": 48.148,
+        "longitude": 16.352,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/L13cfYU8Hm327G4p6",
+        "google_maps": "https://goo.gl/maps/c5mM4mAx6xuzB1Fw6",
         "search_tags": [
-          "bcn",
-          "el prat",
-          "catalonia",
-          "catalunya",
-          "cataluña",
-          "costa brava",
-          "costa dorada",
-          "costa daurada",
-          "tarragona"
+          "vie",
+          "lower austria",
+          "niederösterreich"
         ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-13T00:00:00+00:00",
-          "end_date": "2026-08-18T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=45"
     },
     {
