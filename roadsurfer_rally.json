@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-08-15T04:51:03+00:00",
+  "scraped_at": "2026-08-16T04:53:45+00:00",
   "station_count": 116,
-  "ride_count": 136,
+  "ride_count": 135,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -157,63 +157,6 @@
         {
           "start_date": "2026-09-24T00:00:00+00:00",
           "end_date": "2026-10-01T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-25T00:00:00+00:00",
-          "end_date": "2026-10-02T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
-    },
-    {
-      "route": "Amsterdam -> Duisburg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 32,
-        "name": "Amsterdam",
-        "address": "Spinnerij 17, 1185 ZN Amsterdam",
-        "zip": "1185 ZN",
-        "city": "Amstelveen",
-        "country_code": "NL",
-        "country": "Netherlands",
-        "latitude": 52.2838247,
-        "longitude": 4.8354896,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
-        "search_tags": [
-          "ams",
-          "schiphol",
-          "north holland",
-          "noord-holland",
-          "randstad",
-          "utrecht"
-        ]
-      },
-      "dropoff": {
-        "id": 113,
-        "name": "Duisburg",
-        "address": "Forststr. 36",
-        "zip": "47055",
-        "city": "Duisburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.4390563,
-        "longitude": 6.7575595,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/wjaEiB182y2Jmshz8",
-        "search_tags": [
-          "ruhr",
-          "ruhrgebiet",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-02T00:00:00+00:00",
-          "end_date": "2026-10-09T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
@@ -775,10 +718,6 @@
       },
       "available": true,
       "available_timeframes": [
-        {
-          "start_date": "2026-09-16T00:00:00+00:00",
-          "end_date": "2026-09-23T00:00:00+00:00"
-        },
         {
           "start_date": "2026-09-25T00:00:00+00:00",
           "end_date": "2026-10-02T00:00:00+00:00"
@@ -2361,8 +2300,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=9"
     },
     {
-      "route": "Geneva-Pays de Gex (France) -> Marburg",
-      "trip_type": "one-way",
+      "route": "Geneva-Pays de Gex (France) -> Geneva-Pays de Gex (France)",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 29,
         "name": "Geneva-Pays de Gex (France)",
@@ -2386,26 +2325,29 @@
         ]
       },
       "dropoff": {
-        "id": 22,
-        "name": "Marburg",
-        "address": "Afföllerstraße 90B",
-        "zip": "35039",
-        "city": "Marburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.8299781,
-        "longitude": 8.7707884,
+        "id": 29,
+        "name": "Geneva-Pays de Gex (France)",
+        "address": "133 Chemin de Baritella, 01630\t Saint-Jean-de-Gonville",
+        "zip": "01630",
+        "city": "Saint-Jean-de-Gonville",
+        "country_code": "FR",
+        "country": "France",
+        "latitude": 46.204,
+        "longitude": 5.961,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/pJg1Lwgv1TSsDVYy5",
-        "search_tags": []
+        "google_maps": "https://goo.gl/maps/q5wSAH7MrWBLNGeZ9",
+        "search_tags": [
+          "gva",
+          "pays de gex",
+          "haute-savoie",
+          "french alps",
+          "suisse romande",
+          "chamonix",
+          "grenoble"
+        ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-26T00:00:00+00:00",
-          "end_date": "2026-10-03T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=29"
     },
     {
