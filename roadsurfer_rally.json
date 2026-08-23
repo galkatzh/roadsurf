@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-08-22T04:54:35+00:00",
+  "scraped_at": "2026-08-23T04:55:49+00:00",
   "station_count": 116,
-  "ride_count": 125,
+  "ride_count": 124,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -109,8 +109,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=16"
     },
     {
-      "route": "Amsterdam -> Lindau-Wangen",
-      "trip_type": "one-way",
+      "route": "Amsterdam -> Amsterdam",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 32,
         "name": "Amsterdam",
@@ -133,32 +133,28 @@
         ]
       },
       "dropoff": {
-        "id": 117,
-        "name": "Lindau-Wangen",
-        "address": "Ebnetstraße 31",
-        "zip": "88239",
-        "city": "Wangen",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 47.5019955,
-        "longitude": 9.7317079,
+        "id": 32,
+        "name": "Amsterdam",
+        "address": "Spinnerij 17, 1185 ZN Amsterdam",
+        "zip": "1185 ZN",
+        "city": "Amstelveen",
+        "country_code": "NL",
+        "country": "Netherlands",
+        "latitude": 52.2838247,
+        "longitude": 4.8354896,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/CoFkNx1PRbbXaRBz9",
+        "google_maps": "https://goo.gl/maps/7Wu7YJ8ezX2Rnbj29",
         "search_tags": [
-          "lake constance",
-          "bodensee",
-          "allgäu",
-          "bavaria",
-          "bayern"
+          "ams",
+          "schiphol",
+          "north holland",
+          "noord-holland",
+          "randstad",
+          "utrecht"
         ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-25T00:00:00+00:00",
-          "end_date": "2026-08-28T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=32"
     },
     {
@@ -347,10 +343,6 @@
         {
           "start_date": "2026-09-03T00:00:00+00:00",
           "end_date": "2026-09-07T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-09-03T00:00:00+00:00",
-          "end_date": "2026-09-10T00:00:00+00:00"
         },
         {
           "start_date": "2026-09-10T00:00:00+00:00",
@@ -2794,8 +2786,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=92"
     },
     {
-      "route": "Kiel -> Lindau-Wangen",
-      "trip_type": "one-way",
+      "route": "Kiel -> Kiel",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 111,
         "name": "Kiel",
@@ -2817,32 +2809,27 @@
         ]
       },
       "dropoff": {
-        "id": 117,
-        "name": "Lindau-Wangen",
-        "address": "Ebnetstraße 31",
-        "zip": "88239",
-        "city": "Wangen",
+        "id": 111,
+        "name": "Kiel",
+        "address": "Radewisch 2",
+        "zip": "24145",
+        "city": "Kiel",
         "country_code": "DE",
         "country": "Germany",
-        "latitude": 47.5019955,
-        "longitude": 9.7317079,
+        "latitude": 54.3350032,
+        "longitude": 10.115857,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/CoFkNx1PRbbXaRBz9",
+        "google_maps": "https://maps.app.goo.gl/dSEREDChw5T2uLVv8",
         "search_tags": [
-          "lake constance",
-          "bodensee",
-          "allgäu",
-          "bavaria",
-          "bayern"
+          "schleswig-holstein",
+          "baltic",
+          "ostsee",
+          "northern germany",
+          "norddeutschland"
         ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-24T00:00:00+00:00",
-          "end_date": "2026-08-27T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=111"
     },
     {
@@ -5111,8 +5098,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=39"
     },
     {
-      "route": "Stockholm -> Munich",
-      "trip_type": "one-way",
+      "route": "Stockholm -> Stockholm",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 59,
         "name": "Stockholm",
@@ -5131,32 +5118,24 @@
         ]
       },
       "dropoff": {
-        "id": 1,
-        "name": "Munich",
-        "address": "Ingolstädterstr. 172",
-        "zip": "80939",
-        "city": "Munich",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 48.204,
-        "longitude": 11.586,
+        "id": 59,
+        "name": "Stockholm",
+        "address": "Okvistavägen 22, 18640\tVallentuna",
+        "zip": "18640",
+        "city": "Stockholm",
+        "country_code": "SE",
+        "country": "Sweden",
+        "latitude": 59.292,
+        "longitude": 18.001,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/L8kz8j4KnHcphZJZ6",
+        "google_maps": "https://goo.gl/maps/mAf2zbwGXLHXb5a86",
         "search_tags": [
-          "muc",
-          "bavaria",
-          "bayern",
-          "oberbayern",
-          "upper bavaria"
+          "arn",
+          "svealand"
         ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-08-31T00:00:00+00:00",
-          "end_date": "2026-09-07T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=59"
     },
     {
@@ -5353,63 +5332,6 @@
         {
           "start_date": "2026-09-24T00:00:00+00:00",
           "end_date": "2026-10-01T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=30"
-    },
-    {
-      "route": "Toulouse -> Hamburg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 30,
-        "name": "Toulouse",
-        "address": "30, Rue du Rempart, 31140 \tSaint-Alban",
-        "zip": "31140",
-        "city": "Saint-Alban",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 43.591,
-        "longitude": 1.418,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/cjuBEz58zhtZhwE79",
-        "search_tags": [
-          "tls",
-          "occitanie",
-          "haute-garonne",
-          "south of france",
-          "midi",
-          "pyrénées",
-          "carcassonne",
-          "andorra",
-          "andorre",
-          "blagnac",
-          "montpellier"
-        ]
-      },
-      "dropoff": {
-        "id": 3,
-        "name": "Hamburg",
-        "address": "Billbrookdeich 11",
-        "zip": "22113",
-        "city": "Hamburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.5401405,
-        "longitude": 10.0781996,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/FtPGbAT5Xbrz49hP8",
-        "search_tags": [
-          "ham",
-          "schleswig-holstein",
-          "northern germany",
-          "norddeutschland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-30T00:00:00+00:00",
-          "end_date": "2026-10-07T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=30"
