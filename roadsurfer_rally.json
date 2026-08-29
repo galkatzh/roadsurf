@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-08-28T16:43:26+00:00",
+  "scraped_at": "2026-08-29T11:11:04+00:00",
   "station_count": 116,
-  "ride_count": 120,
+  "ride_count": 118,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -815,62 +815,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=57"
     },
     {
-      "route": "Bordeaux -> Hamburg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 13,
-        "name": "Bordeaux",
-        "address": "138 Avenue de l‘Argonne, 33700\t Mérignac",
-        "zip": "33700",
-        "city": "Mérignac",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 44.821,
-        "longitude": -0.693,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/D96CqVMMbZruwdSL8",
-        "search_tags": [
-          "bod",
-          "aquitaine",
-          "nouvelle-aquitaine",
-          "gironde",
-          "sud-ouest",
-          "landes",
-          "bayonne",
-          "biarritz",
-          "merignac",
-          "la rochelle"
-        ]
-      },
-      "dropoff": {
-        "id": 3,
-        "name": "Hamburg",
-        "address": "Billbrookdeich 11",
-        "zip": "22113",
-        "city": "Hamburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.5401405,
-        "longitude": 10.0781996,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/FtPGbAT5Xbrz49hP8",
-        "search_tags": [
-          "ham",
-          "schleswig-holstein",
-          "northern germany",
-          "norddeutschland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-26T00:00:00+00:00",
-          "end_date": "2026-10-03T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=13"
-    },
-    {
       "route": "Bordeaux -> Marburg",
       "trip_type": "one-way",
       "pickup": {
@@ -914,6 +858,10 @@
       },
       "available": true,
       "available_timeframes": [
+        {
+          "start_date": "2026-09-25T00:00:00+00:00",
+          "end_date": "2026-10-02T00:00:00+00:00"
+        },
         {
           "start_date": "2026-09-26T00:00:00+00:00",
           "end_date": "2026-10-03T00:00:00+00:00"
@@ -3201,65 +3149,8 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-09-25T00:00:00+00:00",
-          "end_date": "2026-10-02T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-10-05T00:00:00+00:00",
           "end_date": "2026-10-12T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=20"
-    },
-    {
-      "route": "Madrid -> Bremen",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 20,
-        "name": "Madrid",
-        "address": "Calle Mir, 10",
-        "zip": "28052",
-        "city": "Madrid",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 40.395,
-        "longitude": -3.581,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/AkaRU1YQvLEDSoxJ8",
-        "search_tags": [
-          "mad",
-          "barajas",
-          "madrid airport",
-          "aeropuerto madrid",
-          "atocha",
-          "toledo"
-        ]
-      },
-      "dropoff": {
-        "id": 55,
-        "name": "Bremen",
-        "address": "Westerfeld 19",
-        "zip": "28844",
-        "city": "Weyhe",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.068,
-        "longitude": 8.948,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/V6ZaU93LLArJhpbq6",
-        "search_tags": [
-          "bre",
-          "lower saxony",
-          "niedersachsen",
-          "northern germany",
-          "norddeutschland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-28T00:00:00+00:00",
-          "end_date": "2026-10-05T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=20"
@@ -4194,8 +4085,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=96"
     },
     {
-      "route": "Paris South (Orly) -> Marburg",
-      "trip_type": "one-way",
+      "route": "Paris South (Orly) -> Paris South (Orly)",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 12,
         "name": "Paris South (Orly)",
@@ -4226,26 +4117,36 @@
         ]
       },
       "dropoff": {
-        "id": 22,
-        "name": "Marburg",
-        "address": "Afföllerstraße 90B",
-        "zip": "35039",
-        "city": "Marburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.8299781,
-        "longitude": 8.7707884,
+        "id": 12,
+        "name": "Paris South (Orly)",
+        "address": "33 route de Versailles,  91160\t Champlan",
+        "zip": "91160",
+        "city": "Champlan",
+        "country_code": "FR",
+        "country": "France",
+        "latitude": 48.801,
+        "longitude": 2.456,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/pJg1Lwgv1TSsDVYy5",
-        "search_tags": []
+        "google_maps": "https://goo.gl/maps/CbFDBKxV4U84hk1Q8",
+        "search_tags": [
+          "ory",
+          "île-de-france",
+          "ile-de-france",
+          "aéroport",
+          "essonne",
+          "val de marne",
+          "disneyland",
+          "boulogne",
+          "massy",
+          "issy",
+          "vitry",
+          "idf",
+          "creteil",
+          "melun"
+        ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-28T00:00:00+00:00",
-          "end_date": "2026-10-05T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=12"
     },
     {
