@@ -1,11 +1,11 @@
 {
   "source": "https://www.movacar.com/en-US/offers",
-  "scraped_at": "2026-08-30T09:58:44+00:00",
+  "scraped_at": "2026-08-31T10:55:58+00:00",
   "pickup_window": {
-    "from": "2026-08-30",
-    "to": "2027-08-30"
+    "from": "2026-08-31",
+    "to": "2027-08-31"
   },
-  "offer_count": 63,
+  "offer_count": 82,
   "offers": [
     {
       "id": "256181_8853_4099",
@@ -60,7 +60,1382 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256181?origin=2316&destination=5420",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256285_3460_202140",
+      "offer_id": "256285",
+      "route": "Leipzig -> Weimar",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "FIAT",
+        "model": "SCUDO KAS DI MAN",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2592",
+        "city": "Leipzig",
+        "street": "Theresienstraße 79",
+        "postal_code": "04129",
+        "latitude": 51.363765,
+        "longitude": 12.39775,
+        "code": "Sixt394"
+      },
+      "dropoff": {
+        "station_id": "2679",
+        "city": "Weimar",
+        "street": "Schubertstr. 13a",
+        "postal_code": "99423",
+        "latitude": 50.97707,
+        "longitude": 11.32194,
+        "code": "Sixt3859"
+      },
+      "earliest_pickup": "2026-08-30T22:00:00Z",
+      "latest_delivery": "2026-09-02T16:00:00Z",
+      "latest_pickup": "2026-09-02T14:00:00+00:00",
+      "valid_until": "2026-09-02T12:03:04Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 200,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 136.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256285?origin=2592&destination=2679",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256296_3460_1042",
+      "offer_id": "256296",
+      "route": "Leipzig -> Chemnitz",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "IVECO",
+        "model": "DAILY 35S16V K 3,5 TO KAS DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2592",
+        "city": "Leipzig",
+        "street": "Theresienstraße 79",
+        "postal_code": "04129",
+        "latitude": 51.363765,
+        "longitude": 12.39775,
+        "code": "Sixt394"
+      },
+      "dropoff": {
+        "station_id": "2586",
+        "city": "Chemnitz",
+        "street": "Salzstr. 1-3",
+        "postal_code": "9113",
+        "latitude": 50.842438,
+        "longitude": 12.907237,
+        "code": "Sixt388"
+      },
+      "earliest_pickup": "2026-08-30T22:00:00Z",
+      "latest_delivery": "2026-09-02T12:00:00Z",
+      "latest_pickup": "2026-09-02T11:00:00+00:00",
+      "valid_until": "2026-09-02T08:34:33Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 150,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 84.3,
+      "min_drivers_age": 25,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256296?origin=2592&destination=2586",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256231_3207_202057",
+      "offer_id": "256231",
+      "route": "Krefeld -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "BMW",
+        "model": "X3 20 UTL DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2546",
+        "city": "Krefeld",
+        "street": "Sproedentalstr. 4",
+        "postal_code": "47799",
+        "latitude": 51.333946,
+        "longitude": 6.585856,
+        "code": "Sixt341"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:29:10Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T12:59:00+00:00",
+      "valid_until": "2026-09-02T08:46:52Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1100,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 890.6,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256231?origin=2546&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256235_1052_202057",
+      "offer_id": "256235",
+      "route": "Coburg -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "OPEL",
+        "model": "MOKKA UTL PET MAN",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2652",
+        "city": "Coburg",
+        "street": "Bamberger Str. 7",
+        "postal_code": "96450",
+        "latitude": 50.250306,
+        "longitude": 10.963905,
+        "code": "Sixt2428"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:29:10Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T13:59:00+00:00",
+      "valid_until": "2026-09-02T10:46:33Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 900,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 718.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256235?origin=2652&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256240_3111_202057",
+      "offer_id": "256240",
+      "route": "Kleve -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "CUPRA",
+        "model": "FORMENTOR UTL HBP AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2758",
+        "city": "Kleve",
+        "street": "Emmericher Str. 271",
+        "postal_code": "47533",
+        "latitude": 51.79449,
+        "longitude": 6.148049,
+        "code": "Sixt6964"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:34:41Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T11:59:00+00:00",
+      "valid_until": "2026-09-02T06:38:42Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1150,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 957.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256240?origin=2758&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256242_6134_202057",
+      "offer_id": "256242",
+      "route": "Villingen-Schwenningen -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "FIAT",
+        "model": "GRANDE PANDA SAL PET AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "4317",
+        "city": "Villingen-Schwenningen",
+        "street": "Sebastian-Kneipp-Straße 50",
+        "postal_code": "78048",
+        "latitude": 48.06693,
+        "longitude": 8.447883,
+        "code": "Sixt640"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:40:12Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T17:59:00+00:00",
+      "valid_until": "2026-09-02T14:19:06Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 500,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 394.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256242?origin=4317&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256244_7721_3137",
+      "offer_id": "256244",
+      "route": "Manchester -> Köln",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "MB",
+        "model": "E200 KOM BE AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "4610",
+        "city": "Manchester",
+        "street": "Ringway Road",
+        "postal_code": "M22 5WH",
+        "latitude": 53.362278,
+        "longitude": -2.273181,
+        "code": "Sixt7639"
+      },
+      "dropoff": {
+        "station_id": "2501",
+        "city": "Köln",
+        "street": "Kennedystr./Mietwagenzentrum",
+        "postal_code": "51147",
+        "latitude": 50.879473,
+        "longitude": 7.121378,
+        "code": "Sixt17"
+      },
+      "earliest_pickup": "2026-08-31T06:40:12Z",
+      "latest_delivery": "2026-09-02T21:30:00Z",
+      "latest_pickup": "2026-09-02T11:30:00+00:00",
+      "valid_until": "2026-09-02T11:57:17Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1100,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 913.4,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256244?origin=4610&destination=2501",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256245_3324_202057",
+      "offer_id": "256245",
+      "route": "Landsberg am Lech -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "VOLVO",
+        "model": "XC60 UTL HBPP AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2778",
+        "city": "Landsberg am Lech",
+        "street": "Justus-von-Liebig-Str. 49",
+        "postal_code": "86899",
+        "latitude": 48.072605,
+        "longitude": 10.857222,
+        "code": "Sixt44415"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:40:12Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T16:59:00+00:00",
+      "valid_until": "2026-09-02T13:39:39Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 550,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 436.7,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256245?origin=2778&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256246_3324_202057",
+      "offer_id": "256246",
+      "route": "Landsberg am Lech -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "AUDI",
+        "model": "A5 EST HBD AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2778",
+        "city": "Landsberg am Lech",
+        "street": "Justus-von-Liebig-Str. 49",
+        "postal_code": "86899",
+        "latitude": 48.072605,
+        "longitude": 10.857222,
+        "code": "Sixt44415"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:40:12Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T16:59:00+00:00",
+      "valid_until": "2026-09-02T13:39:39Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 550,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 436.7,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256246?origin=2778&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256247_6348_202057",
+      "offer_id": "256247",
+      "route": "Weiden -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "VOLVO",
+        "model": "XC60 UTL HBPP AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "4337",
+        "city": "Weiden",
+        "street": "Regensburger Straße 50",
+        "postal_code": "92637",
+        "latitude": 49.6592873,
+        "longitude": 12.1442314,
+        "code": "Sixt47098"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:40:12Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T14:59:00+00:00",
+      "valid_until": "2026-09-02T10:28:57Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 850,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 686.7,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256247?origin=4337&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256248_5580_202057",
+      "offer_id": "256248",
+      "route": "Sindelfingen -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "AUDI",
+        "model": "A6 EST HBD AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2643",
+        "city": "Sindelfingen",
+        "street": "Tilsiter Str. 15(Breuninger.)",
+        "postal_code": "71065",
+        "latitude": 48.703844,
+        "longitude": 9.030662,
+        "code": "Sixt9237"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:40:12Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T16:59:00+00:00",
+      "valid_until": "2026-09-02T13:03:13Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 600,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 489.9,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256248?origin=2643&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256252_5604_202057",
+      "offer_id": "256252",
+      "route": "Solingen -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "AUDI",
+        "model": "A5 EST HBD AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2664",
+        "city": "Solingen",
+        "street": "Wuppertaler Str. 126",
+        "postal_code": "42653",
+        "latitude": 51.200766,
+        "longitude": 7.073929,
+        "code": "Sixt40557"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:46:18Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T12:59:00+00:00",
+      "valid_until": "2026-09-02T08:07:44Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1050,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 860.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256252?origin=2664&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256254_6036_202057",
+      "offer_id": "256254",
+      "route": "Ulm -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "BMW",
+        "model": "X1 UTL DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2708",
+        "city": "Ulm",
+        "street": "Bahnhofplatz 8",
+        "postal_code": "89073",
+        "latitude": 48.399892,
+        "longitude": 9.984046,
+        "code": "Sixt42328"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T06:52:26Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T16:59:00+00:00",
+      "valid_until": "2026-09-02T13:32:21Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 550,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 431.1,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256254?origin=2708&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256234_1042_202057",
+      "offer_id": "256234",
+      "route": "Chemnitz -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "MB",
+        "model": "GLC200 UTL HBD AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2586",
+        "city": "Chemnitz",
+        "street": "Salzstr. 1-3",
+        "postal_code": "9113",
+        "latitude": 50.842438,
+        "longitude": 12.907237,
+        "code": "Sixt388"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T07:05:22Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T12:59:00+00:00",
+      "valid_until": "2026-09-02T09:35:28Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1050,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 843.5,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256234?origin=2586&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256249_19341_202057",
+      "offer_id": "256249",
+      "route": "Lahr -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "CUPRA",
+        "model": "FORMENTOR UTL DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2771",
+        "city": "Lahr",
+        "street": "Dr. Georg-Schaeffler-Str. 30",
+        "postal_code": "77933",
+        "latitude": 48.352713,
+        "longitude": 7.809841,
+        "code": "Sixt44097"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T07:34:39Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T16:59:00+00:00",
+      "valid_until": "2026-09-02T09:49:11Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 550,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 442.0,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256249?origin=2771&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256266_29143_202057",
+      "offer_id": "256266",
+      "route": "Heppenheim -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "CUPRA",
+        "model": "FORMENTOR UTL HBP AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2682",
+        "city": "Heppenheim",
+        "street": "Darmstädter Str. 13",
+        "postal_code": "64646",
+        "latitude": 49.644123,
+        "longitude": 8.639521,
+        "code": "Sixt4431"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T08:26:12Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T14:59:00+00:00",
+      "valid_until": "2026-09-02T11:56:01Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 750,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 608.8,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256266?origin=2682&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256269_846_5600",
+      "offer_id": "256269",
+      "route": "Braunschweig -> Soest",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "NISSA",
+        "model": "PRIMASTAR MPV 9S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2694",
+        "city": "Braunschweig",
+        "street": "Berliner Platz 1B",
+        "postal_code": "38102",
+        "latitude": 52.250094,
+        "longitude": 10.53527,
+        "code": "Sixt5034"
+      },
+      "dropoff": {
+        "station_id": "5412",
+        "city": "Soest",
+        "street": "Overweg 19",
+        "postal_code": "59494",
+        "latitude": 51.55697,
+        "longitude": 8.143057,
+        "code": "Sixt48184"
+      },
+      "earliest_pickup": "2026-08-31T08:31:36Z",
+      "latest_delivery": "2026-09-02T14:00:00Z",
+      "latest_pickup": "2026-09-02T11:00:00+00:00",
+      "valid_until": "2026-09-02T08:52:50Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 350,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 266.2,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256269?origin=2694&destination=5412",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256274_2439_655",
+      "offer_id": "256274",
+      "route": "Heide -> Bielefeld",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "MB",
+        "model": "VITO 116L MPV 9S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2801",
+        "city": "Heide",
+        "street": "Meldorfer Str. 36",
+        "postal_code": "25746",
+        "latitude": 54.190315,
+        "longitude": 9.089727,
+        "code": "Sixt46131"
+      },
+      "dropoff": {
+        "station_id": "2554",
+        "city": "Bielefeld",
+        "street": "Elsa-Brändström-Str. 6-8",
+        "postal_code": "33602",
+        "latitude": 52.024022,
+        "longitude": 8.529082,
+        "code": "Sixt348"
+      },
+      "earliest_pickup": "2026-08-31T08:43:18Z",
+      "latest_delivery": "2026-09-02T14:00:00Z",
+      "latest_pickup": "2026-09-02T10:00:00+00:00",
+      "valid_until": "2026-09-02T07:12:09Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 450,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 359.1,
+      "min_drivers_age": 25,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256274?origin=2801&destination=2554",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256275_2439_655",
+      "offer_id": "256275",
+      "route": "Heide -> Bielefeld",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "FORD",
+        "model": "TOURNEO CUSTOM MPV 8S DI MAN",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2801",
+        "city": "Heide",
+        "street": "Meldorfer Str. 36",
+        "postal_code": "25746",
+        "latitude": 54.190315,
+        "longitude": 9.089727,
+        "code": "Sixt46131"
+      },
+      "dropoff": {
+        "station_id": "2554",
+        "city": "Bielefeld",
+        "street": "Elsa-Brändström-Str. 6-8",
+        "postal_code": "33602",
+        "latitude": 52.024022,
+        "longitude": 8.529082,
+        "code": "Sixt348"
+      },
+      "earliest_pickup": "2026-08-31T08:43:18Z",
+      "latest_delivery": "2026-09-02T14:00:00Z",
+      "latest_pickup": "2026-09-02T10:00:00+00:00",
+      "valid_until": "2026-09-02T07:12:09Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 450,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 359.1,
+      "min_drivers_age": 25,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256275?origin=2801&destination=2554",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256261_655_202057",
+      "offer_id": "256261",
+      "route": "Bielefeld -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "BMW",
+        "model": "218 MPV 5S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2554",
+        "city": "Bielefeld",
+        "street": "Elsa-Brändström-Str. 6-8",
+        "postal_code": "33602",
+        "latitude": 52.024022,
+        "longitude": 8.529082,
+        "code": "Sixt348"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T08:54:32Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T11:59:00+00:00",
+      "valid_until": "2026-09-02T08:27:24Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1150,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 931.6,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256261?origin=2554&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256262_2109_202057",
+      "offer_id": "256262",
+      "route": "Greven -> Ferno",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "BMW",
+        "model": "320 EST DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2512",
+        "city": "Greven",
+        "street": "Airportallee 1, Terminal 2",
+        "postal_code": "48268",
+        "latitude": 52.130963,
+        "longitude": 7.695569,
+        "code": "Sixt166"
+      },
+      "dropoff": {
+        "station_id": "5091",
+        "city": "Ferno",
+        "street": "Terminal 1",
+        "postal_code": "21010",
+        "latitude": 45.6274,
+        "longitude": 8.7124,
+        "code": "Sixt43294"
+      },
+      "earliest_pickup": "2026-08-31T08:54:32Z",
+      "latest_delivery": "2026-09-02T21:59:00Z",
+      "latest_pickup": "2026-09-02T11:59:00+00:00",
+      "valid_until": "2026-09-02T06:25:07Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1200,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 962.1,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256262?origin=2512&destination=5091",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256280_5604_18413",
+      "offer_id": "256280",
+      "route": "Solingen -> Brilon",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "NISSA",
+        "model": "PRIMASTAR MPV 9S DI MAN",
+        "description": null,
+        "category": "Mystery Van",
+        "type": "Electric Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/wrappedVan.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2664",
+        "city": "Solingen",
+        "street": "Wuppertaler Str. 126",
+        "postal_code": "42653",
+        "latitude": 51.200766,
+        "longitude": 7.073929,
+        "code": "Sixt40557"
+      },
+      "dropoff": {
+        "station_id": "2698",
+        "city": "Brilon",
+        "street": "Ostring 14",
+        "postal_code": "59929",
+        "latitude": 51.40558,
+        "longitude": 8.5626,
+        "code": "Sixt41286"
+      },
+      "earliest_pickup": "2026-08-31T09:34:15Z",
+      "latest_delivery": "2026-09-02T14:00:00Z",
+      "latest_pickup": "2026-09-02T12:00:00+00:00",
+      "valid_until": "2026-09-02T09:46:08Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 200,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 154.9,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256280?origin=2664&destination=2698",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256281_5604_18413",
+      "offer_id": "256281",
+      "route": "Solingen -> Brilon",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "NISSA",
+        "model": "PRIMASTAR MPV 9S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2664",
+        "city": "Solingen",
+        "street": "Wuppertaler Str. 126",
+        "postal_code": "42653",
+        "latitude": 51.200766,
+        "longitude": 7.073929,
+        "code": "Sixt40557"
+      },
+      "dropoff": {
+        "station_id": "2698",
+        "city": "Brilon",
+        "street": "Ostring 14",
+        "postal_code": "59929",
+        "latitude": 51.40558,
+        "longitude": 8.5626,
+        "code": "Sixt41286"
+      },
+      "earliest_pickup": "2026-08-31T09:34:15Z",
+      "latest_delivery": "2026-09-02T14:00:00Z",
+      "latest_pickup": "2026-09-02T12:00:00+00:00",
+      "valid_until": "2026-09-02T09:46:08Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 200,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 154.9,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256281?origin=2664&destination=2698",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256294_3629_2110",
+      "offer_id": "256294",
+      "route": "Lüdenscheid -> Grevenbroich",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "FORD",
+        "model": "TOURNEO CUSTOM MPV 8S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2762",
+        "city": "Lüdenscheid",
+        "street": "Nottebohmstr. 1a",
+        "postal_code": "58511",
+        "latitude": 51.21503,
+        "longitude": 7.65641,
+        "code": "Sixt7013"
+      },
+      "dropoff": {
+        "station_id": "2723",
+        "city": "Grevenbroich",
+        "street": "Nordstrasse 44",
+        "postal_code": "41515",
+        "latitude": 51.089195,
+        "longitude": 6.603664,
+        "code": "Sixt42594"
+      },
+      "earliest_pickup": "2026-08-31T10:36:46Z",
+      "latest_delivery": "2026-09-02T15:30:00Z",
+      "latest_pickup": "2026-09-02T13:30:00+00:00",
+      "valid_until": "2026-09-02T11:43:36Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 150,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 110.1,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256294?origin=2762&destination=2723",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256293_3111_3130",
+      "offer_id": "256293",
+      "route": "Kleve -> Koblenz am Rhein",
+      "offer_type": 9,
+      "vehicle": {
+        "make": "MB",
+        "model": "VITO 116L MPV 9S DI AUT",
+        "description": null,
+        "category": "Mystery Auto",
+        "type": "Car",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Petrol",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
+      "pickup": {
+        "station_id": "2758",
+        "city": "Kleve",
+        "street": "Emmericher Str. 271",
+        "postal_code": "47533",
+        "latitude": 51.79449,
+        "longitude": 6.148049,
+        "code": "Sixt6964"
+      },
+      "dropoff": {
+        "station_id": "2558",
+        "city": "Koblenz am Rhein",
+        "street": "Andernacher Str. 164",
+        "postal_code": "56070",
+        "latitude": 50.377303,
+        "longitude": 7.588839,
+        "code": "Sixt354"
+      },
+      "earliest_pickup": "2026-08-31T10:53:47Z",
+      "latest_delivery": "2026-09-01T12:00:00Z",
+      "latest_pickup": "2026-09-01T09:00:00+00:00",
+      "valid_until": "2026-09-01T06:40:29Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 300,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 237.1,
+      "min_drivers_age": 25,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256293?origin=2758&destination=2558",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255007_7923_7930",
@@ -115,7 +1490,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/255007?origin=6112&destination=6113",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255008_51690_202076",
@@ -170,7 +1545,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255008?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255743_7923_7930",
@@ -225,7 +1600,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/255743?origin=6112&destination=6113",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255893_7923_202076",
@@ -280,7 +1655,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255893?origin=6112&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255897_8066_202050",
@@ -333,9 +1708,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 257.9,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/255897?origin=6117&destination=6110",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255898_8066_202050",
@@ -388,9 +1763,9 @@
       "cents_per_extra_km": 50,
       "route_distance_km": 257.9,
       "min_drivers_age": 18,
-      "has_connections": true,
+      "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/255898?origin=6117&destination=6110",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255901_8114_202076",
@@ -445,7 +1820,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255901?origin=6119&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255905_51690_202076",
@@ -500,7 +1875,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255905?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255908_8114_202076",
@@ -555,7 +1930,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/255908?origin=6119&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255913_8114_202076",
@@ -610,7 +1985,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255913?origin=6119&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255917_51690_202076",
@@ -665,7 +2040,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255917?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255918_51690_202076",
@@ -720,7 +2095,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255918?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255919_51690_202076",
@@ -775,7 +2150,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255919?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255920_51690_202076",
@@ -830,7 +2205,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255920?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255935_8114_202076",
@@ -885,7 +2260,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255935?origin=6119&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255939_51690_202076",
@@ -940,172 +2315,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255939?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256018_7317_202072",
-      "offer_id": "256018",
-      "route": "Sevilla -> A Coruña",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "Ducato",
-        "description": null,
-        "category": "Comfort Standard",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/ZkIknEFLKBtrW0m0_005Atlas_@Sanojajesus_@Indie_Campers_-29.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6133",
-        "city": "Sevilla",
-        "street": "C. SIERRA DE MAGINA, 11, Dos Hermanas",
-        "postal_code": "41704",
-        "latitude": 37.2964668,
-        "longitude": -5.9136377,
-        "code": "IC119"
-      },
-      "dropoff": {
-        "station_id": "6155",
-        "city": "A Coruña",
-        "street": "Calle de la Ermita 13, Polgono de la Grela",
-        "postal_code": "15008",
-        "latitude": 43.348185,
-        "longitude": -8.431217,
-        "code": "IC124"
-      },
-      "earliest_pickup": "2026-09-01T04:00:00Z",
-      "latest_delivery": "2026-09-10T19:00:00Z",
-      "latest_pickup": "2026-09-10T09:00:00+00:00",
-      "valid_until": "2026-09-08T19:00:00Z",
-      "included_period_hours": 48,
-      "extra_period_hours": 48,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 1122,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 938.1,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256018?origin=6133&destination=6155",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256022_7167_202072",
-      "offer_id": "256022",
-      "route": "Alcalá de Henares -> A Coruña",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "S 75SL / T 7400 SB or similar",
-        "description": null,
-        "category": "Comfort Long Select",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/aaca0lxvIZEnjSPD_FAMILY@5x.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6130",
-        "city": "Alcalá de Henares",
-        "street": "Calle Brasil, 9C, 28806 Alcala de Henares, Madrid",
-        "postal_code": "28806",
-        "latitude": 40.5116673,
-        "longitude": -3.4017402,
-        "code": "IC116"
-      },
-      "dropoff": {
-        "station_id": "6155",
-        "city": "A Coruña",
-        "street": "Calle de la Ermita 13, Polgono de la Grela",
-        "postal_code": "15008",
-        "latitude": 43.348185,
-        "longitude": -8.431217,
-        "code": "IC124"
-      },
-      "earliest_pickup": "2026-09-01T04:00:00Z",
-      "latest_delivery": "2026-09-10T19:00:00Z",
-      "latest_pickup": "2026-09-10T12:00:00+00:00",
-      "valid_until": "2026-09-07T19:00:00Z",
-      "included_period_hours": 72,
-      "extra_period_hours": 72,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 792,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 614.7,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256022?origin=6130&destination=6155",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256023_7406_7502",
-      "offer_id": "256023",
-      "route": "Bordeaux -> Lyon",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "Ducato",
-        "description": null,
-        "category": "Active Poptop",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/ZkJGSEFLKBtrW1B-_NOMADPOPTOP_HEROIMAGE.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6094",
-        "city": "Bordeaux",
-        "street": "65 Av. du Mdoc",
-        "postal_code": "33320",
-        "latitude": 44.8862672,
-        "longitude": -0.6386488,
-        "code": "IC73"
-      },
-      "dropoff": {
-        "station_id": "6095",
-        "city": "Lyon",
-        "street": "256 Bcle de Satolas",
-        "postal_code": "38540",
-        "latitude": 45.667261,
-        "longitude": 5.092593,
-        "code": "IC74"
-      },
-      "earliest_pickup": "2026-09-01T04:00:00Z",
-      "latest_delivery": "2026-09-10T19:00:00Z",
-      "latest_pickup": "2026-09-10T13:00:00+00:00",
-      "valid_until": "2026-09-07T19:00:00Z",
-      "included_period_hours": 72,
-      "extra_period_hours": 72,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 756,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 586.1,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256023?origin=6094&destination=6095",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256072_7923_202076",
@@ -1160,7 +2370,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256072?origin=6112&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256123_51690_7930",
@@ -1215,62 +2425,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256123?origin=6115&destination=6113",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256124_2335_4943",
-      "offer_id": "256124",
-      "route": "Hamburg -> Reutlingen",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "Ducato",
-        "description": null,
-        "category": "Comfort Standard",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/ZkIknEFLKBtrW0m0_005Atlas_@Sanojajesus_@Indie_Campers_-29.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6105",
-        "city": "Hamburg",
-        "street": "Billwerder Steindamm 9",
-        "postal_code": "20537",
-        "latitude": 53.5455055,
-        "longitude": 10.0407124,
-        "code": "IC85"
-      },
-      "dropoff": {
-        "station_id": "6107",
-        "city": "Reutlingen",
-        "street": "Konrad-Adenauer-Straße 49",
-        "postal_code": "72762",
-        "latitude": 48.4921753,
-        "longitude": 9.2005581,
-        "code": "IC87"
-      },
-      "earliest_pickup": "2026-09-01T04:00:00Z",
-      "latest_delivery": "2026-09-09T19:00:00Z",
-      "latest_pickup": "2026-09-09T12:00:00+00:00",
-      "valid_until": "2026-09-06T19:00:00Z",
-      "included_period_hours": 72,
-      "extra_period_hours": 72,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 858,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 697.8,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256124?origin=6105&destination=6107",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256126_51690_7930",
@@ -1325,7 +2480,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256126?origin=6115&destination=6113",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256131_8066_51690",
@@ -1380,7 +2535,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256131?origin=6117&destination=6115",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256135_51690_202076",
@@ -1435,7 +2590,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256135?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256137_51690_202076",
@@ -1490,7 +2645,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256137?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256138_8053_202045",
@@ -1545,62 +2700,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256138?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256139_8053_202045",
-      "offer_id": "256139",
-      "route": "Milan -> Venezia",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Volkswagen",
-        "model": "California",
-        "description": null,
-        "category": "California Standard",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/003ef797-a04d-45b6-8662-f40b0e01a224_Panama_Vans_P10_Lifestyle_04.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6116",
-        "city": "Milan",
-        "street": "Via Giacomo Matteotti 6",
-        "postal_code": "21010",
-        "latitude": 45.6197196,
-        "longitude": 8.7600985,
-        "code": "IC97"
-      },
-      "dropoff": {
-        "station_id": "6120",
-        "city": "Venezia",
-        "street": "Via delle Industrie, 138, Marcon",
-        "postal_code": "30020",
-        "latitude": 45.542029,
-        "longitude": 12.289827,
-        "code": "IC102"
-      },
-      "earliest_pickup": "2026-09-01T04:00:00Z",
-      "latest_delivery": "2026-09-09T19:00:00Z",
-      "latest_pickup": "2026-09-09T15:00:00+00:00",
-      "valid_until": "2026-09-06T19:00:00Z",
-      "included_period_hours": 72,
-      "extra_period_hours": 72,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 469,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 305.3,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256139?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256141_51690_202076",
@@ -1655,62 +2755,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256141?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256142_8053_202045",
-      "offer_id": "256142",
-      "route": "Milan -> Venezia",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Ford",
-        "model": "Transit/Jumper or similar",
-        "description": null,
-        "category": "Comfort Compact Select",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/aDgSKydWJ-7kSqXY_ImageGrid-6-.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6116",
-        "city": "Milan",
-        "street": "Via Giacomo Matteotti 6",
-        "postal_code": "21010",
-        "latitude": 45.6197196,
-        "longitude": 8.7600985,
-        "code": "IC97"
-      },
-      "dropoff": {
-        "station_id": "6120",
-        "city": "Venezia",
-        "street": "Via delle Industrie, 138, Marcon",
-        "postal_code": "30020",
-        "latitude": 45.542029,
-        "longitude": 12.289827,
-        "code": "IC102"
-      },
-      "earliest_pickup": "2026-09-01T04:00:00Z",
-      "latest_delivery": "2026-09-09T19:00:00Z",
-      "latest_pickup": "2026-09-09T15:00:00+00:00",
-      "valid_until": "2026-09-06T19:00:00Z",
-      "included_period_hours": 72,
-      "extra_period_hours": 72,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 469,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 305.3,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256142?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256145_8053_202045",
@@ -1765,7 +2810,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256145?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256147_51690_202076",
@@ -1820,7 +2865,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256147?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256148_8053_202045",
@@ -1875,7 +2920,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256148?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256149_8053_202045",
@@ -1930,7 +2975,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256149?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256150_51690_202076",
@@ -1985,7 +3030,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256150?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256151_51690_202076",
@@ -2040,7 +3085,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256151?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256156_8053_202045",
@@ -2095,7 +3140,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256156?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256157_8053_202045",
@@ -2150,7 +3195,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256157?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256161_8053_202045",
@@ -2205,7 +3250,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256161?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256162_8053_202045",
@@ -2260,7 +3305,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256162?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256171_8053_202045",
@@ -2315,7 +3360,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256171?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256223_51690_202076",
@@ -2370,7 +3415,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256223?origin=6115&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256224_8288_4943",
@@ -2425,62 +3470,117 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256224?origin=6121&destination=6107",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
-      "id": "256030_7537_7502",
-      "offer_id": "256030",
-      "route": "Nice -> Lyon",
+      "id": "256295_459_176",
+      "offer_id": "256295",
+      "route": "Bamberg -> Amberg",
       "offer_type": 5,
       "vehicle": {
-        "make": "Fiat",
-        "model": "S 75SL / T 7400 SB or similar",
+        "make": "OPEL",
+        "model": "OP COMBO-KPIW",
         "description": null,
-        "category": "Comfort Long Select",
-        "type": "Camper",
+        "category": "KPIW - GR.0 VW",
+        "type": "Car",
         "class": null,
-        "seats": 4,
+        "seats": 2,
         "doors": 4,
         "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/aaca0lxvIZEnjSPD_FAMILY@5x.avif"
+        "gear_type": "Manual",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/ecKPIW.png"
       },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
       "pickup": {
-        "station_id": "6098",
-        "city": "Nice",
-        "street": "215 Chemin de la Romaine",
-        "postal_code": "06600",
-        "latitude": 43.6159547,
-        "longitude": 7.1111765,
-        "code": "IC77"
+        "station_id": "1303",
+        "city": "Bamberg",
+        "street": "HALLSTADTER STR. 95",
+        "postal_code": "96052",
+        "latitude": 49.9104,
+        "longitude": 10.8818,
+        "code": "ZCDC02"
       },
       "dropoff": {
-        "station_id": "6095",
-        "city": "Lyon",
-        "street": "256 Bcle de Satolas",
-        "postal_code": "38540",
-        "latitude": 45.667261,
-        "longitude": 5.092593,
-        "code": "IC74"
+        "station_id": "1237",
+        "city": "Amberg",
+        "street": "REGENSBURGER STR. 67",
+        "postal_code": "92224",
+        "latitude": 49.4373,
+        "longitude": 11.881,
+        "code": "AEBC01"
       },
-      "earliest_pickup": "2026-09-03T04:00:00Z",
-      "latest_delivery": "2026-09-10T19:00:00Z",
-      "latest_pickup": "2026-09-10T14:00:00+00:00",
-      "valid_until": "2026-09-07T19:00:00Z",
-      "included_period_hours": 72,
-      "extra_period_hours": 72,
+      "earliest_pickup": "2026-09-01T07:00:00Z",
+      "latest_delivery": "2026-09-02T07:00:00Z",
+      "latest_pickup": "2026-09-02T05:00:00+00:00",
+      "valid_until": "2026-08-31T11:59:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
       "price": {
         "amount": 1.0,
         "currency": "EUR"
       },
-      "free_km": 678,
+      "free_km": 200,
       "cents_per_extra_km": 50,
-      "route_distance_km": 469.2,
+      "route_distance_km": 128.6,
       "min_drivers_age": 18,
       "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256030?origin=6098&destination=6095",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "booking_link": "https://www.movacar.com/en-US/checkout/256295?origin=1303&destination=1237",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256284_2886_1286",
+      "offer_id": "256284",
+      "route": "Jena -> Dresden",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "IVECO",
+        "model": "IV 35C16-TMBA",
+        "description": null,
+        "category": "TMBA - GR.4 IVECO",
+        "type": "Car",
+        "class": null,
+        "seats": 3,
+        "doors": 3,
+        "fuel_type": "Diesel",
+        "gear_type": "Manual",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/ecTMBA.png"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/Europcar.png",
+      "pickup": {
+        "station_id": "3280",
+        "city": "Jena",
+        "street": "RUDOLSTAEDTER STR 60",
+        "postal_code": "07745",
+        "latitude": 50.8968,
+        "longitude": 11.5817,
+        "code": "ZJSC04"
+      },
+      "dropoff": {
+        "station_id": "4568",
+        "city": "Dresden",
+        "street": "HAUBOLDSTR. 5-7",
+        "postal_code": "01239",
+        "latitude": 51.0055,
+        "longitude": 13.7878,
+        "code": "DRSN25"
+      },
+      "earliest_pickup": "2026-09-03T08:00:00Z",
+      "latest_delivery": "2026-09-03T16:00:00Z",
+      "latest_pickup": "2026-09-03T14:00:00+00:00",
+      "valid_until": "2026-09-02T09:59:00Z",
+      "included_period_hours": 24,
+      "extra_period_hours": 24,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 250,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 177.3,
+      "min_drivers_age": 21,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256284?origin=3280&destination=4568",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255912_8114_202076",
@@ -2535,7 +3635,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/255912?origin=6119&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256028_202066_6885",
@@ -2590,7 +3690,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256028?origin=6100&destination=6090",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256220_7917_202076",
@@ -2645,7 +3745,62 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256220?origin=6111&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "256229_8853_789",
+      "offer_id": "256229",
+      "route": "Stockholm -> Bonn",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "COUPLE COTTAGE",
+        "model": "Weinsberg Signeo C590 - Ford Transit V363",
+        "description": null,
+        "category": "COUPLE COTTAGE",
+        "type": "Camper",
+        "class": null,
+        "seats": 4,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpBJKKBh.jpeg"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
+      "pickup": {
+        "station_id": "2316",
+        "city": "Stockholm",
+        "street": "Okvistavägen 15",
+        "postal_code": "18640",
+        "latitude": 59.5302673,
+        "longitude": 18.1084991,
+        "code": "RS38"
+      },
+      "dropoff": {
+        "station_id": "2298",
+        "city": "Bonn",
+        "street": "Klosengartenstraße 39",
+        "postal_code": "50374",
+        "latitude": 50.8209179,
+        "longitude": 6.8110128,
+        "code": "RS20"
+      },
+      "earliest_pickup": "2026-09-06T22:00:00Z",
+      "latest_delivery": "2026-09-14T21:59:59Z",
+      "latest_pickup": "2026-09-14T06:59:59+00:00",
+      "valid_until": "2026-09-10T21:59:59Z",
+      "included_period_hours": 96,
+      "extra_period_hours": 144,
+      "price": {
+        "amount": 129.0,
+        "currency": "EUR"
+      },
+      "free_km": 1800,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 1438.9,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/256229?origin=2316&destination=2298",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256143_8053_202045",
@@ -2700,7 +3855,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256143?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256152_8053_202045",
@@ -2755,7 +3910,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256152?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256153_8053_202045",
@@ -2810,7 +3965,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256153?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256222_7917_202076",
@@ -2865,62 +4020,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/256222?origin=6111&destination=6163",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "256167_202050_51690",
-      "offer_id": "256167",
-      "route": "Bari -> Florence",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "Fiat",
-        "model": "Ducato",
-        "description": null,
-        "category": "Comfort Standard",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 4,
-        "fuel_type": "Diesel",
-        "gear_type": "Manual",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/ZkIknEFLKBtrW0m0_005Atlas_@Sanojajesus_@Indie_Campers_-29.avif"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
-      "pickup": {
-        "station_id": "6110",
-        "city": "Bari",
-        "street": "SS96, Km115.500",
-        "postal_code": "70026",
-        "latitude": 41.0769419,
-        "longitude": 16.7584513,
-        "code": "IC91"
-      },
-      "dropoff": {
-        "station_id": "6115",
-        "city": "Florence",
-        "street": "Via di Lupaia, 1",
-        "postal_code": "50058",
-        "latitude": 43.786851,
-        "longitude": 11.085733,
-        "code": "IC96"
-      },
-      "earliest_pickup": "2026-09-08T04:00:00Z",
-      "latest_delivery": "2026-09-12T19:00:00Z",
-      "latest_pickup": "2026-09-12T12:00:00+00:00",
-      "valid_until": "2026-09-08T19:00:00Z",
-      "included_period_hours": 96,
-      "extra_period_hours": 96,
-      "price": {
-        "amount": 99.0,
-        "currency": "EUR"
-      },
-      "free_km": 901,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 687.2,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/256167?origin=6110&destination=6115",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256129_202076_8066",
@@ -2975,7 +4075,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256129?origin=6163&destination=6117",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "256144_8053_202045",
@@ -3030,7 +4130,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/256144?origin=6116&destination=6120",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "254494_7517_3699",
@@ -3085,7 +4185,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254494?origin=2287&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "254598_7532_25384",
@@ -3140,7 +4240,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254598?origin=2309&destination=5428",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "254496_7517_3699",
@@ -3195,7 +4295,62 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254496?origin=2287&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
+    },
+    {
+      "id": "254529_7517_2335",
+      "offer_id": "254529",
+      "route": "Mérignac -> Hamburg",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "CAMPER CABIN",
+        "model": "Ford Nugget - Ford Transit Custom V710",
+        "description": null,
+        "category": "CAMPER CABIN",
+        "type": "Camper",
+        "class": null,
+        "seats": 5,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpGoajhG.jpeg"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
+      "pickup": {
+        "station_id": "2287",
+        "city": "Mérignac",
+        "street": "170 Avenue de l Argonne",
+        "postal_code": "33700",
+        "latitude": 44.8210543,
+        "longitude": -0.6957446,
+        "code": "RS9"
+      },
+      "dropoff": {
+        "station_id": "2296",
+        "city": "Hamburg",
+        "street": "Billbrookdeich 11",
+        "postal_code": "22113",
+        "latitude": 53.536977,
+        "longitude": 10.077906,
+        "code": "RS18"
+      },
+      "earliest_pickup": "2026-09-25T22:00:00Z",
+      "latest_delivery": "2026-10-03T21:59:59Z",
+      "latest_pickup": "2026-10-03T06:59:59+00:00",
+      "valid_until": "2026-09-29T21:59:59Z",
+      "included_period_hours": 96,
+      "extra_period_hours": 144,
+      "price": {
+        "amount": 129.0,
+        "currency": "EUR"
+      },
+      "free_km": 1800,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 1482.9,
+      "min_drivers_age": 18,
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/254529?origin=2287&destination=2296",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "254560_7342_3699",
@@ -3250,62 +4405,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254560?origin=2282&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "255867_7342_3699",
-      "offer_id": "255867",
-      "route": "Viladecans -> Marburg",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "COUPLE COTTAGE",
-        "model": "Weinsberg Signeo C590 - Ford Transit V363",
-        "description": null,
-        "category": "COUPLE COTTAGE",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 5,
-        "fuel_type": "Diesel",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/phpBJKKBh.jpeg"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
-      "pickup": {
-        "station_id": "2282",
-        "city": "Viladecans",
-        "street": "Carrer d'Andorra, 67, local 2",
-        "postal_code": "08840",
-        "latitude": 41.3206,
-        "longitude": 2.0303,
-        "code": "RS4"
-      },
-      "dropoff": {
-        "station_id": "2853",
-        "city": "Marburg",
-        "street": "Afföllerstraße 90B",
-        "postal_code": "35039",
-        "latitude": 50.8298189,
-        "longitude": 8.7682135,
-        "code": "RS50"
-      },
-      "earliest_pickup": "2026-09-25T22:00:00Z",
-      "latest_delivery": "2026-10-03T21:59:59Z",
-      "latest_pickup": "2026-10-03T06:59:59+00:00",
-      "valid_until": "2026-09-29T21:59:59Z",
-      "included_period_hours": 96,
-      "extra_period_hours": 144,
-      "price": {
-        "amount": 129.0,
-        "currency": "EUR"
-      },
-      "free_km": 1800,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 1429.0,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/255867?origin=2282&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "255871_202043_3699",
@@ -3360,62 +4460,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/255871?origin=4563&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
-    },
-    {
-      "id": "254529_7517_2335",
-      "offer_id": "254529",
-      "route": "Mérignac -> Hamburg",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "CAMPER CABIN",
-        "model": "Ford Nugget - Ford Transit Custom V710",
-        "description": null,
-        "category": "CAMPER CABIN",
-        "type": "Camper",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/phpGoajhG.jpeg"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
-      "pickup": {
-        "station_id": "2287",
-        "city": "Mérignac",
-        "street": "170 Avenue de l Argonne",
-        "postal_code": "33700",
-        "latitude": 44.8210543,
-        "longitude": -0.6957446,
-        "code": "RS9"
-      },
-      "dropoff": {
-        "station_id": "2296",
-        "city": "Hamburg",
-        "street": "Billbrookdeich 11",
-        "postal_code": "22113",
-        "latitude": 53.536977,
-        "longitude": 10.077906,
-        "code": "RS18"
-      },
-      "earliest_pickup": "2026-10-02T22:00:00Z",
-      "latest_delivery": "2026-10-04T21:59:59Z",
-      "latest_pickup": "2026-10-04T06:59:59+00:00",
-      "valid_until": "2026-10-04T21:59:59Z",
-      "included_period_hours": 96,
-      "extra_period_hours": 144,
-      "price": {
-        "amount": 129.0,
-        "currency": "EUR"
-      },
-      "free_km": 1800,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 1482.9,
-      "min_drivers_age": 18,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/254529?origin=2287&destination=2296",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     },
     {
       "id": "254573_7517_3699",
@@ -3470,7 +4515,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/254573?origin=2287&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-30&pickupDateTo=2027-08-30"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-08-31&pickupDateTo=2027-08-31"
     }
   ]
 }
