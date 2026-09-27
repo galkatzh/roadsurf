@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-09-26T09:25:32+00:00",
+  "scraped_at": "2026-09-27T10:04:46+00:00",
   "station_count": 116,
-  "ride_count": 185,
+  "ride_count": 175,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -815,8 +815,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=95"
     },
     {
-      "route": "Berlin -> Berlin",
-      "trip_type": "round-trip",
+      "route": "Berlin -> Aix-Marseille",
+      "trip_type": "one-way",
       "pickup": {
         "id": 6,
         "name": "Berlin",
@@ -836,25 +836,38 @@
         ]
       },
       "dropoff": {
-        "id": 6,
-        "name": "Berlin",
-        "address": "Nordlichtstr. 11, 13405 Berlin",
-        "zip": "13405",
-        "city": "Berlin",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 52.562908,
-        "longitude": 13.3255524,
+        "id": 16,
+        "name": "Aix-Marseille",
+        "address": "5110 D6, 13480 Cabriès",
+        "zip": "13480",
+        "city": "Cabriès",
+        "country_code": "FR",
+        "country": "France",
+        "latitude": 43.4222581,
+        "longitude": 5.3693932,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/9WbPrBcELBEMmJ1e6",
+        "google_maps": "https://goo.gl/maps/LqEA6mreVxfiVHtw7",
         "search_tags": [
-          "ber",
-          "txl",
-          "brandenburg"
+          "mrs",
+          "provence",
+          "provence-alpes-côte d'azur",
+          "paca",
+          "bouches-du-rhône",
+          "south of france",
+          "cote mediteraneenne",
+          "calanques",
+          "avignon",
+          "cassis",
+          "toulon"
         ]
       },
-      "available": false,
-      "available_timeframes": [],
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-10-26T00:00:00+00:00",
+          "end_date": "2026-11-02T00:00:00+00:00"
+        }
+      ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=6"
     },
     {
@@ -947,66 +960,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=51"
     },
     {
-      "route": "Berlin-Schönefeld -> Venice",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 51,
-        "name": "Berlin-Schönefeld",
-        "address": "Am Pechpfuhl 4",
-        "zip": "12529",
-        "city": "Berlin",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 52.3680875,
-        "longitude": 13.5614071,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/hqFQuRqvTDUu3ZfJ6",
-        "search_tags": [
-          "ber",
-          "schönefeld",
-          "brandenburg"
-        ]
-      },
-      "dropoff": {
-        "id": 78,
-        "name": "Venice",
-        "address": "Via Ghebba, 109, 30034 Mira VE, Italia",
-        "zip": "30034",
-        "city": "Venice",
-        "country_code": "IT",
-        "country": "Italy",
-        "latitude": 45.4666559,
-        "longitude": 12.1754866,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/9F93TpHBkbqiXZQw9",
-        "search_tags": [
-          "vce",
-          "veneto",
-          "dolomiti",
-          "alpi",
-          "dolomites",
-          "alps",
-          "lake como",
-          "lago di como",
-          "lake garda",
-          "lago di garda",
-          "bolzano"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-30T00:00:00+00:00",
-          "end_date": "2026-10-07T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-10-23T00:00:00+00:00",
-          "end_date": "2026-10-30T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=51"
-    },
-    {
       "route": "Berlin-Schönefeld -> Valencia",
       "trip_type": "one-way",
       "pickup": {
@@ -1064,6 +1017,62 @@
         {
           "start_date": "2026-10-09T00:00:00+00:00",
           "end_date": "2026-10-16T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=51"
+    },
+    {
+      "route": "Berlin-Schönefeld -> Venice",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 51,
+        "name": "Berlin-Schönefeld",
+        "address": "Am Pechpfuhl 4",
+        "zip": "12529",
+        "city": "Berlin",
+        "country_code": "DE",
+        "country": "Germany",
+        "latitude": 52.3680875,
+        "longitude": 13.5614071,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/hqFQuRqvTDUu3ZfJ6",
+        "search_tags": [
+          "ber",
+          "schönefeld",
+          "brandenburg"
+        ]
+      },
+      "dropoff": {
+        "id": 78,
+        "name": "Venice",
+        "address": "Via Ghebba, 109, 30034 Mira VE, Italia",
+        "zip": "30034",
+        "city": "Venice",
+        "country_code": "IT",
+        "country": "Italy",
+        "latitude": 45.4666559,
+        "longitude": 12.1754866,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/9F93TpHBkbqiXZQw9",
+        "search_tags": [
+          "vce",
+          "veneto",
+          "dolomiti",
+          "alpi",
+          "dolomites",
+          "alps",
+          "lake como",
+          "lago di como",
+          "lake garda",
+          "lago di garda",
+          "bolzano"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-10-23T00:00:00+00:00",
+          "end_date": "2026-10-30T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=51"
@@ -1167,143 +1176,6 @@
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=91"
-    },
-    {
-      "route": "Bilbao -> Valencia",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 40,
-        "name": "Bilbao",
-        "address": "Polígono Ugaldeguren 3, Parcela 18-1 Elemento 2",
-        "zip": "48170 Zamudio Bizkaia",
-        "city": "Bilbao",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 43.2876667,
-        "longitude": -2.878791,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/3YBYjg8cNp3D585P8",
-        "search_tags": [
-          "bio",
-          "basque country",
-          "país vasco",
-          "euskadi",
-          "bilbao airport",
-          "aeropuerto bilbao",
-          "bilbo aireportua",
-          "bilbo",
-          "bizkaia",
-          "vizcaya",
-          "san sebastian",
-          "donosti",
-          "donostia",
-          "cantabria"
-        ]
-      },
-      "dropoff": {
-        "id": 38,
-        "name": "Valencia",
-        "address": "C. N-2, Parcela 16, 46220 Picassent, Valencia",
-        "zip": "46220",
-        "city": "Picassent",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 39.458,
-        "longitude": -0.397,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/qUkBeJLq1wBiKWdQ9",
-        "search_tags": [
-          "vlc",
-          "valencian community",
-          "comunidad valenciana",
-          "comunitad valenciana",
-          "aeropuerto valencia",
-          "aeroport valencia",
-          "valencia airport",
-          "manises",
-          "calpe",
-          "moraira",
-          "denia",
-          "alicante",
-          "alacant",
-          "benidorm",
-          "castellon",
-          "peñiscola",
-          "costa blanca"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-30T00:00:00+00:00",
-          "end_date": "2026-10-07T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=40"
-    },
-    {
-      "route": "Bilbao -> Malaga",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 40,
-        "name": "Bilbao",
-        "address": "Polígono Ugaldeguren 3, Parcela 18-1 Elemento 2",
-        "zip": "48170 Zamudio Bizkaia",
-        "city": "Bilbao",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 43.2876667,
-        "longitude": -2.878791,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/3YBYjg8cNp3D585P8",
-        "search_tags": [
-          "bio",
-          "basque country",
-          "país vasco",
-          "euskadi",
-          "bilbao airport",
-          "aeropuerto bilbao",
-          "bilbo aireportua",
-          "bilbo",
-          "bizkaia",
-          "vizcaya",
-          "san sebastian",
-          "donosti",
-          "donostia",
-          "cantabria"
-        ]
-      },
-      "dropoff": {
-        "id": 21,
-        "name": "Malaga",
-        "address": "Calle José Calderón, 120",
-        "zip": "29590",
-        "city": "Malaga",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 36.712,
-        "longitude": -4.431,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/xR5R3kUdXNTpYRZh6",
-        "search_tags": [
-          "agp",
-          "costa del sol",
-          "andalusia",
-          "andalucía",
-          "aeropuerto malaga",
-          "malaga airport",
-          "marbella",
-          "estepona"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-30T00:00:00+00:00",
-          "end_date": "2026-10-07T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=40"
     },
     {
       "route": "Bilbao -> Freiburg-Basel (Germany)",
@@ -1419,8 +1291,8 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=24"
     },
     {
-      "route": "Bologna -> Marburg",
-      "trip_type": "one-way",
+      "route": "Bologna -> Bologna",
+      "trip_type": "round-trip",
       "pickup": {
         "id": 57,
         "name": "Bologna",
@@ -1444,26 +1316,29 @@
         ]
       },
       "dropoff": {
-        "id": 22,
-        "name": "Marburg",
-        "address": "Afföllerstraße 90B",
-        "zip": "35039",
-        "city": "Marburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.8299781,
-        "longitude": 8.7707884,
+        "id": 57,
+        "name": "Bologna",
+        "address": "Via Giuseppe di Vittorio 19 Area produttiva via Lunga",
+        "zip": "40056",
+        "city": "Bologna",
+        "country_code": "IT",
+        "country": "Italy",
+        "latitude": 44.522,
+        "longitude": 11.343,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/pJg1Lwgv1TSsDVYy5",
-        "search_tags": []
+        "google_maps": "https://maps.app.goo.gl/71JBHhjyLd9Z5KG17",
+        "search_tags": [
+          "blq",
+          "emilia-romagna",
+          "modena",
+          "parma",
+          "ferrara",
+          "adriatic coast",
+          "riviera adriatica"
+        ]
       },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-27T00:00:00+00:00",
-          "end_date": "2026-11-03T00:00:00+00:00"
-        }
-      ],
+      "available": false,
+      "available_timeframes": [],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=57"
     },
     {
@@ -1741,70 +1616,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=55"
     },
     {
-      "route": "Bremen -> Valencia",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 55,
-        "name": "Bremen",
-        "address": "Westerfeld 19",
-        "zip": "28844",
-        "city": "Weyhe",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.068,
-        "longitude": 8.948,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/V6ZaU93LLArJhpbq6",
-        "search_tags": [
-          "bre",
-          "lower saxony",
-          "niedersachsen",
-          "northern germany",
-          "norddeutschland"
-        ]
-      },
-      "dropoff": {
-        "id": 38,
-        "name": "Valencia",
-        "address": "C. N-2, Parcela 16, 46220 Picassent, Valencia",
-        "zip": "46220",
-        "city": "Picassent",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 39.458,
-        "longitude": -0.397,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/qUkBeJLq1wBiKWdQ9",
-        "search_tags": [
-          "vlc",
-          "valencian community",
-          "comunidad valenciana",
-          "comunitad valenciana",
-          "aeropuerto valencia",
-          "aeroport valencia",
-          "valencia airport",
-          "manises",
-          "calpe",
-          "moraira",
-          "denia",
-          "alicante",
-          "alacant",
-          "benidorm",
-          "castellon",
-          "peñiscola",
-          "costa blanca"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-22T00:00:00+00:00",
-          "end_date": "2026-10-29T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=55"
-    },
-    {
       "route": "Bristol -> Edinburgh",
       "trip_type": "one-way",
       "pickup": {
@@ -1858,14 +1669,6 @@
       },
       "available": true,
       "available_timeframes": [
-        {
-          "start_date": "2026-10-01T00:00:00+00:00",
-          "end_date": "2026-10-08T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-10-05T00:00:00+00:00",
-          "end_date": "2026-10-12T00:00:00+00:00"
-        },
         {
           "start_date": "2026-10-06T00:00:00+00:00",
           "end_date": "2026-10-13T00:00:00+00:00"
@@ -2183,67 +1986,6 @@
         {
           "start_date": "2026-10-23T00:00:00+00:00",
           "end_date": "2026-10-30T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=4"
-    },
-    {
-      "route": "Cologne-Dusseldorf -> Milan",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 4,
-        "name": "Cologne-Dusseldorf",
-        "address": "Norfer Straße 6, 41539 Dormagen",
-        "zip": "41539",
-        "city": "Dormagen",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.1085536,
-        "longitude": 6.824684,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/H6R8x54k9NXAN4Ag8",
-        "search_tags": [
-          "cgn",
-          "dus",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw",
-          "rhineland",
-          "rheinland"
-        ]
-      },
-      "dropoff": {
-        "id": 34,
-        "name": "Milan",
-        "address": "Via Salvo D'Acquisto, 28. Castellanza, 21053 Milan",
-        "zip": "21053",
-        "city": "Milan",
-        "country_code": "IT",
-        "country": "Italy",
-        "latitude": 45.6052383,
-        "longitude": 8.8869682,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/8JHphReBcy8Rdp9F8",
-        "search_tags": [
-          "mxp",
-          "lin",
-          "lombardy",
-          "lombardia",
-          "malpensa",
-          "linate",
-          "dolomiti",
-          "alpi",
-          "lake como",
-          "lago di como",
-          "lake garda",
-          "lago di garda"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-27T00:00:00+00:00",
-          "end_date": "2026-11-03T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=4"
@@ -2647,7 +2389,7 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=93"
     },
     {
-      "route": "Duisburg -> Turin",
+      "route": "Duisburg -> Bordeaux",
       "trip_type": "one-way",
       "pickup": {
         "id": 113,
@@ -2670,32 +2412,35 @@
         ]
       },
       "dropoff": {
-        "id": 58,
-        "name": "Turin",
-        "address": "Via Giulio Natta, 6",
-        "zip": "10148 Torino",
-        "city": "Turin",
-        "country_code": "IT",
-        "country": "Italy",
-        "latitude": 45.112,
-        "longitude": 7.675,
+        "id": 13,
+        "name": "Bordeaux",
+        "address": "138 Avenue de l‘Argonne, 33700\t Mérignac",
+        "zip": "33700",
+        "city": "Mérignac",
+        "country_code": "FR",
+        "country": "France",
+        "latitude": 44.821,
+        "longitude": -0.693,
         "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/yuXKJaiHwK8HvG2Q8",
+        "google_maps": "https://goo.gl/maps/D96CqVMMbZruwdSL8",
         "search_tags": [
-          "trn",
-          "piedmont",
-          "piemonte",
-          "val d aosta",
-          "aosta valley",
-          "lake como",
-          "lago maggiore"
+          "bod",
+          "aquitaine",
+          "nouvelle-aquitaine",
+          "gironde",
+          "sud-ouest",
+          "landes",
+          "bayonne",
+          "biarritz",
+          "merignac",
+          "la rochelle"
         ]
       },
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-10-29T00:00:00+00:00",
-          "end_date": "2026-11-05T00:00:00+00:00"
+          "start_date": "2026-10-21T00:00:00+00:00",
+          "end_date": "2026-10-28T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
@@ -2756,6 +2501,60 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
     },
     {
+      "route": "Duisburg -> Turin",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 113,
+        "name": "Duisburg",
+        "address": "Forststr. 36",
+        "zip": "47055",
+        "city": "Duisburg",
+        "country_code": "DE",
+        "country": "Germany",
+        "latitude": 51.4390563,
+        "longitude": 6.7575595,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://maps.app.goo.gl/wjaEiB182y2Jmshz8",
+        "search_tags": [
+          "ruhr",
+          "ruhrgebiet",
+          "north rhine-westphalia",
+          "nordrhein-westfalen",
+          "nrw"
+        ]
+      },
+      "dropoff": {
+        "id": 58,
+        "name": "Turin",
+        "address": "Via Giulio Natta, 6",
+        "zip": "10148 Torino",
+        "city": "Turin",
+        "country_code": "IT",
+        "country": "Italy",
+        "latitude": 45.112,
+        "longitude": 7.675,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/yuXKJaiHwK8HvG2Q8",
+        "search_tags": [
+          "trn",
+          "piedmont",
+          "piemonte",
+          "val d aosta",
+          "aosta valley",
+          "lake como",
+          "lago maggiore"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-10-29T00:00:00+00:00",
+          "end_date": "2026-11-05T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
+    },
+    {
       "route": "Duisburg -> Nice",
       "trip_type": "one-way",
       "pickup": {
@@ -2808,63 +2607,6 @@
         {
           "start_date": "2026-10-30T00:00:00+00:00",
           "end_date": "2026-11-06T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
-    },
-    {
-      "route": "Duisburg -> Bordeaux",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 113,
-        "name": "Duisburg",
-        "address": "Forststr. 36",
-        "zip": "47055",
-        "city": "Duisburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.4390563,
-        "longitude": 6.7575595,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/wjaEiB182y2Jmshz8",
-        "search_tags": [
-          "ruhr",
-          "ruhrgebiet",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw"
-        ]
-      },
-      "dropoff": {
-        "id": 13,
-        "name": "Bordeaux",
-        "address": "138 Avenue de l‘Argonne, 33700\t Mérignac",
-        "zip": "33700",
-        "city": "Mérignac",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 44.821,
-        "longitude": -0.693,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/D96CqVMMbZruwdSL8",
-        "search_tags": [
-          "bod",
-          "aquitaine",
-          "nouvelle-aquitaine",
-          "gironde",
-          "sud-ouest",
-          "landes",
-          "bayonne",
-          "biarritz",
-          "merignac",
-          "la rochelle"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-21T00:00:00+00:00",
-          "end_date": "2026-10-28T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
@@ -3876,7 +3618,7 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=37"
     },
     {
-      "route": "Hamburg -> Nice",
+      "route": "Hamburg -> Bordeaux",
       "trip_type": "one-way",
       "pickup": {
         "id": 3,
@@ -3898,86 +3640,39 @@
         ]
       },
       "dropoff": {
-        "id": 88,
-        "name": "Nice",
-        "address": "2300 Route de la Baronne",
-        "zip": "06510",
-        "city": "Gattières",
+        "id": 13,
+        "name": "Bordeaux",
+        "address": "138 Avenue de l‘Argonne, 33700\t Mérignac",
+        "zip": "33700",
+        "city": "Mérignac",
         "country_code": "FR",
         "country": "France",
-        "latitude": 43.750978,
-        "longitude": 7.178945,
-        "timezone": "Europe/Paris",
-        "google_maps": "https://maps.app.goo.gl/rNguWaTUAGWnGogm8",
+        "latitude": 44.821,
+        "longitude": -0.693,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/D96CqVMMbZruwdSL8",
         "search_tags": [
-          "nce",
-          "côte d'azur",
-          "french riviera",
-          "provence-alpes-côte d'azur",
-          "paca",
-          "south of france",
-          "monaco",
-          "cannes",
-          "antibes",
-          "menton"
+          "bod",
+          "aquitaine",
+          "nouvelle-aquitaine",
+          "gironde",
+          "sud-ouest",
+          "landes",
+          "bayonne",
+          "biarritz",
+          "merignac",
+          "la rochelle"
         ]
       },
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-10-20T00:00:00+00:00",
-          "end_date": "2026-10-27T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
-    },
-    {
-      "route": "Hamburg -> Nantes",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 3,
-        "name": "Hamburg",
-        "address": "Billbrookdeich 11",
-        "zip": "22113",
-        "city": "Hamburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 53.5401405,
-        "longitude": 10.0781996,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/FtPGbAT5Xbrz49hP8",
-        "search_tags": [
-          "ham",
-          "schleswig-holstein",
-          "northern germany",
-          "norddeutschland"
-        ]
-      },
-      "dropoff": {
-        "id": 31,
-        "name": "Nantes",
-        "address": "24 Chemin des Bateliers, 44300 Nantes",
-        "zip": "44300",
-        "city": "Nantes",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 47.211,
-        "longitude": -1.565,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/CumFEsNpKg2FT1n7A",
-        "search_tags": [
-          "nte",
-          "pays de la loire",
-          "loire-atlantique",
-          "brittany",
-          "vannes"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
+          "start_date": "2026-10-05T00:00:00+00:00",
+          "end_date": "2026-10-12T00:00:00+00:00"
+        },
         {
-          "start_date": "2026-10-28T00:00:00+00:00",
-          "end_date": "2026-11-04T00:00:00+00:00"
+          "start_date": "2026-10-24T00:00:00+00:00",
+          "end_date": "2026-10-31T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
@@ -4040,7 +3735,7 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
     },
     {
-      "route": "Hamburg -> Bordeaux",
+      "route": "Hamburg -> Nice",
       "trip_type": "one-way",
       "pickup": {
         "id": 3,
@@ -4062,39 +3757,35 @@
         ]
       },
       "dropoff": {
-        "id": 13,
-        "name": "Bordeaux",
-        "address": "138 Avenue de l‘Argonne, 33700\t Mérignac",
-        "zip": "33700",
-        "city": "Mérignac",
+        "id": 88,
+        "name": "Nice",
+        "address": "2300 Route de la Baronne",
+        "zip": "06510",
+        "city": "Gattières",
         "country_code": "FR",
         "country": "France",
-        "latitude": 44.821,
-        "longitude": -0.693,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/D96CqVMMbZruwdSL8",
+        "latitude": 43.750978,
+        "longitude": 7.178945,
+        "timezone": "Europe/Paris",
+        "google_maps": "https://maps.app.goo.gl/rNguWaTUAGWnGogm8",
         "search_tags": [
-          "bod",
-          "aquitaine",
-          "nouvelle-aquitaine",
-          "gironde",
-          "sud-ouest",
-          "landes",
-          "bayonne",
-          "biarritz",
-          "merignac",
-          "la rochelle"
+          "nce",
+          "côte d'azur",
+          "french riviera",
+          "provence-alpes-côte d'azur",
+          "paca",
+          "south of france",
+          "monaco",
+          "cannes",
+          "antibes",
+          "menton"
         ]
       },
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-10-05T00:00:00+00:00",
-          "end_date": "2026-10-12T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-10-24T00:00:00+00:00",
-          "end_date": "2026-10-31T00:00:00+00:00"
+          "start_date": "2026-10-20T00:00:00+00:00",
+          "end_date": "2026-10-27T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
@@ -4158,6 +3849,57 @@
         {
           "start_date": "2026-09-29T00:00:00+00:00",
           "end_date": "2026-10-06T00:00:00+00:00"
+        }
+      ],
+      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
+    },
+    {
+      "route": "Hamburg -> Nantes",
+      "trip_type": "one-way",
+      "pickup": {
+        "id": 3,
+        "name": "Hamburg",
+        "address": "Billbrookdeich 11",
+        "zip": "22113",
+        "city": "Hamburg",
+        "country_code": "DE",
+        "country": "Germany",
+        "latitude": 53.5401405,
+        "longitude": 10.0781996,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/FtPGbAT5Xbrz49hP8",
+        "search_tags": [
+          "ham",
+          "schleswig-holstein",
+          "northern germany",
+          "norddeutschland"
+        ]
+      },
+      "dropoff": {
+        "id": 31,
+        "name": "Nantes",
+        "address": "24 Chemin des Bateliers, 44300 Nantes",
+        "zip": "44300",
+        "city": "Nantes",
+        "country_code": "FR",
+        "country": "France",
+        "latitude": 47.211,
+        "longitude": -1.565,
+        "timezone": "Europe/Berlin",
+        "google_maps": "https://goo.gl/maps/CumFEsNpKg2FT1n7A",
+        "search_tags": [
+          "nte",
+          "pays de la loire",
+          "loire-atlantique",
+          "brittany",
+          "vannes"
+        ]
+      },
+      "available": true,
+      "available_timeframes": [
+        {
+          "start_date": "2026-10-28T00:00:00+00:00",
+          "end_date": "2026-11-04T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=3"
@@ -6117,65 +5859,8 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-09-29T00:00:00+00:00",
-          "end_date": "2026-10-06T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-10-29T00:00:00+00:00",
           "end_date": "2026-11-05T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=22"
-    },
-    {
-      "route": "Marburg -> Paris Airport CDG",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 22,
-        "name": "Marburg",
-        "address": "Afföllerstraße 90B",
-        "zip": "35039",
-        "city": "Marburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.8299781,
-        "longitude": 8.7707884,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/pJg1Lwgv1TSsDVYy5",
-        "search_tags": []
-      },
-      "dropoff": {
-        "id": 48,
-        "name": "Paris Airport CDG",
-        "address": "2 rue Gustave Eiffel",
-        "zip": "95190",
-        "city": "Goussainville",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 49.0227491,
-        "longitude": 2.4661976,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/aeF7k8Wt97iqEbkb8",
-        "search_tags": [
-          "cdg",
-          "roissy",
-          "île-de-france",
-          "ile-de-france",
-          "versailles",
-          "disneyland paris",
-          "saint-denis",
-          "le bourget",
-          "meaux",
-          "compiègne",
-          "chantilly",
-          "reims"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-01T00:00:00+00:00",
-          "end_date": "2026-10-08T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=22"
@@ -6807,65 +6492,6 @@
         {
           "start_date": "2026-10-28T00:00:00+00:00",
           "end_date": "2026-11-04T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=1"
-    },
-    {
-      "route": "Munich -> Milan",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 1,
-        "name": "Munich",
-        "address": "Ingolstädterstr. 172",
-        "zip": "80939",
-        "city": "Munich",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 48.204,
-        "longitude": 11.586,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/L8kz8j4KnHcphZJZ6",
-        "search_tags": [
-          "muc",
-          "bavaria",
-          "bayern",
-          "oberbayern",
-          "upper bavaria"
-        ]
-      },
-      "dropoff": {
-        "id": 34,
-        "name": "Milan",
-        "address": "Via Salvo D'Acquisto, 28. Castellanza, 21053 Milan",
-        "zip": "21053",
-        "city": "Milan",
-        "country_code": "IT",
-        "country": "Italy",
-        "latitude": 45.6052383,
-        "longitude": 8.8869682,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/8JHphReBcy8Rdp9F8",
-        "search_tags": [
-          "mxp",
-          "lin",
-          "lombardy",
-          "lombardia",
-          "malpensa",
-          "linate",
-          "dolomiti",
-          "alpi",
-          "lake como",
-          "lago di como",
-          "lake garda",
-          "lago di garda"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-30T00:00:00+00:00",
-          "end_date": "2026-11-06T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=1"
@@ -7973,56 +7599,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=39"
     },
     {
-      "route": "Stockholm -> Cologne-Bonn",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 59,
-        "name": "Stockholm",
-        "address": "Okvistavägen 22, 18640\tVallentuna",
-        "zip": "18640",
-        "city": "Stockholm",
-        "country_code": "SE",
-        "country": "Sweden",
-        "latitude": 59.292,
-        "longitude": 18.001,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/mAf2zbwGXLHXb5a86",
-        "search_tags": [
-          "arn",
-          "svealand"
-        ]
-      },
-      "dropoff": {
-        "id": 52,
-        "name": "Cologne-Bonn",
-        "address": "Klosengartenstr. 39",
-        "zip": "50374",
-        "city": "Köln-Bonn",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.821,
-        "longitude": 6.812,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/QWxcDJXznCTYxknBA",
-        "search_tags": [
-          "cgn",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw",
-          "rhineland",
-          "rheinland"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-08T00:00:00+00:00",
-          "end_date": "2026-10-15T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=59"
-    },
-    {
       "route": "Stockholm -> Frankfurt",
       "trip_type": "one-way",
       "pickup": {
@@ -8814,10 +8390,6 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-10-26T00:00:00+00:00",
-          "end_date": "2026-11-02T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-10-29T00:00:00+00:00",
           "end_date": "2026-11-05T00:00:00+00:00"
         }
@@ -9028,148 +8600,6 @@
         {
           "start_date": "2026-10-16T00:00:00+00:00",
           "end_date": "2026-10-23T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=36"
-    },
-    {
-      "route": "Vienna -> Marburg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 36,
-        "name": "Vienna",
-        "address": "Lichtblaustr. 13, 1220 Vienna",
-        "zip": "1220",
-        "city": "Vienna",
-        "country_code": "AT",
-        "country": "Austria",
-        "latitude": 48.267,
-        "longitude": 16.464,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/UpxKcKtezCYLBJgD7",
-        "search_tags": [
-          "vie",
-          "lower austria",
-          "niederösterreich"
-        ]
-      },
-      "dropoff": {
-        "id": 22,
-        "name": "Marburg",
-        "address": "Afföllerstraße 90B",
-        "zip": "35039",
-        "city": "Marburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 50.8299781,
-        "longitude": 8.7707884,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/pJg1Lwgv1TSsDVYy5",
-        "search_tags": []
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-09-29T00:00:00+00:00",
-          "end_date": "2026-10-06T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=36"
-    },
-    {
-      "route": "Vienna -> Nuremberg",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 36,
-        "name": "Vienna",
-        "address": "Lichtblaustr. 13, 1220 Vienna",
-        "zip": "1220",
-        "city": "Vienna",
-        "country_code": "AT",
-        "country": "Austria",
-        "latitude": 48.267,
-        "longitude": 16.464,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/UpxKcKtezCYLBJgD7",
-        "search_tags": [
-          "vie",
-          "lower austria",
-          "niederösterreich"
-        ]
-      },
-      "dropoff": {
-        "id": 11,
-        "name": "Nuremberg",
-        "address": "Benno-Strauß-Str. 45",
-        "zip": "90763",
-        "city": "Fürth",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 49.444,
-        "longitude": 10.994,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/7CMweiwic5bFVVKM9",
-        "search_tags": [
-          "nue",
-          "franconia",
-          "franken",
-          "middle franconia",
-          "mittelfranken"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-13T00:00:00+00:00",
-          "end_date": "2026-10-20T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=36"
-    },
-    {
-      "route": "Vienna -> Berlin-Schönefeld",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 36,
-        "name": "Vienna",
-        "address": "Lichtblaustr. 13, 1220 Vienna",
-        "zip": "1220",
-        "city": "Vienna",
-        "country_code": "AT",
-        "country": "Austria",
-        "latitude": 48.267,
-        "longitude": 16.464,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/UpxKcKtezCYLBJgD7",
-        "search_tags": [
-          "vie",
-          "lower austria",
-          "niederösterreich"
-        ]
-      },
-      "dropoff": {
-        "id": 51,
-        "name": "Berlin-Schönefeld",
-        "address": "Am Pechpfuhl 4",
-        "zip": "12529",
-        "city": "Berlin",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 52.3680875,
-        "longitude": 13.5614071,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/hqFQuRqvTDUu3ZfJ6",
-        "search_tags": [
-          "ber",
-          "schönefeld",
-          "brandenburg"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-10-02T00:00:00+00:00",
-          "end_date": "2026-10-09T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=36"
