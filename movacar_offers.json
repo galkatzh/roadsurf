@@ -1,9 +1,9 @@
 {
   "source": "https://www.movacar.com/en-US/offers",
-  "scraped_at": "2026-11-19T13:27:13+00:00",
+  "scraped_at": "2026-11-20T13:07:30+00:00",
   "pickup_window": {
-    "from": "2026-11-19",
-    "to": "2027-11-19"
+    "from": "2026-11-20",
+    "to": "2027-11-20"
   },
   "offer_count": 100,
   "offers": [
@@ -60,172 +60,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261084?origin=2321&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
-    },
-    {
-      "id": "263273_2960_5994",
-      "offer_id": "263273",
-      "route": "Karlsruhe -> Tübingen",
-      "offer_type": 9,
-      "vehicle": {
-        "make": "AUDI",
-        "model": "A5 AVANT KOM HBBP AUT",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Unspecified",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
-      "pickup": {
-        "station_id": "2571",
-        "city": "Karlsruhe",
-        "street": "Siemensallee 84",
-        "postal_code": "76187",
-        "latitude": 49.030217,
-        "longitude": 8.345597,
-        "code": "Sixt307"
-      },
-      "dropoff": {
-        "station_id": "4338",
-        "city": "Tübingen",
-        "street": "Schweickhardtstr. 3a",
-        "postal_code": "72072",
-        "latitude": 48.5130476,
-        "longitude": 9.0679859,
-        "code": "Sixt47397"
-      },
-      "earliest_pickup": "2026-11-19T13:01:19Z",
-      "latest_delivery": "2026-11-20T16:00:00Z",
-      "latest_pickup": "2026-11-20T14:00:00+00:00",
-      "valid_until": "2026-11-20T12:23:33Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 150,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 112.1,
-      "min_drivers_age": 25,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/263273?origin=2571&destination=4338",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
-    },
-    {
-      "id": "263274_2960_5994",
-      "offer_id": "263274",
-      "route": "Karlsruhe -> Tübingen",
-      "offer_type": 9,
-      "vehicle": {
-        "make": "AUDI",
-        "model": "A5 AVANT KOM HBBP AUT",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Unspecified",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
-      "pickup": {
-        "station_id": "2571",
-        "city": "Karlsruhe",
-        "street": "Siemensallee 84",
-        "postal_code": "76187",
-        "latitude": 49.030217,
-        "longitude": 8.345597,
-        "code": "Sixt307"
-      },
-      "dropoff": {
-        "station_id": "4338",
-        "city": "Tübingen",
-        "street": "Schweickhardtstr. 3a",
-        "postal_code": "72072",
-        "latitude": 48.5130476,
-        "longitude": 9.0679859,
-        "code": "Sixt47397"
-      },
-      "earliest_pickup": "2026-11-19T13:01:19Z",
-      "latest_delivery": "2026-11-20T16:00:00Z",
-      "latest_pickup": "2026-11-20T14:00:00+00:00",
-      "valid_until": "2026-11-20T12:23:33Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 150,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 112.1,
-      "min_drivers_age": 25,
-      "has_connections": false,
-      "booking_link": "https://www.movacar.com/en-US/checkout/263274?origin=2571&destination=4338",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
-    },
-    {
-      "id": "263275_2869_2335",
-      "offer_id": "263275",
-      "route": "Itzehoe -> Hamburg",
-      "offer_type": 9,
-      "vehicle": {
-        "make": "MAXUS",
-        "model": "E-DELIVER 3 KAS EL AUT",
-        "description": null,
-        "category": "Mystery Auto",
-        "type": "Car",
-        "class": null,
-        "seats": 5,
-        "doors": 5,
-        "fuel_type": "Unspecified",
-        "gear_type": "Can be Manual/Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/eumystery.png"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/SixtLogo.png",
-      "pickup": {
-        "station_id": "2800",
-        "city": "Itzehoe",
-        "street": "Edendorfer Str. 51",
-        "postal_code": "25524",
-        "latitude": 53.935832,
-        "longitude": 9.501142,
-        "code": "Sixt46130"
-      },
-      "dropoff": {
-        "station_id": "2789",
-        "city": "Hamburg",
-        "street": "Großmannstr. 231",
-        "postal_code": "20539",
-        "latitude": 53.535695,
-        "longitude": 10.067453,
-        "code": "Sixt45321"
-      },
-      "earliest_pickup": "2026-11-19T13:07:18Z",
-      "latest_delivery": "2026-11-21T13:00:00Z",
-      "latest_pickup": "2026-11-21T12:00:00+00:00",
-      "valid_until": "2026-11-21T09:45:34Z",
-      "included_period_hours": 24,
-      "extra_period_hours": 24,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 100,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 67.0,
-      "min_drivers_age": 25,
-      "has_connections": true,
-      "booking_link": "https://www.movacar.com/en-US/checkout/263275?origin=2800&destination=2789",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260081_8066_57624",
@@ -264,7 +99,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T17:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -280,7 +115,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260081?origin=6117&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260105_7190_57624",
@@ -319,7 +154,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T11:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -335,7 +170,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260105?origin=6129&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260108_7190_57624",
@@ -374,7 +209,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T11:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -390,7 +225,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260108?origin=6129&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260359_7190_57624",
@@ -429,7 +264,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T11:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -445,7 +280,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260359?origin=6129&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260895_7877_57624",
@@ -484,7 +319,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T14:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -500,7 +335,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260895?origin=6091&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260898_7883_57624",
@@ -539,7 +374,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T16:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -555,7 +390,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260898?origin=6092&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260914_8053_57624",
@@ -594,7 +429,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -610,7 +445,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260914?origin=6116&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260917_8053_57624",
@@ -649,7 +484,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -665,7 +500,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260917?origin=6116&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260920_7502_57624",
@@ -704,7 +539,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T02:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -720,7 +555,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260920?origin=6095&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260931_7190_57624",
@@ -759,7 +594,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T11:00:00+00:00",
       "valid_until": "2026-11-23T20:00:00Z",
@@ -775,7 +610,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260931?origin=6129&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260943_7917_57624",
@@ -814,7 +649,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -830,7 +665,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260943?origin=6111&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262074_8053_57624",
@@ -869,7 +704,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -885,7 +720,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262074?origin=6116&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262278_10656_57624",
@@ -924,10 +759,10 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T15:00:00+00:00",
-      "valid_until": "2026-11-20T20:00:00Z",
+      "valid_until": "2026-11-29T20:00:00Z",
       "included_period_hours": 216,
       "extra_period_hours": 216,
       "price": {
@@ -940,7 +775,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262278?origin=6089&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262461_8053_1727",
@@ -979,7 +814,7 @@
         "longitude": 8.8076945,
         "code": "IC84"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-12-01T20:00:00Z",
       "latest_pickup": "2026-12-01T13:00:00+00:00",
       "valid_until": "2026-11-26T20:00:00Z",
@@ -995,7 +830,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262461?origin=6116&destination=6104",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262704_202072_57624",
@@ -1034,7 +869,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T14:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -1050,7 +885,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262704?origin=6155&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262778_7190_7317",
@@ -1089,7 +924,7 @@
         "longitude": -5.9136377,
         "code": "IC119"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T11:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -1105,7 +940,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262778?origin=6129&destination=6133",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262780_7190_7317",
@@ -1144,7 +979,7 @@
         "longitude": -5.9136377,
         "code": "IC119"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T11:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -1160,7 +995,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262780?origin=6129&destination=6133",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262781_7190_7317",
@@ -1199,7 +1034,7 @@
         "longitude": -5.9136377,
         "code": "IC119"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T11:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -1215,7 +1050,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262781?origin=6129&destination=6133",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262783_7190_7256",
@@ -1254,7 +1089,7 @@
         "longitude": -4.578534,
         "code": "IC117"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T10:00:00+00:00",
       "valid_until": "2026-11-23T20:00:00Z",
@@ -1270,7 +1105,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262783?origin=6129&destination=6131",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262784_7190_202065",
@@ -1309,7 +1144,7 @@
         "longitude": 2.691353,
         "code": "IC78"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T10:00:00+00:00",
       "valid_until": "2026-11-23T20:00:00Z",
@@ -1325,7 +1160,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262784?origin=6129&destination=6099",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262786_7190_202065",
@@ -1364,7 +1199,7 @@
         "longitude": 2.691353,
         "code": "IC78"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T10:00:00+00:00",
       "valid_until": "2026-11-23T20:00:00Z",
@@ -1380,7 +1215,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262786?origin=6129&destination=6099",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262787_7190_7256",
@@ -1419,7 +1254,7 @@
         "longitude": -4.578534,
         "code": "IC117"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T10:00:00+00:00",
       "valid_until": "2026-11-23T20:00:00Z",
@@ -1435,7 +1270,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262787?origin=6129&destination=6131",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262788_7190_202065",
@@ -1474,7 +1309,7 @@
         "longitude": 2.691353,
         "code": "IC78"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T10:00:00+00:00",
       "valid_until": "2026-11-23T20:00:00Z",
@@ -1490,7 +1325,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262788?origin=6129&destination=6099",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262792_7190_202072",
@@ -1529,7 +1364,7 @@
         "longitude": -8.431217,
         "code": "IC124"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T14:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -1545,7 +1380,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262792?origin=6129&destination=6155",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262793_7190_7167",
@@ -1584,7 +1419,7 @@
         "longitude": -3.4017402,
         "code": "IC116"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T15:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -1600,7 +1435,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262793?origin=6129&destination=6130",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262794_7190_7167",
@@ -1639,7 +1474,7 @@
         "longitude": -3.4017402,
         "code": "IC116"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T15:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -1655,7 +1490,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262794?origin=6129&destination=6130",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262796_7190_7406",
@@ -1694,7 +1529,7 @@
         "longitude": -0.6386488,
         "code": "IC73"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T16:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -1710,7 +1545,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262796?origin=6129&destination=6094",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262797_7190_7406",
@@ -1749,7 +1584,7 @@
         "longitude": -0.6386488,
         "code": "IC73"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T16:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -1765,7 +1600,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262797?origin=6129&destination=6094",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262798_7190_7406",
@@ -1804,7 +1639,7 @@
         "longitude": -0.6386488,
         "code": "IC73"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-30T20:00:00Z",
       "latest_pickup": "2026-11-30T16:00:00+00:00",
       "valid_until": "2026-11-25T20:00:00Z",
@@ -1820,7 +1655,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262798?origin=6129&destination=6094",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262967_8053_57624",
@@ -1859,7 +1694,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -1875,7 +1710,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262967?origin=6116&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262968_8053_57624",
@@ -1914,7 +1749,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -1930,7 +1765,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262968?origin=6116&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262969_202050_57624",
@@ -1969,7 +1804,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T14:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -1985,7 +1820,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262969?origin=6110&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262970_8053_57624",
@@ -2024,7 +1859,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T22:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -2040,7 +1875,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262970?origin=6116&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262971_4943_57624",
@@ -2079,7 +1914,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-28T21:00:00+00:00",
       "valid_until": "2026-11-29T20:00:00Z",
@@ -2095,7 +1930,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262971?origin=6107&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "263220_7256_57624",
@@ -2134,7 +1969,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T13:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -2150,62 +1985,62 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/263220?origin=6131&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
-      "id": "263222_592_10656",
-      "offer_id": "263222",
-      "route": "Berlin -> Wiener Neudorf",
+      "id": "263258_202045_57624",
+      "offer_id": "263258",
+      "route": "Venezia -> Lisbon",
       "offer_type": 5,
       "vehicle": {
         "make": "Fiat",
-        "model": "Sport 346 or similar",
+        "model": "Ducato",
         "description": null,
-        "category": "Comfort Family",
+        "category": "Active Standard Select",
         "type": "Camper",
         "class": null,
-        "seats": 5,
+        "seats": 4,
         "doors": 4,
         "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/aaca0lxvIZEnjSPD_FAMILY@5x.avif"
+        "gear_type": "Manual",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/aD_-qLh8WN-LVkic_ImageGrid-5-.avif"
       },
       "brand_image": "https://storage.googleapis.com/movacar-prod-assets/IndieCampers.svg",
       "pickup": {
-        "station_id": "6085",
-        "city": "Berlin",
-        "street": "Adlergestell 350-351",
-        "postal_code": "12489",
-        "latitude": 52.4281113,
-        "longitude": 13.5568964,
-        "code": "IC82"
+        "station_id": "6120",
+        "city": "Venezia",
+        "street": "Via delle Industrie, 138, Marcon",
+        "postal_code": "30020",
+        "latitude": 45.542029,
+        "longitude": 12.289827,
+        "code": "IC102"
       },
       "dropoff": {
-        "station_id": "6089",
-        "city": "Wiener Neudorf",
-        "street": "Bruckerstraße 8 a Sofie-Lazarsfeld-Straße 22",
-        "postal_code": "1110",
-        "latitude": 48.14047,
-        "longitude": 16.44293,
-        "code": "IC65"
+        "station_id": "6126",
+        "city": "Lisbon",
+        "street": "Solvay Business Park, R. Eng. Clment Dumoulin Armazm J",
+        "postal_code": "2625",
+        "latitude": 38.8565412,
+        "longitude": -9.0627724,
+        "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
-      "latest_delivery": "2026-12-08T20:00:00Z",
-      "latest_pickup": "2026-12-08T13:00:00+00:00",
-      "valid_until": "2026-12-03T20:00:00Z",
-      "included_period_hours": 120,
-      "extra_period_hours": 216,
+      "earliest_pickup": "2026-11-21T05:00:00Z",
+      "latest_delivery": "2026-11-29T20:00:00Z",
+      "latest_pickup": "2026-11-28T20:00:00+00:00",
+      "valid_until": "2026-11-27T20:00:00Z",
+      "included_period_hours": 48,
+      "extra_period_hours": 48,
       "price": {
         "amount": 99.0,
         "currency": "EUR"
       },
-      "free_km": 1083,
+      "free_km": 2789,
       "cents_per_extra_km": 50,
-      "route_distance_km": 679.1,
+      "route_distance_km": 2370.7,
       "min_drivers_age": 18,
-      "has_connections": true,
-      "booking_link": "https://www.movacar.com/en-US/checkout/263222?origin=6085&destination=6089",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "has_connections": false,
+      "booking_link": "https://www.movacar.com/en-US/checkout/263258?origin=6120&destination=6126",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "263259_7167_57624",
@@ -2244,7 +2079,7 @@
         "longitude": -9.0627724,
         "code": "IC112"
       },
-      "earliest_pickup": "2026-11-20T05:00:00Z",
+      "earliest_pickup": "2026-11-21T05:00:00Z",
       "latest_delivery": "2026-11-29T20:00:00Z",
       "latest_pickup": "2026-11-29T13:00:00+00:00",
       "valid_until": "2026-11-24T20:00:00Z",
@@ -2260,7 +2095,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/263259?origin=6130&destination=6126",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "257292_1260_7532",
@@ -2315,7 +2150,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/257292?origin=5204&destination=2309",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259789_3460_202033",
@@ -2370,7 +2205,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259789?origin=5584&destination=2303",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260651_60212_7721",
@@ -2425,7 +2260,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/260651?origin=3255&destination=4624",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261727_8154_6700",
@@ -2480,7 +2315,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261727?origin=2321&destination=5328",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262468_592_7259",
@@ -2535,7 +2370,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/262468?origin=2284&destination=2304",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262480_202015_3699",
@@ -2590,7 +2425,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262480?origin=3264&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262496_6845_592",
@@ -2645,7 +2480,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262496?origin=2323&destination=2284",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "263268_202043_7597",
@@ -2700,7 +2535,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/263268?origin=4563&destination=5333",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "258479_3460_7259",
@@ -2755,7 +2590,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/258479?origin=5584&destination=2304",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "258649_7517_3699",
@@ -2810,7 +2645,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/258649?origin=2287&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "258661_202033_3699",
@@ -2865,7 +2700,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/258661?origin=2303&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "258663_202036_3699",
@@ -2920,7 +2755,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/258663?origin=3142&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "258678_202043_3699",
@@ -2975,7 +2810,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/258678?origin=4563&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259538_6819_1727",
@@ -3030,7 +2865,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259538?origin=5285&destination=2292",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259646_3460_7342",
@@ -3085,7 +2920,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259646?origin=5584&destination=2282",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259652_8853_1727",
@@ -3140,7 +2975,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259652?origin=2316&destination=2292",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259668_3699_202015",
@@ -3195,7 +3030,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259668?origin=2853&destination=3264",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259673_4003_202024",
@@ -3250,7 +3085,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259673?origin=2308&destination=3004",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259794_22722_8154",
@@ -3305,7 +3140,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259794?origin=5329&destination=2321",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "259798_2335_7532",
@@ -3360,7 +3195,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/259798?origin=2296&destination=2309",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260609_3699_202045",
@@ -3415,7 +3250,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260609?origin=2853&destination=3147",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260680_3699_202044",
@@ -3470,7 +3305,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260680?origin=2853&destination=4743",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260681_1309_202045",
@@ -3525,62 +3360,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260681?origin=5327&destination=3147",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
-    },
-    {
-      "id": "260682_8345_3699",
-      "offer_id": "260682",
-      "route": "Rotterdam -> Marburg",
-      "offer_type": 5,
-      "vehicle": {
-        "make": "SURFER SUITE",
-        "model": "VW California Ocean",
-        "description": null,
-        "category": "SURFER SUITE",
-        "type": "Camper",
-        "class": null,
-        "seats": 4,
-        "doors": 5,
-        "fuel_type": "Diesel",
-        "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/phpplLlfn.jpeg"
-      },
-      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
-      "pickup": {
-        "station_id": "4615",
-        "city": "Rotterdam",
-        "street": "Kruisdijk 10",
-        "postal_code": "0",
-        "latitude": 51.8601602,
-        "longitude": 4.3951066,
-        "code": "RS75"
-      },
-      "dropoff": {
-        "station_id": "2853",
-        "city": "Marburg",
-        "street": "Afföllerstraße 90B",
-        "postal_code": "35039",
-        "latitude": 50.8298189,
-        "longitude": 8.7682135,
-        "code": "RS50"
-      },
-      "earliest_pickup": "2026-11-23T23:00:00Z",
-      "latest_delivery": "2026-12-01T22:59:59Z",
-      "latest_pickup": "2026-12-01T17:59:59+00:00",
-      "valid_until": "2026-11-29T22:59:59Z",
-      "included_period_hours": 48,
-      "extra_period_hours": 192,
-      "price": {
-        "amount": 1.0,
-        "currency": "EUR"
-      },
-      "free_km": 1000,
-      "cents_per_extra_km": 50,
-      "route_distance_km": 452.6,
-      "min_drivers_age": 18,
-      "has_connections": true,
-      "booking_link": "https://www.movacar.com/en-US/checkout/260682?origin=4615&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260683_202039_7597",
@@ -3635,7 +3415,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260683?origin=4634&destination=5333",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260684_10656_1727",
@@ -3690,7 +3470,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260684?origin=2325&destination=2292",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260688_25384_7917",
@@ -3745,7 +3525,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260688?origin=5428&destination=5465",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260724_24970_202045",
@@ -3800,7 +3580,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260724?origin=2856&destination=3147",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260840_7923_4003",
@@ -3855,7 +3635,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260840?origin=5928&destination=2308",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260962_11381_20851",
@@ -3910,7 +3690,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260962?origin=4597&destination=2293",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260963_202052_2335",
@@ -3965,7 +3745,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260963?origin=3005&destination=2296",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260965_202029_3291",
@@ -4020,7 +3800,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260965?origin=2294&destination=2297",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "260978_202040_3699",
@@ -4075,7 +3855,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/260978?origin=3144&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261035_8154_26244",
@@ -4130,7 +3910,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261035?origin=2321&destination=2300",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261037_4003_7517",
@@ -4185,7 +3965,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261037?origin=2308&destination=2287",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261039_202033_24970",
@@ -4240,7 +4020,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261039?origin=2303&destination=2856",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261041_202052_789",
@@ -4295,7 +4075,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261041?origin=3005&destination=2298",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261049_202033_24970",
@@ -4350,7 +4130,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261049?origin=2303&destination=2856",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261197_10656_592",
@@ -4405,7 +4185,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261197?origin=2325&destination=2284",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261268_10656_1727",
@@ -4460,7 +4240,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261268?origin=2325&destination=2292",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261343_202033_8114",
@@ -4515,7 +4295,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261343?origin=2303&destination=5334",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261421_7917_20851",
@@ -4570,7 +4350,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261421?origin=5465&destination=2293",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261546_202033_202043",
@@ -4625,7 +4405,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261546?origin=2303&destination=4563",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261752_202015_20851",
@@ -4680,7 +4460,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261752?origin=3264&destination=2293",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261755_6845_1286",
@@ -4735,7 +4515,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261755?origin=2323&destination=2290",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261762_3460_7259",
@@ -4790,7 +4570,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/261762?origin=5584&destination=2304",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261764_202015_3699",
@@ -4845,7 +4625,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/261764?origin=3264&destination=2853",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "261766_24970_7259",
@@ -4900,7 +4680,7 @@
       "min_drivers_age": 18,
       "has_connections": false,
       "booking_link": "https://www.movacar.com/en-US/checkout/261766?origin=2856&destination=2304",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262296_3699_202045",
@@ -4955,7 +4735,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262296?origin=2853&destination=3147",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262349_202033_7517",
@@ -5010,7 +4790,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262349?origin=2303&destination=2287",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262387_11381_20851",
@@ -5065,7 +4845,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262387?origin=4597&destination=2293",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262517_3699_51690",
@@ -5120,7 +4900,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262517?origin=2853&destination=3253",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262519_20851_7342",
@@ -5175,7 +4955,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262519?origin=2293&destination=2282",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262520_24970_7517",
@@ -5230,7 +5010,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262520?origin=2856&destination=2287",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262521_4003_8154",
@@ -5285,7 +5065,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262521?origin=2308&destination=2321",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262522_26244_8114",
@@ -5340,7 +5120,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262522?origin=2300&destination=5334",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262524_6700_10656",
@@ -5395,7 +5175,7 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262524?origin=5328&destination=2325",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
       "id": "262525_3699_7917",
@@ -5450,62 +5230,282 @@
       "min_drivers_age": 18,
       "has_connections": true,
       "booking_link": "https://www.movacar.com/en-US/checkout/262525?origin=2853&destination=5465",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     },
     {
-      "id": "262527_4867_4003",
-      "offer_id": "262527",
-      "route": "Regensburg -> München",
+      "id": "262530_11381_20851",
+      "offer_id": "262530",
+      "route": "Wiesing -> Ihringen",
       "offer_type": 5,
       "vehicle": {
-        "make": "BEACH HOSTEL",
-        "model": "VW California Beach",
+        "make": "SURFER SUITE",
+        "model": "VW California Ocean",
         "description": null,
-        "category": "BEACH HOSTEL",
+        "category": "SURFER SUITE",
+        "type": "Camper",
+        "class": null,
+        "seats": 4,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpplLlfn.jpeg"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
+      "pickup": {
+        "station_id": "4597",
+        "city": "Wiesing",
+        "street": "Tiergarten 603",
+        "postal_code": "6210",
+        "latitude": 47.3942751,
+        "longitude": 11.7900063,
+        "code": "RS73"
+      },
+      "dropoff": {
+        "station_id": "2293",
+        "city": "Ihringen",
+        "street": "Gündlingerstr. 38",
+        "postal_code": "79241",
+        "latitude": 48.0365254,
+        "longitude": 7.6478617,
+        "code": "RS15"
+      },
+      "earliest_pickup": "2026-11-23T23:00:00Z",
+      "latest_delivery": "2026-12-01T22:59:59Z",
+      "latest_pickup": "2026-12-01T17:59:59+00:00",
+      "valid_until": "2026-11-29T22:59:59Z",
+      "included_period_hours": 48,
+      "extra_period_hours": 168,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1000,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 464.3,
+      "min_drivers_age": 18,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/262530?origin=4597&destination=2293",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
+    },
+    {
+      "id": "262532_655_20851",
+      "offer_id": "262532",
+      "route": "Bielefeld -> Ihringen",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "FAMILY FINCA",
+        "model": "VW Grand California 600 - VW Crafter 2",
+        "description": null,
+        "category": "FAMILY FINCA",
+        "type": "Camper",
+        "class": null,
+        "seats": 4,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpdlEOjP.jpeg"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
+      "pickup": {
+        "station_id": "5196",
+        "city": "Bielefeld",
+        "street": "Heidsieker Heide 53",
+        "postal_code": "33739",
+        "latitude": 52.0844167,
+        "longitude": 8.5072152,
+        "code": "RS99"
+      },
+      "dropoff": {
+        "station_id": "2293",
+        "city": "Ihringen",
+        "street": "Gündlingerstr. 38",
+        "postal_code": "79241",
+        "latitude": 48.0365254,
+        "longitude": 7.6478617,
+        "code": "RS15"
+      },
+      "earliest_pickup": "2026-11-23T23:00:00Z",
+      "latest_delivery": "2026-12-01T22:59:59Z",
+      "latest_pickup": "2026-12-01T16:59:59+00:00",
+      "valid_until": "2026-11-29T22:59:59Z",
+      "included_period_hours": 48,
+      "extra_period_hours": 168,
+      "price": {
+        "amount": 1.0,
+        "currency": "EUR"
+      },
+      "free_km": 1000,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 561.7,
+      "min_drivers_age": 18,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/262532?origin=5196&destination=2293",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
+    },
+    {
+      "id": "262533_3699_202045",
+      "offer_id": "262533",
+      "route": "Marburg -> Venezia",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "ROAD HOUSE",
+        "model": "Westfalia Eliseo C540 - Fiat Ducato 8",
+        "description": null,
+        "category": "ROAD HOUSE",
+        "type": "Camper",
+        "class": null,
+        "seats": 4,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpMFALOL.jpeg"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
+      "pickup": {
+        "station_id": "2853",
+        "city": "Marburg",
+        "street": "Afföllerstraße 90B",
+        "postal_code": "35039",
+        "latitude": 50.8298189,
+        "longitude": 8.7682135,
+        "code": "RS50"
+      },
+      "dropoff": {
+        "station_id": "3147",
+        "city": "Venezia",
+        "street": "Via Ghebba, 109",
+        "postal_code": "30034",
+        "latitude": 45.465832,
+        "longitude": 12.175594,
+        "code": "RS60"
+      },
+      "earliest_pickup": "2026-11-23T23:00:00Z",
+      "latest_delivery": "2026-12-01T22:59:59Z",
+      "latest_pickup": "2026-12-01T12:59:59+00:00",
+      "valid_until": "2026-11-24T22:59:59Z",
+      "included_period_hours": 168,
+      "extra_period_hours": 168,
+      "price": {
+        "amount": 129.0,
+        "currency": "EUR"
+      },
+      "free_km": 1400,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 997.7,
+      "min_drivers_age": 18,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/262533?origin=2853&destination=3147",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
+    },
+    {
+      "id": "262534_20851_202044",
+      "offer_id": "262534",
+      "route": "Ihringen -> València",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "ROAD HOUSE",
+        "model": "Westfalia Eliseo C540 - Fiat Ducato 8",
+        "description": null,
+        "category": "ROAD HOUSE",
+        "type": "Camper",
+        "class": null,
+        "seats": 4,
+        "doors": 5,
+        "fuel_type": "Diesel",
+        "gear_type": "Can be Manual/Automatic",
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpMFALOL.jpeg"
+      },
+      "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
+      "pickup": {
+        "station_id": "2293",
+        "city": "Ihringen",
+        "street": "Gündlingerstr. 38",
+        "postal_code": "79241",
+        "latitude": 48.0365254,
+        "longitude": 7.6478617,
+        "code": "RS15"
+      },
+      "dropoff": {
+        "station_id": "4743",
+        "city": "València",
+        "street": "C. N-2, Parcela 16",
+        "postal_code": "46220",
+        "latitude": 39.3560142,
+        "longitude": -0.458987,
+        "code": "RS89"
+      },
+      "earliest_pickup": "2026-11-23T23:00:00Z",
+      "latest_delivery": "2026-12-01T22:59:59Z",
+      "latest_pickup": "2026-12-01T07:59:59+00:00",
+      "valid_until": "2026-11-24T22:59:59Z",
+      "included_period_hours": 168,
+      "extra_period_hours": 168,
+      "price": {
+        "amount": 129.0,
+        "currency": "EUR"
+      },
+      "free_km": 1800,
+      "cents_per_extra_km": 50,
+      "route_distance_km": 1429.1,
+      "min_drivers_age": 18,
+      "has_connections": true,
+      "booking_link": "https://www.movacar.com/en-US/checkout/262534?origin=2293&destination=4743",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
+    },
+    {
+      "id": "262605_202024_202044",
+      "offer_id": "262605",
+      "route": "Zamudio -> València",
+      "offer_type": 5,
+      "vehicle": {
+        "make": "CAMPER CABIN",
+        "model": "Ford Nugget - Ford Transit Custom V710",
+        "description": null,
+        "category": "CAMPER CABIN",
         "type": "Camper",
         "class": null,
         "seats": 5,
         "doors": 5,
         "fuel_type": "Diesel",
         "gear_type": "Automatic",
-        "image": "https://storage.googleapis.com/movacar-prod-assets/phpGonHeh.jpeg"
+        "image": "https://storage.googleapis.com/movacar-prod-assets/phpGoajhG.jpeg"
       },
       "brand_image": "https://storage.googleapis.com/movacar-prod-assets/roadsurfer.png",
       "pickup": {
-        "station_id": "4527",
-        "city": "Regensburg",
-        "street": "Berliner Str. 41a",
-        "postal_code": "93073",
-        "latitude": 48.974625,
-        "longitude": 12.183099,
-        "code": "RS68"
+        "station_id": "3004",
+        "city": "Zamudio",
+        "street": "Polígono Ugaldeguren 3",
+        "postal_code": "48170",
+        "latitude": 43.2860962,
+        "longitude": -2.8741381,
+        "code": "RS56"
       },
       "dropoff": {
-        "station_id": "2308",
-        "city": "München",
-        "street": "Ingolstädterstr. 172",
-        "postal_code": "80939",
-        "latitude": 48.204,
-        "longitude": 11.586,
-        "code": "RS30"
+        "station_id": "4743",
+        "city": "València",
+        "street": "C. N-2, Parcela 16",
+        "postal_code": "46220",
+        "latitude": 39.3560142,
+        "longitude": -0.458987,
+        "code": "RS89"
       },
       "earliest_pickup": "2026-11-23T23:00:00Z",
       "latest_delivery": "2026-12-01T22:59:59Z",
-      "latest_pickup": "2026-12-01T20:59:59+00:00",
-      "valid_until": "2026-11-30T22:59:59Z",
-      "included_period_hours": 24,
+      "latest_pickup": "2026-12-01T15:59:59+00:00",
+      "valid_until": "2026-11-29T22:59:59Z",
+      "included_period_hours": 48,
       "extra_period_hours": 168,
       "price": {
         "amount": 1.0,
         "currency": "EUR"
       },
-      "free_km": 600,
+      "free_km": 1000,
       "cents_per_extra_km": 50,
-      "route_distance_km": 115.9,
+      "route_distance_km": 648.2,
       "min_drivers_age": 18,
       "has_connections": true,
-      "booking_link": "https://www.movacar.com/en-US/checkout/262527?origin=4527&destination=2308",
-      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-19&pickupDateTo=2027-11-19"
+      "booking_link": "https://www.movacar.com/en-US/checkout/262605?origin=3004&destination=4743",
+      "search_link": "https://www.movacar.com/en-US/offers?pickupDateFrom=2026-11-20&pickupDateTo=2027-11-20"
     }
   ]
 }
