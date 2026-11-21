@@ -1,8 +1,8 @@
 {
   "source": "https://booking.roadsurfer.com/en/rally/",
-  "scraped_at": "2026-11-20T13:11:45+00:00",
+  "scraped_at": "2026-11-21T12:50:53+00:00",
   "station_count": 112,
-  "ride_count": 439,
+  "ride_count": 436,
   "rides": [
     {
       "route": "Aachen -> Aachen",
@@ -2844,6 +2844,10 @@
       "available": true,
       "available_timeframes": [
         {
+          "start_date": "2026-11-24T00:00:00+00:00",
+          "end_date": "2026-12-01T00:00:00+00:00"
+        },
+        {
           "start_date": "2026-11-28T00:00:00+00:00",
           "end_date": "2026-12-05T00:00:00+00:00"
         }
@@ -4954,63 +4958,6 @@
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=4"
     },
     {
-      "route": "Cologne-Dusseldorf -> Malaga",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 4,
-        "name": "Cologne-Dusseldorf",
-        "address": "Norfer Straße 6, 41539 Dormagen",
-        "zip": "41539",
-        "city": "Dormagen",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.1085536,
-        "longitude": 6.824684,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/H6R8x54k9NXAN4Ag8",
-        "search_tags": [
-          "cgn",
-          "dus",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw",
-          "rhineland",
-          "rheinland"
-        ]
-      },
-      "dropoff": {
-        "id": 21,
-        "name": "Malaga",
-        "address": "Calle José Calderón, 120",
-        "zip": "29590",
-        "city": "Malaga",
-        "country_code": "ES",
-        "country": "Spain",
-        "latitude": 36.712,
-        "longitude": -4.431,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/xR5R3kUdXNTpYRZh6",
-        "search_tags": [
-          "agp",
-          "costa del sol",
-          "andalusia",
-          "andalucía",
-          "aeropuerto malaga",
-          "malaga airport",
-          "marbella",
-          "estepona"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2027-01-06T00:00:00+00:00",
-          "end_date": "2027-01-13T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=4"
-    },
-    {
       "route": "Constance (Aach) -> Rome Fiumicino Airport",
       "trip_type": "one-way",
       "pickup": {
@@ -6141,65 +6088,6 @@
         {
           "start_date": "2026-11-26T00:00:00+00:00",
           "end_date": "2026-12-03T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
-    },
-    {
-      "route": "Duisburg -> Paris Airport CDG",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 113,
-        "name": "Duisburg",
-        "address": "Forststr. 36",
-        "zip": "47055",
-        "city": "Duisburg",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 51.4390563,
-        "longitude": 6.7575595,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://maps.app.goo.gl/wjaEiB182y2Jmshz8",
-        "search_tags": [
-          "ruhr",
-          "ruhrgebiet",
-          "north rhine-westphalia",
-          "nordrhein-westfalen",
-          "nrw"
-        ]
-      },
-      "dropoff": {
-        "id": 48,
-        "name": "Paris Airport CDG",
-        "address": "2 rue Gustave Eiffel",
-        "zip": "95190",
-        "city": "Goussainville",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 49.0227491,
-        "longitude": 2.4661976,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/aeF7k8Wt97iqEbkb8",
-        "search_tags": [
-          "cdg",
-          "roissy",
-          "île-de-france",
-          "ile-de-france",
-          "versailles",
-          "disneyland paris",
-          "saint-denis",
-          "le bourget",
-          "meaux",
-          "compiègne",
-          "chantilly",
-          "reims"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-11-27T00:00:00+00:00",
-          "end_date": "2026-12-04T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=113"
@@ -10443,6 +10331,10 @@
       "available": true,
       "available_timeframes": [
         {
+          "start_date": "2026-11-28T00:00:00+00:00",
+          "end_date": "2026-12-05T00:00:00+00:00"
+        },
+        {
           "start_date": "2026-12-22T00:00:00+00:00",
           "end_date": "2026-12-29T00:00:00+00:00"
         }
@@ -11996,10 +11888,6 @@
         {
           "start_date": "2026-11-27T00:00:00+00:00",
           "end_date": "2026-12-04T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-12-10T00:00:00+00:00",
-          "end_date": "2026-12-17T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=117"
@@ -16315,10 +16203,6 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-11-25T00:00:00+00:00",
-          "end_date": "2026-12-02T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-11-26T00:00:00+00:00",
           "end_date": "2026-12-03T00:00:00+00:00"
         },
@@ -17034,60 +16918,6 @@
         {
           "start_date": "2027-01-05T00:00:00+00:00",
           "end_date": "2027-01-12T00:00:00+00:00"
-        }
-      ],
-      "booking_link": "https://booking.roadsurfer.com/en/rally/?station=1"
-    },
-    {
-      "route": "Munich -> Geneva-Pays de Gex (France)",
-      "trip_type": "one-way",
-      "pickup": {
-        "id": 1,
-        "name": "Munich",
-        "address": "Ingolstädterstr. 172",
-        "zip": "80939",
-        "city": "Munich",
-        "country_code": "DE",
-        "country": "Germany",
-        "latitude": 48.204,
-        "longitude": 11.586,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/L8kz8j4KnHcphZJZ6",
-        "search_tags": [
-          "muc",
-          "bavaria",
-          "bayern",
-          "oberbayern",
-          "upper bavaria"
-        ]
-      },
-      "dropoff": {
-        "id": 29,
-        "name": "Geneva-Pays de Gex (France)",
-        "address": "133 Chemin de Baritella, 01630\t Saint-Jean-de-Gonville",
-        "zip": "01630",
-        "city": "Saint-Jean-de-Gonville",
-        "country_code": "FR",
-        "country": "France",
-        "latitude": 46.204,
-        "longitude": 5.961,
-        "timezone": "Europe/Berlin",
-        "google_maps": "https://goo.gl/maps/q5wSAH7MrWBLNGeZ9",
-        "search_tags": [
-          "gva",
-          "pays de gex",
-          "haute-savoie",
-          "french alps",
-          "suisse romande",
-          "chamonix",
-          "grenoble"
-        ]
-      },
-      "available": true,
-      "available_timeframes": [
-        {
-          "start_date": "2026-12-10T00:00:00+00:00",
-          "end_date": "2026-12-17T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=1"
@@ -18145,10 +17975,6 @@
       },
       "available": true,
       "available_timeframes": [
-        {
-          "start_date": "2026-12-22T00:00:00+00:00",
-          "end_date": "2026-12-29T00:00:00+00:00"
-        },
         {
           "start_date": "2026-12-24T00:00:00+00:00",
           "end_date": "2026-12-31T00:00:00+00:00"
@@ -19670,10 +19496,6 @@
       "available": true,
       "available_timeframes": [
         {
-          "start_date": "2026-11-28T00:00:00+00:00",
-          "end_date": "2026-12-05T00:00:00+00:00"
-        },
-        {
           "start_date": "2026-12-07T00:00:00+00:00",
           "end_date": "2026-12-14T00:00:00+00:00"
         }
@@ -20758,10 +20580,6 @@
         {
           "start_date": "2026-12-23T00:00:00+00:00",
           "end_date": "2026-12-30T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-12-24T00:00:00+00:00",
-          "end_date": "2026-12-31T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=5"
@@ -23051,10 +22869,6 @@
         {
           "start_date": "2026-11-24T00:00:00+00:00",
           "end_date": "2026-12-01T00:00:00+00:00"
-        },
-        {
-          "start_date": "2026-11-30T00:00:00+00:00",
-          "end_date": "2026-12-07T00:00:00+00:00"
         }
       ],
       "booking_link": "https://booking.roadsurfer.com/en/rally/?station=78"
@@ -24314,10 +24128,6 @@
       },
       "available": true,
       "available_timeframes": [
-        {
-          "start_date": "2026-11-24T00:00:00+00:00",
-          "end_date": "2026-12-01T00:00:00+00:00"
-        },
         {
           "start_date": "2026-12-08T00:00:00+00:00",
           "end_date": "2026-12-15T00:00:00+00:00"
